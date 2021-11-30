@@ -8,7 +8,18 @@ V sklopu projekta bom analizirala sestavo kmetijstva v Sloveniji in zmožnost sa
 
 Viri podatkov: 
 * https://pxweb.stat.si/SiStat/sl/Podrocja/Index/85/kmetijstvo-gozdarstvo-in-ribistvo
+* eurostat
 
+Tabele:
+1. Kmetijska zemljišča, povprečni pridelki in živina
+* Stolpci: regija, leto, vrsta zemljišča, število zemljišč, vrsta kmetijske kulture, povprečni pridelek
+2. Vrste živine
+* Stolpci: leto, vrsta živine, število
+3. Prodaja in potrošnja kmetijskih pridelkov
+* Stolpci: leto, vrsta pridelka, količina prodaje, količina potrošnje
+4. Samooskrba
+* Stolpci: leto, vrsta živila, stopnja samooskrbe, količina porabljena na člana gospodinjstva
+ 
 ## Program
 
 Glavni program in poročilo se nahajata v datoteki `projekt.Rmd`.
