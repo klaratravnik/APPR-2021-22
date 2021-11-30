@@ -1,6 +1,6 @@
 ---
 title: "Poročilo pri predmetu Analiza podatkov s programom R"
-author: "Študent FMF"
+author: "Klara Travnik"
 output:
   html_document: default
   pdf_document:
@@ -20,7 +20,31 @@ source("lib/libraries.r", encoding="UTF-8")
 
 ## Izbira teme
 
-***
+V sklopu projekta bom analizirala sestavo kmetijstva v Sloveniji in zmožnost samooskrbe z doma pridelano hrano. Opazovala bom števila različnih vrst kmetijskih zemljišč po statističnih regijah, povprečne pridelke na teh zemljiščih ter števila kmetij, ki imajo posamezno vrsto živine. Analizirala bom prodajo kmetijskih pridelkov iz lastne pridelave na živilskih trgih ter potrošnjo teh proizvodov na prebivalca (v kg). Primerjala bom tudi stopnjo samooskrbe (v %) po vrstah kmetijskih proizvodov ter količino doma porabljenih živil na člana gospodinjstva ter izračunala, kako je Slovenija sposobna samooskrbe glede na te podatke.
+
+Viri podatkov:
+
+    https://pxweb.stat.si/SiStat/sl/Podrocja/Index/85/kmetijstvo-gozdarstvo-in-ribistvo
+    eurostat
+
+Tabele:
+
+    1. **Kmetijska zemljišča, povprečni pridelki in živina**
+
+    *Stolpci: regija, leto, vrsta zemljišča, število zemljišč, vrsta kmetijske kulture, povprečni pridelek
+
+    2. **Vrste živine**
+
+    *Stolpci: leto, vrsta živine, število
+
+    3. **Prodaja in potrošnja kmetijskih pridelkov**
+
+    *Stolpci: leto, vrsta pridelka, količina prodaje, količina potrošnje
+
+    4. **Samooskrba**
+
+    Stolpci: leto, vrsta živila, stopnja samooskrbe, količina porabljena na člana gospodinjstva, zmožnost samooskrbe
+
 
 ## Obdelava, uvoz in čiščenje podatkov
 
