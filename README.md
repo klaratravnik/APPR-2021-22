@@ -11,13 +11,13 @@ Viri podatkov:
 * eurostat
 
 Tabele:
- **Kmetijska zemljišča, povprečni pridelki in živina
+**Kmetijska zemljišča, povprečni pridelki in živina
 * Stolpci: regija, leto, vrsta zemljišča, število zemljišč, vrsta kmetijske kulture, povprečni pridelek
- **Vrste živine
+**Vrste živine
 * Stolpci: leto, vrsta živine, število
- **Prodaja in potrošnja kmetijskih pridelkov
+**Prodaja in potrošnja kmetijskih pridelkov
 * Stolpci: leto, vrsta pridelka, količina prodaje, količina potrošnje
- **Samooskrba
+**Samooskrba
 * Stolpci: leto, vrsta živila, stopnja samooskrbe, količina porabljena na člana gospodinjstva, zmožnost samooskrbe
  
 ## Program
