@@ -8,7 +8,7 @@ V sklopu projekta bom analizirala sestavo kmetijstva v Sloveniji in zmožnost sa
 
 Viri podatkov: 
 * https://pxweb.stat.si/SiStat/sl/Podrocja/Index/85/kmetijstvo-gozdarstvo-in-ribistvo
-* eurostat
+
 
 Tabele:
 1. **Kmetijska zemljišča, povprečni pridelki in živina**
