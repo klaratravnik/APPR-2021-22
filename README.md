@@ -11,7 +11,7 @@ Viri podatkov:
 
 
 Tabele:
-1. **Kmetijska zemljišča, povprečni pridelki in živina**
+1. **Kmetijska zemljišča, povprečni pridelki**
 * Stolpci: regija, leto, vrsta zemljišča, število zemljišč, vrsta kmetijske kulture, povprečni pridelek
 2. **Vrste živine**
 * Stolpci: leto, vrsta živine, število
