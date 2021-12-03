@@ -1,0 +1,120 @@
+"Skupna in kmetijska zemljišèa kmetijskih gospodarstev po statistiènih regijah, Slovenija, veèletno"
+
+"STATISTIÈNA REGIJA","VRSTA ZEMLJIŠÈA","2003 Površina [ha]","2005 Površina [ha]","2007 Površina [ha]","2010 Površina [ha]","2013 Površina [ha]","2016 Površina [ha]"
+"SLOVENIJA","Vrsta zemljišèa - SKUPAJ",926821,921312,921226,897769,893431,897650
+"SLOVENIJA","Kmetijska zemljišèa",526247,526660,524167,507091,499414,494641
+"SLOVENIJA","..Njive",172144,175864,174709,170144,173697,176518
+"SLOVENIJA","....Žita",98286,94637,98584,93941,99231,98378
+"SLOVENIJA","....Zelena krma z njiv",47922,53665,51469,54374,53323,52656
+"SLOVENIJA","..Trajni nasadi",28767,27449,25843,26796,26934,26538
+"SLOVENIJA","..Trajni travniki in pašniki",285562,282119,288222,277492,276047,276244
+"SLOVENIJA","Gozd",385934,376741,377768,373629,375504,387868
+"SLOVENIJA","Nerodovitno",14640,17911,19292,17049,18513,15142
+"Pomurska","Vrsta zemljišèa - SKUPAJ",81843,81089,82043,80557,86437,85281
+"Pomurska","Kmetijska zemljišèa",65391,65686,66050,64772,67487,69185
+"Pomurska","..Njive",51413,52762,53326,52183,55700,57727
+"Pomurska","....Žita",38657,38148,41461,39201,44680,43222
+"Pomurska","....Zelena krma z njiv",4540,5130,3793,5270,3795,5746
+"Pomurska","..Trajni nasadi",3268,3057,2669,2729,2832,2232
+"Pomurska","..Trajni travniki in pašniki",10114,8989,9502,9165,8273,8836
+"Pomurska","Gozd",14882,13716,14458,14048,17024,14404
+"Pomurska","Nerodovitno",1569,1687,1535,1737,1926,1692
+"Podravska","Vrsta zemljišèa - SKUPAJ",120554,119512,117786,118567,119944,115030
+"Podravska","Kmetijska zemljišèa",84313,81486,83264,81706,81011,80100
+"Podravska","..Njive",43401,43864,45305,44312,44200,45477
+"Podravska","....Žita",28673,27470,29483,27995,28882,28968
+"Podravska","....Zelena krma z njiv",8419,9710,10070,10818,10426,10591
+"Podravska","..Trajni nasadi",7031,6159,6112,6000,5817,5381
+"Podravska","..Trajni travniki in pašniki",33218,30113,30649,30204,29389,28517
+"Podravska","Gozd",34447,35741,32096,34359,36460,33021
+"Podravska","Nerodovitno",1794,2285,2426,2502,2473,1909
+"Koroška","Vrsta zemljišèa - SKUPAJ",59762,56688,52822,57717,57163,55430
+"Koroška","Kmetijska zemljišèa",22057,22311,21214,22069,20851,21736
+"Koroška","..Njive",3483,3686,3096,3239,2684,3576
+"Koroška","....Žita",N,N,212,345,294,346
+"Koroška","....Zelena krma z njiv",2596,2528,2385,2411,2084,2678
+"Koroška","..Trajni nasadi",N,453,473,603,703,631
+"Koroška","..Trajni travniki in pašniki",17864,17242,16824,17321,16982,17132
+"Koroška","Gozd",36889,32901,30494,34594,34932,32718
+"Koroška","Nerodovitno",816,1476,1114,1054,1380,977
+"Savinjska","Vrsta zemljišèa - SKUPAJ",142980,140195,137996,136491,126583,128685
+"Savinjska","Kmetijska zemljišèa",71199,72073,69095,68545,67388,64739
+"Savinjska","..Njive",15940,16067,15066,15283,16189,14656
+"Savinjska","....Žita",6084,5692,4948,4637,4658,4231
+"Savinjska","....Zelena krma z njiv",7200,7803,7948,8336,8870,7848
+"Savinjska","..Trajni nasadi",2334,2900,2741,2554,2823,2881
+"Savinjska","..Trajni travniki in pašniki",51625,50365,50004,49461,46614,46088
+"Savinjska","Gozd",68754,64263,64441,64208,56288,61943
+"Savinjska","Nerodovitno",N,3859,N,3738,2907,2002
+"Zasavska","Vrsta zemljišèa - SKUPAJ",N,16433,15395,15439,13104,24267
+"Zasavska","Kmetijska zemljišèa",N,6826,5642,6257,5358,10202
+"Zasavska","..Njive",N,N,N,248,180,856
+"Zasavska","....Žita",N,N,N,35,N,N
+"Zasavska","....Zelena krma z njiv",N,121,N,162,105,508
+"Zasavska","..Trajni nasadi",N,N,N,179,226,300
+"Zasavska","..Trajni travniki in pašniki",N,6084,5160,5577,4766,8750
+"Zasavska","Gozd",N,9223,9441,8955,7574,13487
+"Zasavska","Nerodovitno",N,N,N,226,172,N
+"Posavska","Vrsta zemljišèa - SKUPAJ",47814,49521,48313,46251,46056,53872
+"Posavska","Kmetijska zemljišèa",28882,30050,28849,27379,27651,30408
+"Posavska","..Njive",10397,10902,10337,9581,9899,10846
+"Posavska","....Žita",7392,7364,6984,6650,6632,6910
+"Posavska","....Zelena krma z njiv",1728,2145,1892,1839,2160,2488
+"Posavska","..Trajni nasadi",2990,2626,2623,2663,2560,2804
+"Posavska","..Trajni travniki in pašniki",14966,15334,14861,14448,14649,16051
+"Posavska","Gozd",18083,18484,18389,17985,17537,22439
+"Posavska","Nerodovitno",850,988,1076,887,868,1025
+"Jugovzhodna Slovenija","Vrsta zemljišèa - SKUPAJ",98698,104160,96735,96798,97201,101154
+"Jugovzhodna Slovenija","Kmetijska zemljišèa",58778,62238,56420,57032,54703,52502
+"Jugovzhodna Slovenija","..Njive",15917,16066,14636,14178,14486,14117
+"Jugovzhodna Slovenija","....Žita",7100,6684,6533,5877,6202,6143
+"Jugovzhodna Slovenija","....Zelena krma z njiv",7459,8081,6645,7374,7227,6633
+"Jugovzhodna Slovenija","..Trajni nasadi",2086,2050,1784,1778,1864,2067
+"Jugovzhodna Slovenija","..Trajni travniki in pašniki",30805,34827,33017,33445,34310,32841
+"Jugovzhodna Slovenija","Gozd",38806,40667,38786,38524,40402,46851
+"Jugovzhodna Slovenija","Nerodovitno",1114,1255,1529,1241,2096,1801
+"Osrednjeslovenska","Vrsta zemljišèa - SKUPAJ",132308,136458,136445,131079,131309,121405
+"Osrednjeslovenska","Kmetijska zemljišèa",67387,67277,68152,65726,64296,60497
+"Osrednjeslovenska","..Njive",17137,17239,17772,17087,16689,15845
+"Osrednjeslovenska","....Žita",5768,4814,4955,5365,4209,4914
+"Osrednjeslovenska","....Zelena krma z njiv",9096,10372,10655,10160,10869,8986
+"Osrednjeslovenska","..Trajni nasadi",1061,670,601,722,718,645
+"Osrednjeslovenska","..Trajni travniki in pašniki",47273,44946,46630,44807,44872,42749
+"Osrednjeslovenska","Gozd",63516,67122,66141,63484,63941,59188
+"Osrednjeslovenska","Nerodovitno",1405,2059,N,1869,N,1719
+"Gorenjska","Vrsta zemljišèa - SKUPAJ",85329,85430,87735,82802,86001,83813
+"Gorenjska","Kmetijska zemljišèa",34903,36744,36182,33077,33647,32145
+"Gorenjska","..Njive",7608,8754,8481,8427,7852,7636
+"Gorenjska","....Žita",1685,1893,1933,2105,1856,1823
+"Gorenjska","....Zelena krma z njiv",4390,5305,5106,5179,4876,4536
+"Gorenjska","..Trajni nasadi",628,391,377,395,418,421
+"Gorenjska","..Trajni travniki in pašniki",24225,24427,24868,22589,24203,23325
+"Gorenjska","Gozd",48895,46888,49368,47919,51052,50558
+"Gorenjska","Nerodovitno",N,N,N,1805,1302,1110
+"Primorsko-notranjska","Vrsta zemljišèa - SKUPAJ",42660,43330,46035,46177,42700,43021
+"Primorsko-notranjska","Kmetijska zemljišèa",24976,25077,25754,26866,23870,22357
+"Primorsko-notranjska","..Njive",1667,1655,1643,1741,1491,1833
+"Primorsko-notranjska","....Žita",N,347,268,270,291,455
+"Primorsko-notranjska","....Zelena krma z njiv",N,N,1013,1152,914,1043
+"Primorsko-notranjska","..Trajni nasadi",N,399,N,393,373,409
+"Primorsko-notranjska","..Trajni travniki in pašniki",18119,18023,19637,20107,19307,18672
+"Primorsko-notranjska","Gozd",17108,17630,19338,18743,18296,20087
+"Primorsko-notranjska","Nerodovitno",N,622,N,568,534,578
+"Goriška","Vrsta zemljišèa - SKUPAJ",70845,60932,68542,63090,60118,62014
+"Goriška","Kmetijska zemljišèa",41731,36231,38959,36717,34100,33986
+"Goriška","..Njive",3200,2869,2835,2690,2858,2712
+"Goriška","....Žita",N,N,1226,1213,1200,875
+"Goriška","....Zelena krma z njiv",N,1151,1108,1079,1212,1139
+"Goriška","..Trajni nasadi",5472,5366,4683,5273,5035,5099
+"Goriška","..Trajni travniki in pašniki",23810,20789,24185,21451,22195,23131
+"Goriška","Gozd",27781,23661,28311,25416,25189,27021
+"Goriška","Nerodovitno",N,N,N,957,829,1007
+"Obalno-kraška","Vrsta zemljišèa - SKUPAJ",26477,27563,31379,22802,26814,23677
+"Obalno-kraška","Kmetijska zemljišèa",19689,N,24587,16946,19054,16783
+"Obalno-kraška","..Njive",1574,1735,1962,1175,1470,1238
+"Obalno-kraška","....Žita",N,478,N,249,302,289
+"Obalno-kraška","....Zelena krma z njiv",N,N,N,595,784,460
+"Obalno-kraška","..Trajni nasadi",3131,3301,3481,3509,3565,3668
+"Obalno-kraška","..Trajni travniki in pašniki",7628,N,12886,8917,10489,10152
+"Obalno-kraška","Gozd",N,6444,6505,5393,6807,6151
+"Obalno-kraška","Nerodovitno",N,N,N,464,953,743
