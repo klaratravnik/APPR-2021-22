@@ -9,7 +9,7 @@ library(tidyverse)
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 
-#1. tabela
+#####################1. tabela##################################################
 
 #file.choose("zemljisca_regije")
 
