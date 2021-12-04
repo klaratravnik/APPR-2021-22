@@ -115,3 +115,35 @@ zemljisca <- merge(x = zemljisca, y = vrste_zemljisc, by = "vrsta.zemljisca", al
 
 #izbrisem vrstice z NA v povrsini
 zemljisca <- zemljisca %>% dplyr::filter(!is.na(povrsina))
+
+
+
+
+file.choose("povprecni_pridelek_poregijah")
+
+pridelek <- read_csv("povprecni_pridelek_poregijah.csv", skip = 2,
+                      locale = locale(encoding = "Windows-1250"),
+                      col_names=TRUE, col_types = cols(
+                        .default = col_double(),
+                        "KMETIJSKE KULTURE" = col_character(), 
+                        ))
+
+pridelek <- pivot_longer(pridelek,
+                          cols = colnames(pridelek)[-c(1)],
+                          names_to = "leto", 
+                          values_to = "povprecni.pridelek" )
+
+colnames(pridelek)[1] <- 'kmetijske.kulture'
+
+pridelek <- pridelek %>%
+  tidyr::extract(
+    col = leto,
+    into = c("stevilka", "crke"),
+    regex = "^(\\d{4})\\s+(.*)$"
+  ) 
+
+pridelek <- pridelek %>% select(regija = crke, leto = stevilka, kmetijske.kulture, povprecni.pridelek)
+
+#left join za regije
+pridelek <- merge(x = pridelek, y = imena.regij, by = "regija", all.x = TRUE) %>% select(regija = oznaka, leto, kmetijske.kulture, povprecni.pridelek)
+
