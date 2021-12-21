@@ -77,35 +77,24 @@ imena.regij = tibble(
 zemljisca[2] <- zemljisca$vrsta.zemljisca %>% str_replace_all("\\.+", '')
 
 
-#preimenujem grda imena
-
-zemljisca[2] <- zemljisca$vrsta.zemljisca %>% str_replace_all("[:alpha:]{5} [:alpha:]{9} - [:alpha:]{6}", "skupaj") %>% str_replace_all("[:alpha:]{9} [:alpha:]{9}", "kmetijska.zemljisca") 
-
 #left join za regije
 zemljisca <- merge(x = zemljisca, y = imena.regij, by = "regija", all.x = TRUE) %>% select(regija = oznaka, leto, vrsta.zemljisca, povrsina)
 
+vektor_zemljisc <- unique(zemljisca$vrsta.zemljisca) %>% sort()
+
+
 vrste_zemljisc = tibble(
-  vrsta.zemljisca = c(
-    "Zelena krma z njiv",
-    "Žita",
-    "Gozd",
-    "Trajni nasadi",
-    "Trajni travniki in pašniki",
-    "kmetijska.zemljisca",
-    "skupaj",
-    "Njive",
-    "Nerodovitno"
-  ),
+  vrsta.zemljisca = vektor_zemljisc,
   lepse = c(
-    "zelena.krma",
-    "zita",
-    "gozd",
-    "trajni.nasadi",
-    "travniki.in.pasniki",
     "kmetijska.zemljisca",
     "skupaj",
+    "travniki.in.pasniki",
+    "gozd",
+    "nerodovitno",
+    "zita",
     "njive",
-    "nerodovitno"
+    "trajni.nasadi",
+    "zelena.krma"
   )
 )
 
@@ -117,7 +106,7 @@ zemljisca <- merge(x = zemljisca, y = vrste_zemljisc, by = "vrsta.zemljisca", al
 zemljisca <- zemljisca %>% dplyr::filter(!is.na(povrsina))
 
 
-
+############################################################
 
 #file.choose("povprecni_pridelek_poregijah")
 
@@ -151,77 +140,46 @@ pridelek <- merge(x = pridelek, y = imena.regij, by = "regija", all.x = TRUE) %>
 pridelek$kmetijske.kulture <- pridelek$kmetijske.kulture %>% str_replace_all("\\(([^)]+)\\)", '')  
 
 
-pridelek[3] <- pridelek$kmetijske.kulture %>% str_replace_all("\\š", "s") %>% str_replace_all("\\č", "c") %>% str_replace_all("\\ž", "z") %>% str_replace_all("(^[:alpha:]{8} [:alpha:]{6} [:alpha:]{8})", "trave") %>% str_replace_all("(^[:alpha:]{6} [:alpha:]{8} [:alpha:]{8})", "trave") %>% str_replace_all("^([:alpha:]{5})$","trave")
-
-kulture <- c("Deteljno travne mešanice", "Trave", "Belo zelje", "Lucerna", "Travno deteljne mešanice", "Breskve in nektarine v intenzivnih sadovnjakih",
-             "Grozdje", "Trajni travniki in pašniki, vključno s skupnimi travniki in pašniki",
-             "Oljke", "Koruza za zrnje", "Oves", "Jabolka v intenzivnih sadovnjakih",
-             "Pšenica in pira", "Buče za olje", "Hmelj", "Tritikala", "Rž in soržica", "Ječmen", "Oljna ogrščica in repica",
-             "Krompir", "Silažna koruza", "Detelja")
-`Encoding<-`(kulture, "UTF-8")
-
+vektor_kultur <- unique(pridelek$kmetijske.kulture) %>% sort()
+                   
 vrste_kultur <- data.frame(
-  kmetijske.kulture = c(
-    "trave",
-    "Trave",
-    "trave",
-    "Belo zelje",
-    "Lucerna",
-    "Breskve in nektarine v intenzivnih sadovnjakih",
-    "Grozdje",
-    "Trajni travniki in pasniki, vkljucno s skupnimi travniki in pasniki",
-    "Oljke",
-    "Koruza za zrnje",
-    "Oves",
-    "Jabolka v intenzivnih sadovnjakih",
-    "Detelja",
-    "Psenica in pira",
-    "Buce za olje",
-    "Hmelj",
-    "Rz in sorzica",
-    "Tritikala",
-    "Krompir",
-    "Silazna koruza",
-    "Jecmen",
-    "Oljna ogrscica in repica"
-    
-    
-  ),
+  kmetijske.kulture = vektor_kultur,
   lepse = c(
     "trave",
     "trave",
-    "trave",
-    "belo.zelje",
-    "lucerna",
-    "breskve.in.nektarine",
-    "grozdje",
     "travniki.in.pasniki",
-    "oljke",
-    "koruza.za.zrnje",
-    "oves",
-    "jabolka",
-    "detelja",
     "psenica.in.pira",
+    "koruza",
+    "oljna.ogrscica.in.repica",
+    "belo.zelje",
+    "breskve.in.nektarine",
     "buce",
+    "detelja",
+    "grozdje",
     "hmelj",
-    "rz.in.sorzica",
-    "tritikala",
-    "krompir",
-    "silazna.koruza",
+    "jabolka",
     "jecmen",
-    "oljna.ogrscica.in.repica"
+    "koruza",
+    "krompir",
+    "lucerna",
+    "oljke",
+    "oves",
+    "trave",
+    "tritikala", "rz.in.sorzica"
   )
 )
 
+pridelek <- pridelek %>% left_join(vrste_kultur, by = c("kmetijske.kulture"))
+ 
 
+pridelek <- pridelek %>% select(regija, leto, kmetijske.kulture = lepse, povprecni.pridelek)
+pridelek <- pridelek %>% filter(!is.na(povprecni.pridelek))
 
-#left join za kmetijske kulture
-test3 <- merge(x = pridelek, y = vrste_kultur, by = "kmetijske.kulture", all.x = TRUE) #%>% select(regija, leto, kmetijske.kulture = lepse, povprecni.pridelek)
-###### zakaj noce vseh trav mergat??????????
-test4 <- pridelek %>% left_join(vrste_kultur, by = "kmetijske.kulture")
 
 # joinat morem se tabelo zemljisca pa pridelek by = c("regija", "leto")
 
+test <- zemljisca %>% left_join(pridelek, by = c("regija", "leto"))
+#nevem ce bi zdruzevala
 
 ####################2. tabela##################################################
 
@@ -239,13 +197,11 @@ zivina <- pivot_longer(zivina,
 colnames(zivina)[1] <- 'vrsta.zivine'
 zivina <- zivina %>% filter(vrsta.zivine != "Kmetijska gospodarstva - SKUPAJ") %>% select(vrsta.zivine, leto, stevilo.zivine)
 
-zivina[1] <- zivina$vrsta.zivine %>% str_replace_all("\\č|\\Č", "c") %>% str_replace_all("\\š|\\Š", "s") %>% str_replace_all("\\ž|\\Ž", "z")
+vektor_zivine <- unique(zivina$vrsta.zivine) %>% sort()
 
 vrsta_zivine <- data.frame(
-  vrsta.zivine = c(
-    "zivina - SKUPAJ",
-    "Govedo", "Prasici", "Perutnina", "Konji", "Ovce", "Koze", "Kunci", "cebelje druzine", "Jelenjad"),
-  lepse = c("skupaj", "govedo", "prasici", "perutnina", "konji", "ovce", "koze", "kunci", "cebelje.druzine", "jelenjad")
+  vrsta.zivine = vektor_zivine,
+  lepse = c("skupaj", "prasici", "govedo", "jelenjad", "konji", "koze", "kunci", "ovce", "perutnina", "cebelje.druzine")
 )
 
 zivina <- merge(x = zivina, y = vrsta_zivine, by = "vrsta.zivine", all.x = TRUE) %>% select(vrsta.zivine = lepse, leto, stevilo.zivine)
@@ -278,7 +234,7 @@ ime_pridelka <- tibble(
 potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRUE) %>% select(leto, pridelek = lepse, potrosnja)
 
 
-
+#####################################################
 #prodaja v kg 
 prodaja <- read_csv("prodaja_kmetijskihpridelkov.csv", skip = 2,
                     locale = locale(encoding = "Windows-1250"),
@@ -309,34 +265,28 @@ prodaja$pridelek <- prodaja$pridelek %>% str_replace_all("\\(([^)]+)\\)", '')
 #pri količinah dam NA namesto -
 prodaja$prodaja <- prodaja$prodaja %>% str_replace_all("\\-", NA_character_)
 
-prodaja[2] <- prodaja$pridelek %>% str_replace_all("\\č|\\Č", "c") %>% str_replace_all("\\š|\\Š", "s") %>% str_replace_all("\\ž|\\Ž", "z")    
-  
+vektor_pridelek <- unique(prodaja$pridelek) %>% sort()
+
 prodaja_pridelek <- tibble(
-  pridelek = c("Krompir, jedilni", "Fizol, v zrnju", "Fizol, strocji", "Grah, strocji", "cebula", "cesen", "Por",
-               "Belo zelje", "Rdece zelje", "Kitajski kapus", "Ohrovt", "Cvetaca in brokoli", "Korencek", "Paradiznik",
-               "Paprika", "Jajcevec", "spinaca", "Zelena solata", "Endivija", "Radic, vse vrste", "Motovilec", "Kumare, solatne",
-               "Kumare, za vlaganje", "Bucke", "Rdeca pesa", "Lubenice in dinje", "sparglji in belusi", "Sveze slive in cesplje",
-               "Suhe slive", "Namizna jabolka", "Hruske", "cesnje", "Visnje", "Marelice", "Breskve in nektarine",
-               "Celi orehi", "Orehova jedrca", "Celi lesniki in mandlji", "Lesnikova in mandljeva jedrca", "Kostanj",
-               "Jagode", "Maline", "Ameriske borovnice", "Sveze fige", "Suhe fige", "Kaki", "Grozdje", "Kokosi in piscanci, meso",
-               "Purani, meso", "Jajca, konzumna", "Sveze mleko", "Surovo maslo", "Kajmak", "Siri vseh vrst",
-               "Smetana", "Oljcno olje", "Kislo zelje", "Kisla repa", "Sveze gobe", "Med", "Psenicna moka",
-               "Koruzna moka"),
-  lepse = c("krompir", "fizol", "fizol", "grah", "cebula", "cesen", "por", 
-            "belo.zelje", "rdece.zelje", "kitajski.kapus", "ohrovt", "cvetaca.in.brokoli", "korenje", "paradiznik", 
-            "paprika", "jajcevec", "spinaca", "zelena.solata", "endivija", "radic", "motovilec", "kumare",
-            "kumare", "bucke", "rdeca.pesa", "lubenice", "sparglji.in.belusi", "slive.in.cesplje", 
-            "suhe.slive", "jabolka", "hruske", "cesnje", "visnje", "marelice", "breskve.in.nektarine",
-            "orehi", "orehi", "lesniki.in.mandlji", "lesniki.in.mandlji", "kostanj",
-            "jagode", "maline", "ameriske.borovnice", "fige", "fige", "kaki", "grozdje", "piscancje.meso",
-            "puranje.meso", "jajca", "mleko", "maslo", "kajmak", "sir",
-            "smetana", "oljcno.olje", "kislo.zelje", "kisla.repa", "gobe", "med", "moka", "moka")
+  pridelek = vektor_pridelek,
+  lepse = c("mleko", "zelenjava", "meso", "hruske", "gobe", "visnje", "lesniki", 
+            "fige", "moka", "borovnice", "zelenjava", "slive.in.cesplje", "cesnje", "fizol", 
+            "zelenjava", "breskve.in.nektarine", "zelenjava", "lesniki", "zelenjava", "zelenjava", "orehi", "zelenjava",
+            "zelenjava", "zelenjava", "zelenjava", "grozdje", "jagode", "jajca", 
+            "zelenjava", "kajmak", "kaki", "zelenjava", "zelenjava", "zelenjava", "zelenjava",
+            "moka", "kostanj", "krompir", "zelenjava", "zelenjava",
+            "lubenice", "maline", "marelice", "med", "zelenjava", "jabolka", "zelenjava", "olje",
+            "orehi", "zelenjava", "zelenjava", "meso", "zelenjava", "zelenjava",
+            "zelenjava", "sir", "smetana", "fige", "slive", "maslo", "zelenjava", "zelenjava")
 )
 
-#spet da NA ??????????????????? kaj je narobe?
-test <- merge(x = prodaja, y = prodaja_pridelek, by = "pridelek", all.x = TRUE)# %>% select(leto, pridelek = lepse, potrosnja)
+prodaja <- prodaja %>% left_join(prodaja_pridelek, by = c("pridelek")) 
 
-test4 <- prodaja %>% left_join(prodaja_pridelek, by = "pridelek")
+
+prodaja <- prodaja %>% select(leto, pridelek = lepse, prodaja)
+prodaja <- prodaja %>% filter(!is.na(prodaja))
+
+
 
 #zdruzit moram se tabeli potrosnja in prodaja po letu in zivilih
 
@@ -374,7 +324,23 @@ doma.porabljeni <- doma.porabljeni %>% select(leto = stevilka, zivila, poraba)
 doma.porabljeni$zivila <- doma.porabljeni$zivila %>% str_replace_all("\\(([^)]+)\\)", '') %>% str_replace_all("\\[([^)]+)\\]", "")
 
 
+vektor_zivil <- unique(doma.porabljeni$zivila) %>% sort()
+vektor_lepse <- c("zgano", "grah", "paradiznik", "marmelada", "hruske", "margarina",
+                  "riz", "agrumi", "banane", "brezalk.pijace",
+                  "cesen.cebula", "fizol", "meso", "cokolada", "meso", "mleko", "meso", "grozdje",
+                  "jabolka", "jajca", "olje", "jogurt", "kakav", "kava", "zelenjava",
+                  "zelenjava", "krompir", "kruh", "marelice.breskve", "maslo", "med",
+                  "voda", "mleko", "zita", "zelenjava", "meso", "pivo", "ribe", "sirup",
+                  "sok", "sir.skuta", "sladkor", "sladoled", "slive", "smetana", "meso",
+                  "testenine", "vino", "zelenjava", "zelenjava", "pecivo")
 
+ista_zivila <- tibble(
+  zivila = vektor_zivil, lepse = vektor_lepse
+)
+
+doma.porabljeni <- doma.porabljeni %>% left_join(ista_zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, poraba)
+
+doma.porabljeni$leto <- as.double(doma.porabljeni$leto)
 
 #stopnja samooskrbe
 samooskrba <- read_csv("stopnja_samooskrbe.csv", skip = 2,
@@ -384,6 +350,8 @@ samooskrba <- read_csv("stopnja_samooskrbe.csv", skip = 2,
                               
                             ))
 colnames(samooskrba)[1] <- 'leto'
+
+samooskrba$leto <- as.double(samooskrba$leto)
 
 samooskrba <- pivot_longer(samooskrba,
                                 cols = colnames(samooskrba)[-c(1)],
@@ -395,9 +363,13 @@ zivila <- tibble(
   lepse = c("zita", "meso", "jajca", "krompir", "zelenjava", "med", "riz")
 )
 
-samooskrba <- samooskrba %>% left_join(zivila, by = "zivila") 
-samooskrba <- samooskrba %>% select(leto, zivila = lepse, stopnja.samooskrbe)
+samooskrba <- samooskrba %>% left_join(zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, stopnja.samooskrbe)
 
+primerjava <- samooskrba$zivila
 
-##uredit moram se tabelo doma.porabljeni in potem zdruzit s samooskrbo ter transmutat stolpec 
+doma.porabljeni<- doma.porabljeni %>% filter(zivila %in% primerjava)
+
+samooskrba.in.poraba <- samooskrba %>% left_join(doma.porabljeni, by = c("leto", "zivila"))
+
+##transmutat stolpec 
 #ce smo se zmozni preskrbeti glede na podatke o porabi in stopnji samooskrbe
