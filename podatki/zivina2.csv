@@ -1,0 +1,94 @@
+"Število živine po statistiènih regijah, Slovenija, veèletno"
+
+"STATISTIÈNA REGIJA","VRSTA ŽIVINE","2003 Število živali","2005 Število živali","2007 Število živali","2010 Število živali","2013 Število živali","2016 Število živali"
+"SLOVENIJA","Število glav velike živine [GVŽ]",456167,421587,433382,421553,399349,418684
+"SLOVENIJA","Govedo",478331,461224,472363,472333,462066,486014
+"SLOVENIJA","Prašièi",607881,505161,544405,382031,287498,273359
+"SLOVENIJA","Perutnina",5133858,3292826,5364220,4900990,4858025,6222661
+"SLOVENIJA","Konji",16879,19249,19623,22673,21832,19453
+"SLOVENIJA","Ovce",119631,131126,135887,137737,130657,134929
+"SLOVENIJA","Koze",28690,30826,34593,34864,34542,38564
+"Pomurska","Število glav velike živine [GVŽ]",56568,50365,54222,43933,36830,38056
+"Pomurska","Govedo",40592,38025,39454,35153,33235,32973
+"Pomurska","Prašièi",235161,208319,238785,157817,103877,106351
+"Pomurska","Perutnina",355087,357697,478533,468260,631657,924111
+"Pomurska","Konji",N,N,N,796,N,597
+"Pomurska","Ovce",N,N,N,3319,1911,3269
+"Pomurska","Koze",N,N,N,1569,929,696
+"Podravska","Število glav velike živine [GVŽ]",88341,78165,83801,79851,73095,73173
+"Podravska","Govedo",85214,79472,87351,84135,80672,81696
+"Podravska","Prašièi",185928,142895,148351,102376,83367,69374
+"Podravska","Perutnina",1709295,1071976,1744793,2272886,1799223,2317211
+"Podravska","Konji",N,N,N,1790,1645,1601
+"Podravska","Ovce",N,N,12652,12665,11953,12491
+"Podravska","Koze",N,N,N,3192,N,2782
+"Koroška","Število glav velike živine [GVŽ]",23864,23270,22393,23809,23974,26281
+"Koroška","Govedo",28192,28692,27173,29084,29634,32346
+"Koroška","Prašièi",10113,6713,6050,6117,4395,5224
+"Koroška","Perutnina",152815,N,N,240396,194951,278899
+"Koroška","Konji",N,N,N,673,914,N
+"Koroška","Ovce",N,6491,6521,7444,7479,7933
+"Koroška","Koze",N,N,N,1593,576,N
+"Savinjska","Število glav velike živine [GVŽ]",74625,70570,72068,72636,69461,70261
+"Savinjska","Govedo",87383,86736,88787,89756,86376,88998
+"Savinjska","Prašièi",36829,24680,29142,25129,21451,19358
+"Savinjska","Perutnina",N,529142,791268,791606,881670,864493
+"Savinjska","Konji",N,2368,2645,2788,2233,1993
+"Savinjska","Ovce",N,19944,22187,20974,22065,18727
+"Savinjska","Koze",N,N,N,5551,4497,5153
+"Zasavska","Število glav velike živine [GVŽ]",N,5777,4660,5325,4389,9995
+"Zasavska","Govedo",N,7645,5761,6741,5146,12468
+"Zasavska","Prašièi",N,N,756,691,417,N
+"Zasavska","Perutnina",N,N,N,40691,57172,56901
+"Zasavska","Konji",N,N,N,230,N,N
+"Zasavska","Ovce",N,2834,N,3173,3181,N
+"Zasavska","Koze",N,N,N,685,N,N
+"Posavska","Število glav velike živine [GVŽ]",20985,21276,20221,19333,19552,22815
+"Posavska","Govedo",21630,21390,20750,20612,22021,25794
+"Posavska","Prašièi",35103,32837,30844,18090,17330,18905
+"Posavska","Perutnina",119784,89236,68293,76791,89029,112608
+"Posavska","Konji",N,1758,2119,2085,1861,2126
+"Posavska","Ovce",N,5586,5761,6197,6276,9511
+"Posavska","Koze",N,N,N,1760,2190,3533
+"Jugovzhodna Slovenija","Število glav velike živine [GVŽ]",40683,38662,38738,39589,38613,41211
+"Jugovzhodna Slovenija","Govedo",43374,41912,44077,44059,45620,50443
+"Jugovzhodna Slovenija","Prašièi",30457,31040,31028,15904,13535,13805
+"Jugovzhodna Slovenija","Perutnina",152081,98354,125198,124285,104827,129788
+"Jugovzhodna Slovenija","Konji",N,3050,2846,4285,3904,2458
+"Jugovzhodna Slovenija","Ovce",34895,31885,28560,30585,26480,26100
+"Jugovzhodna Slovenija","Koze",N,N,N,3592,3279,4894
+"Osrednjeslovenska","Število glav velike živine [GVŽ]",70722,63387,64703,64274,60883,60871
+"Osrednjeslovenska","Govedo",79089,75553,77468,77192,74488,74143
+"Osrednjeslovenska","Prašièi",60203,47821,50608,47146,z,31797
+"Osrednjeslovenska","Perutnina",N,397103,490272,616055,649735,740554
+"Osrednjeslovenska","Konji",N,4126,3814,4104,3788,3725
+"Osrednjeslovenska","Ovce",N,8255,9536,10920,10397,9331
+"Osrednjeslovenska","Koze",N,N,N,5968,6067,6060
+"Gorenjska","Število glav velike živine [GVŽ]",39262,38692,36872,39525,39177,38054
+"Gorenjska","Govedo",51177,50361,49168,51914,51713,49631
+"Gorenjska","Prašièi",5290,3766,3157,3355,2557,2450
+"Gorenjska","Perutnina",69277,N,62872,37961,52481,92739
+"Gorenjska","Konji",N,N,N,1587,1515,1605
+"Gorenjska","Ovce",N,11022,9947,10082,10959,10016
+"Gorenjska","Koze",N,N,N,2354,2878,3993
+"Primorsko-notranjska","Število glav velike živine [GVŽ]",12559,11135,13913,11298,11134,12742
+"Primorsko-notranjska","Govedo",10840,9704,9394,11420,11294,13397
+"Primorsko-notranjska","Prašièi",N,721,864,925,508,824
+"Primorsko-notranjska","Perutnina",N,310871,1092632,72226,93239,N
+"Primorsko-notranjska","Konji",N,N,1826,1883,2026,1782
+"Primorsko-notranjska","Ovce",N,11123,12158,10979,9744,6756
+"Primorsko-notranjska","Koze",N,N,N,1446,1951,1479
+"Goriška","Število glav velike živine [GVŽ]",19424,16518,17607,18104,17683,19700
+"Goriška","Govedo",21194,18889,19846,19682,19283,21074
+"Goriška","Prašièi",4828,N,3456,3416,3248,2409
+"Goriška","Perutnina",N,180085,186128,134118,136649,177132
+"Goriška","Konji",N,682,687,1302,1391,1431
+"Goriška","Ovce",N,14861,16171,15804,14503,19174
+"Goriška","Koze",N,N,6669,5997,5907,5607
+"Obalno-kraška","Število glav velike živine [GVŽ]",3110,3772,4183,3876,4557,5525
+"Obalno-kraška","Govedo",N,N,3133,2585,2585,3052
+"Obalno-kraška","Prašièi",N,N,N,1065,z,1374
+"Obalno-kraška","Perutnina",63514,19418,N,25715,167391,190639
+"Obalno-kraška","Konji",N,N,1049,1150,1165,1209
+"Obalno-kraška","Ovce",N,N,5930,5595,5708,5802
+"Obalno-kraška","Koze",N,N,N,1157,1308,1505

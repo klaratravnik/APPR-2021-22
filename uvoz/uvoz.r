@@ -5,6 +5,8 @@ library(stringr)
 library(dplyr)
 library(tidyr)
 library(tidyverse)
+library(xml2)
+library(rvest) 
 
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
@@ -13,7 +15,7 @@ sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 #file.choose("zemljisca_regije")
 
-zemljisca <- read_csv("regije.csv", skip = 2,
+zemljisca <- read_csv("podatki/regije.csv" , skip = 2,
                       locale = locale(encoding = "Windows-1250"),
                       col_names=TRUE, col_types = cols(
                         .default = col_guess(),
@@ -110,7 +112,7 @@ zemljisca <- zemljisca %>% dplyr::filter(!is.na(povrsina))
 
 #file.choose("povprecni_pridelek_poregijah")
 
-pridelek <- read_csv("povprecni_pridelek_poregijah.csv", skip = 2,
+pridelek <- read_csv("podatki/povprecni_pridelek_poregijah.csv", skip = 2,
                       locale = locale(encoding = "Windows-1250"),
                       col_names=TRUE, col_types = cols(
                         .default = col_double(),
@@ -176,45 +178,60 @@ pridelek <- pridelek %>% select(regija, leto, kmetijske.kulture = lepse, povprec
 pridelek <- pridelek %>% filter(!is.na(povprecni.pridelek))
 
 
-# joinat morem se tabelo zemljisca pa pridelek by = c("regija", "leto")
 
-test <- zemljisca %>% left_join(pridelek, by = c("regija", "leto"))
-#nevem ce bi zdruzevala
 
+test <- zemljisca %>% left_join(zivina3, by = c("regija", "leto"))
+
+test2 <- merge(x = zemljisca, y = zivina3, by = c("regija", "leto"), all.x = TRUE)
 ####################2. tabela##################################################
 
-zivina <- read_csv("zivina_.csv", skip = 2,
-                     locale = locale(encoding = "Windows-1250"),
-                     col_names=TRUE, col_types = cols(
-                       .default = col_character()
-                         ))
+zivina3 <- read_csv("podatki/zivina2.csv", skip = 2,
+                   locale = locale(encoding = "Windows-1250"),
+                   col_names=TRUE, col_types = cols(
+                     .default = col_character()
+                   ))
 
-zivina <- pivot_longer(zivina,
-                         cols = colnames(zivina)[-c(1)],
-                         names_to = "leto", 
-                         values_to = "stevilo.zivine" )
+zivina3 <- pivot_longer(zivina3,
+                       cols = colnames(zivina3)[-c(1, 2)],
+                       names_to = "leto", 
+                       values_to = "stevilo.zivine" )
 
-colnames(zivina)[1] <- 'vrsta.zivine'
-zivina <- zivina %>% filter(vrsta.zivine != "Kmetijska gospodarstva - SKUPAJ") %>% select(vrsta.zivine, leto, stevilo.zivine)
+colnames(zivina3)[1] <- 'regija'
+colnames(zivina3)[2] <- 'vrsta.zivine'
 
-vektor_zivine <- unique(zivina$vrsta.zivine) %>% sort()
+zivina3 <- merge(x = zivina3, y = imena.regij, by = "regija", all.x = TRUE) %>% 
+  select(regija = oznaka, vrsta.zivine, leto, stevilo.zivine)
 
-vrsta_zivine <- data.frame(
-  vrsta.zivine = vektor_zivine,
-  lepse = c("skupaj", "prasici", "govedo", "jelenjad", "konji", "koze", "kunci", "ovce", "perutnina", "cebelje.druzine")
+zivina3 <- zivina3 %>%
+  tidyr::extract(
+    col = leto,
+    into = c("stevilka", "crke"),
+    regex = "^(\\d{4})\\s+(.*)$"
+  ) 
+zivina3 <- zivina3 %>% rename(leto = stevilka) %>% select(!crke)
+zivina3$stevilo.zivine <- zivina3$stevilo.zivine %>% str_replace_all("[N, z]", NA_character_)
+
+vektor_zivine3 <- unique(zivina3$vrsta.zivine) %>% sort()
+
+vrsta_zivine3 <- data.frame(
+  vrsta.zivine = vektor_zivine3,
+  lepse = c("govedo", "konji", "koze", "ovce", "perutnina", "velika.zivina", "prasici")
 )
 
-zivina <- merge(x = zivina, y = vrsta_zivine, by = "vrsta.zivine", all.x = TRUE) %>% select(vrsta.zivine = lepse, leto, stevilo.zivine)
+zivina3 <- zivina3 %>% left_join(vrsta_zivine3, by = c("vrsta.zivine")) 
+zivina3 <- zivina3 %>% dplyr::filter(!is.na(stevilo.zivine)) %>% dplyr::select(regija, vrsta.zivine = lepse, leto, stevilo.zivine)
 
-#shranim preurejeno tabelo
 
-zivina %>% write_csv("zivina.csv")
+###########join zemljisc in zivine
 
+test <- zemljisca %>% left_join(zivina3, by = c("regija", "leto"))
+
+test2 <- merge(x = zemljisca, y = zivina3, by = c("regija", "leto"), all.x = TRUE)
 
 #################3. tabela #####################################################
 
 #potrosnja je v kg
-potrosnja <- read_csv("potrosnja_kmetijskihpridelkov.csv", skip = 2,
+potrosnja <- read_csv("podatki/potrosnja_kmetijskihpridelkov.csv", skip = 2,
                    locale = locale(encoding = "Windows-1250"),
                    col_names=TRUE, col_types = cols(
                      .default = col_character()
@@ -236,7 +253,7 @@ potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRU
 
 #####################################################
 #prodaja v kg 
-prodaja <- read_csv("prodaja_kmetijskihpridelkov.csv", skip = 2,
+prodaja <- read_csv("podatki/prodaja_kmetijskihpridelkov.csv", skip = 2,
                     locale = locale(encoding = "Windows-1250"),
                     col_names=TRUE, col_types = cols(
                       .default = col_character()
@@ -295,7 +312,7 @@ prodaja <- prodaja %>% filter(!is.na(prodaja))
 ##################################4. tabela#######################################################
 
 #poraba na clana gospodinjstva v kg
-doma.porabljeni <- read_csv("kolicina_doma_porabljenih_zivil.csv", skip = 2,
+doma.porabljeni <- read_csv("podatki/kolicina_doma_porabljenih_zivil.csv", skip = 2,
                       locale = locale(encoding = "Windows-1250"),
                       col_names=TRUE, col_types = cols(
                         .default = col_guess()
@@ -343,7 +360,7 @@ doma.porabljeni <- doma.porabljeni %>% left_join(ista_zivila, by = "zivila") %>%
 doma.porabljeni$leto <- as.double(doma.porabljeni$leto)
 
 #stopnja samooskrbe
-samooskrba <- read_csv("stopnja_samooskrbe.csv", skip = 2,
+samooskrba <- read_csv("podatki/stopnja_samooskrbe.csv", skip = 2,
                             locale = locale(encoding = "Windows-1250"),
                             col_names=TRUE, col_types = cols(
                               .default = col_guess()
