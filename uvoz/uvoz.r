@@ -13,7 +13,7 @@ sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 #####################1. tabela##################################################
 
-#file.choose("zemljisca_regije")
+# v hektarih
 
 zemljisca <- read_csv("podatki/regije.csv" , skip = 2,
                       locale = locale(encoding = "Windows-1250"),
@@ -107,10 +107,18 @@ zemljisca <- merge(x = zemljisca, y = vrste_zemljisc, by = "vrsta.zemljisca", al
 #izbrisem vrstice z NA v povrsini
 zemljisca <- zemljisca %>% dplyr::filter(!is.na(povrsina))
 
+vektor_let <- unique(zemljisca$leto) %>% sort()
 
-############################################################
 
-#file.choose("povprecni_pridelek_poregijah")
+# sestejem stevilo zemljisc glede na leto in regijo
+
+zemljisca.skupno <- zemljisca %>% group_by(leto, regija) %>% mutate(skupno.stevilo.zemljisc = sum(povrsina)) %>%
+  select(regija, leto, skupno.stevilo.zemljisc)
+zemljisca.skupno <- distinct(zemljisca.skupno)
+
+###################PRIDELEK###################################################
+
+# v tonah na hektar
 
 pridelek <- read_csv("podatki/povprecni_pridelek_poregijah.csv", skip = 2,
                       locale = locale(encoding = "Windows-1250"),
@@ -178,17 +186,28 @@ pridelek <- pridelek %>% select(regija, leto, kmetijske.kulture = lepse, povprec
 pridelek <- pridelek %>% filter(!is.na(povprecni.pridelek))
 
 
+pridelek.skupno <- pridelek %>% filter(leto %in% vektor_let) %>% group_by(leto, regija) %>% mutate(skupni.povprecni.pridelek = sum(povprecni.pridelek)) %>%
+  select(regija, leto, skupni.povprecni.pridelek)
+#pobrisem iste vrstice
+pridelek.skupno <- distinct(pridelek.skupno)
+
+# zdruzim z zemljisca.skupno
+
+zemljisca.in.pridelek <- zemljisca.skupno %>% left_join(pridelek.skupno, by = c("regija", "leto"))
 
 
-test <- zemljisca %>% left_join(zivina3, by = c("regija", "leto"))
-
-test2 <- merge(x = zemljisca, y = zivina3, by = c("regija", "leto"), all.x = TRUE)
 ####################2. tabela##################################################
 
 zivina3 <- read_csv("podatki/zivina2.csv", skip = 2,
                    locale = locale(encoding = "Windows-1250"),
                    col_names=TRUE, col_types = cols(
-                     .default = col_character()
+                     .default = col_character(),
+                     "2003 Število živali" = col_double(),
+                     "2005 Število živali" = col_double(),
+                     "2007 Število živali" = col_double(),
+                     "2010 Število živali" = col_double(),
+                     "2013 Število živali" = col_double(),
+                     "2016 Število živali" = col_double(),
                    ))
 
 zivina3 <- pivot_longer(zivina3,
@@ -221,16 +240,24 @@ vrsta_zivine3 <- data.frame(
 zivina3 <- zivina3 %>% left_join(vrsta_zivine3, by = c("vrsta.zivine")) 
 zivina3 <- zivina3 %>% dplyr::filter(!is.na(stevilo.zivine)) %>% dplyr::select(regija, vrsta.zivine = lepse, leto, stevilo.zivine)
 
+zivina3$stevilo.zivine <- as.double(zivina3$stevilo.zivine)
 
-###########join zemljisc in zivine
+# sestejem stevilo zivine glede na leto in regijo
 
-test <- zemljisca %>% left_join(zivina3, by = c("regija", "leto"))
+zivina.skupno <- zivina3 %>% filter(leto %in% vektor_let) %>% group_by(leto, regija) %>% mutate(skupno.stevilo.zivine = sum(stevilo.zivine)) %>%
+  select(regija, leto, skupno.stevilo.zivine)
+#pobrisem iste vrstice
+zivina.skupno <- distinct(zivina.skupno)
 
-test2 <- merge(x = zemljisca, y = zivina3, by = c("regija", "leto"), all.x = TRUE)
+###########join zemljisc in zivine#########################################
+
+zemljisca.in.zivina <- zemljisca.skupno %>% left_join(zivina.skupno, by = c("regija", "leto"))
+#koliko je živine na hektar zemljišča
+zemljisca.in.zivina <- zemljisca.in.zivina %>% mutate(zivina.na.ha = skupno.stevilo.zivine / skupno.stevilo.zemljisc)
 
 #################3. tabela #####################################################
 
-#potrosnja je v kg
+#potrosnja je v kg NA PREBIVALCA !!!!
 potrosnja <- read_csv("podatki/potrosnja_kmetijskihpridelkov.csv", skip = 2,
                    locale = locale(encoding = "Windows-1250"),
                    col_names=TRUE, col_types = cols(
@@ -250,8 +277,14 @@ ime_pridelka <- tibble(
 
 potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRUE) %>% select(leto, pridelek = lepse, potrosnja)
 
+potrosnja$potrosnja <- as.double(potrosnja$potrosnja)
 
-#####################################################
+#potrosnjo moram pretvoriti iz potrosnje na prebivalca > množim z dvema miljonoma
+potrosnja <- potrosnja %>% mutate(potrosnja = potrosnja *2000000)
+#sestejem skupne faktorje
+potrosnja <- potrosnja %>% group_by(leto,pridelek) %>% mutate(potrosnja = sum(potrosnja))
+
+###########################################################################
 #prodaja v kg 
 prodaja <- read_csv("podatki/prodaja_kmetijskihpridelkov.csv", skip = 2,
                     locale = locale(encoding = "Windows-1250"),
@@ -303,10 +336,18 @@ prodaja <- prodaja %>% left_join(prodaja_pridelek, by = c("pridelek"))
 prodaja <- prodaja %>% select(leto, pridelek = lepse, prodaja)
 prodaja <- prodaja %>% filter(!is.na(prodaja))
 
+prodaja$prodaja <- as.double(prodaja$prodaja)
 
+prodaja <- prodaja %>% group_by(leto, pridelek) %>% mutate(prodaja = sum(prodaja))
+prodaja <- distinct(prodaja) %>% filter(pridelek %in% potrosnja$pridelek)
 
-#zdruzit moram se tabeli potrosnja in prodaja po letu in zivilih
+potrosnja <- potrosnja %>% filter(pridelek %in% prodaja$pridelek)
 
+#zdruzenje tabeli potrosnja in prodaja po letu in zivilih
+
+prodaja.in.potrosnja <- prodaja %>% left_join(potrosnja, by = c("leto", "pridelek"))
+# koliko več porabimo kot prodamo, razmerje
+prodaja.in.potrosnja <- prodaja.in.potrosnja %>% mutate(razmerje = potrosnja / prodaja)
 
 
 ##################################4. tabela#######################################################
@@ -359,7 +400,7 @@ doma.porabljeni <- doma.porabljeni %>% left_join(ista_zivila, by = "zivila") %>%
 
 doma.porabljeni$leto <- as.double(doma.porabljeni$leto)
 
-#stopnja samooskrbe
+#stopnja samooskrbe v %
 samooskrba <- read_csv("podatki/stopnja_samooskrbe.csv", skip = 2,
                             locale = locale(encoding = "Windows-1250"),
                             col_names=TRUE, col_types = cols(
@@ -387,6 +428,21 @@ primerjava <- samooskrba$zivila
 doma.porabljeni<- doma.porabljeni %>% filter(zivila %in% primerjava)
 
 samooskrba.in.poraba <- samooskrba %>% left_join(doma.porabljeni, by = c("leto", "zivila"))
+samooskrba.in.poraba <- samooskrba.in.poraba %>% filter(leto %in% doma.porabljeni$leto) %>% group_by(leto, zivila) %>% mutate(poraba = mean(poraba))
+samooskrba.in.poraba <- distinct(samooskrba.in.poraba)
 
-##transmutat stolpec 
+
 #ce smo se zmozni preskrbeti glede na podatke o porabi in stopnji samooskrbe
+samooskrba.in.poraba <- samooskrba.in.poraba %>% mutate(preskrba = stopnja.samooskrbe / poraba) 
+
+#funkcija za izračun zmožnosti samooskrbe z določenim živilom
+Zmoznost <- function(preskrba) {
+  case_when(
+    preskrba <= 0.5 ~ "NE",
+    preskrba <= 30 ~ "DELNO",
+    preskrba > 30 ~ "DA",
+    TRUE ~ "neznan vhod"
+  )
+}
+
+samooskrba.in.poraba <-samooskrba.in.poraba %>% mutate(zmoznost = Zmoznost(preskrba))
