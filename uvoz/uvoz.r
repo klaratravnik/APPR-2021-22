@@ -112,9 +112,11 @@ vektor_let <- unique(zemljisca$leto) %>% sort()
 
 # sestejem stevilo zemljisc glede na leto in regijo
 
-zemljisca.skupno <- zemljisca %>% group_by(leto, regija) %>% mutate(skupno.stevilo.zemljisc = sum(povrsina)) %>%
+zemljisca.skupno <- zemljisca %>% filter(vrsta.zemljisca != "skupaj") %>% 
+  group_by(leto, regija) %>% mutate(skupno.stevilo.zemljisc = sum(povrsina)) %>%
   select(regija, leto, skupno.stevilo.zemljisc)
 zemljisca.skupno <- distinct(zemljisca.skupno)
+zemljisca.skupno$leto <- as.integer(zemljisca.skupno$leto)
 
 ###################PRIDELEK###################################################
 
@@ -190,7 +192,7 @@ pridelek.skupno <- pridelek %>% filter(leto %in% vektor_let) %>% group_by(leto, 
   select(regija, leto, skupni.povprecni.pridelek)
 #pobrisem iste vrstice
 pridelek.skupno <- distinct(pridelek.skupno)
-
+pridelek.skupno$leto <- as.integer(pridelek.skupno$leto)
 # zdruzim z zemljisca.skupno
 
 zemljisca.in.pridelek <- zemljisca.skupno %>% left_join(pridelek.skupno, by = c("regija", "leto"))
@@ -248,6 +250,7 @@ zivina.skupno <- zivina3 %>% filter(leto %in% vektor_let) %>% group_by(leto, reg
   select(regija, leto, skupno.stevilo.zivine)
 #pobrisem iste vrstice
 zivina.skupno <- distinct(zivina.skupno)
+zivina.skupno$leto <- as.integer(zivina.skupno$leto)
 
 ###########join zemljisc in zivine#########################################
 
@@ -278,6 +281,7 @@ ime_pridelka <- tibble(
 potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRUE) %>% select(leto, pridelek = lepse, potrosnja)
 
 potrosnja$potrosnja <- as.double(potrosnja$potrosnja)
+potrosnja$leto <- as.integer(potrosnja$leto)
 
 #potrosnjo moram pretvoriti iz potrosnje na prebivalca > množim z dvema miljonoma
 potrosnja <- potrosnja %>% mutate(potrosnja = potrosnja *2000000)
@@ -330,24 +334,24 @@ prodaja_pridelek <- tibble(
             "zelenjava", "sir", "smetana", "fige", "slive", "maslo", "zelenjava", "zelenjava")
 )
 
-prodaja <- prodaja %>% left_join(prodaja_pridelek, by = c("pridelek")) 
-
-
-prodaja <- prodaja %>% select(leto, pridelek = lepse, prodaja)
-prodaja <- prodaja %>% filter(!is.na(prodaja))
+prodaja <- prodaja %>% left_join(prodaja_pridelek, by = c("pridelek")) %>% 
+  filter(!is.na(prodaja)) %>% select(leto, pridelek = lepse, prodaja)
 
 prodaja$prodaja <- as.double(prodaja$prodaja)
+prodaja$leto <- as.integer(prodaja$leto)
 
-prodaja <- prodaja %>% group_by(leto, pridelek) %>% mutate(prodaja = sum(prodaja))
-prodaja <- distinct(prodaja) %>% filter(pridelek %in% potrosnja$pridelek)
+prodaja <- prodaja %>% group_by(leto, pridelek) %>% mutate(prodaja = sum(prodaja)) %>%
+  distinct(prodaja) %>% filter(pridelek %in% potrosnja$pridelek)
+
 
 potrosnja <- potrosnja %>% filter(pridelek %in% prodaja$pridelek)
 
 #zdruzenje tabeli potrosnja in prodaja po letu in zivilih
 
-prodaja.in.potrosnja <- prodaja %>% left_join(potrosnja, by = c("leto", "pridelek"))
+prodaja.in.potrosnja <- prodaja %>% left_join(potrosnja, by = c("leto", "pridelek")) %>% 
+  mutate(razmerje = potrosnja / prodaja)
 # koliko več porabimo kot prodamo, razmerje
-prodaja.in.potrosnja <- prodaja.in.potrosnja %>% mutate(razmerje = potrosnja / prodaja)
+
 
 
 ##################################4. tabela#######################################################
@@ -427,13 +431,13 @@ primerjava <- samooskrba$zivila
 
 doma.porabljeni<- doma.porabljeni %>% filter(zivila %in% primerjava)
 
-samooskrba.in.poraba <- samooskrba %>% left_join(doma.porabljeni, by = c("leto", "zivila"))
-samooskrba.in.poraba <- samooskrba.in.poraba %>% filter(leto %in% doma.porabljeni$leto) %>% group_by(leto, zivila) %>% mutate(poraba = mean(poraba))
+samooskrba.in.poraba <- samooskrba %>% left_join(doma.porabljeni, by = c("leto", "zivila")) %>% 
+  filter(leto %in% doma.porabljeni$leto) %>% group_by(leto, zivila) %>% 
+  mutate(poraba = mean(poraba), preskrba = stopnja.samooskrbe / poraba) 
 samooskrba.in.poraba <- distinct(samooskrba.in.poraba)
 
 
 #ce smo se zmozni preskrbeti glede na podatke o porabi in stopnji samooskrbe
-samooskrba.in.poraba <- samooskrba.in.poraba %>% mutate(preskrba = stopnja.samooskrbe / poraba) 
 
 #funkcija za izračun zmožnosti samooskrbe z določenim živilom
 Zmoznost <- function(preskrba) {
@@ -446,3 +450,4 @@ Zmoznost <- function(preskrba) {
 }
 
 samooskrba.in.poraba <-samooskrba.in.poraba %>% mutate(zmoznost = Zmoznost(preskrba))
+
