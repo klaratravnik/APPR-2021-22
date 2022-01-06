@@ -53,6 +53,17 @@ ggplot(samooskrba) + aes(x = leto, y = stopnja.samooskrbe, color = zivila) +
 
 
 ggplot(samooskrba.in.poraba) + aes(x = leto, y = stopnja.samooskrbe, size = preskrba, color = zivila, shape = zmoznost) + 
-  ggtitle("Samooskrba in preskrba z živili", title) + xlab("Leto") + ylab("Stopnja samooskrbe (v %)") + 
+  ggtitle("Samooskrba in preskrba z živili") + xlab("Leto") + ylab("Stopnja samooskrbe (v %)") + 
   theme(legend.position = "bottom") + labs(size="Preskrba", color = "Živila", shape = "Zmožnost samooskrbe") +
   geom_point()
+
+graf6 = ggplot(samooskrba.in.poraba) + 
+  aes(x = leto, y = stopnja.samooskrbe, size = preskrba, color = zivila, 
+      text = paste(
+        "Živilo: ", zivila, "\n",
+        "Zmožnost samooskrbe: ", zmoznost,
+        sep = ""
+      )) + ggtitle("Samooskrba in preskrba z živili") + xlab("Leto") + ylab("Stopnja samooskrbe (v %)") + 
+  theme(legend.position = "bottom") + labs(size="Preskrba (velikost)", color = "Živila") +
+  geom_point()
+ggplotly(graf6, tooltip = "text")
