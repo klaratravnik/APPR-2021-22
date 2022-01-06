@@ -195,7 +195,8 @@ pridelek.skupno <- distinct(pridelek.skupno)
 pridelek.skupno$leto <- as.integer(pridelek.skupno$leto)
 # zdruzim z zemljisca.skupno
 
-zemljisca.in.pridelek <- zemljisca.skupno %>% left_join(pridelek.skupno, by = c("regija", "leto"))
+zemljisca.in.pridelek <- zemljisca.skupno %>% left_join(pridelek.skupno, by = c("regija", "leto")) %>%
+  filter(!is.na(skupni.povprecni.pridelek))
 
 
 ####################2. tabela##################################################
