@@ -7,7 +7,13 @@ library(shiny)
 library(readr)
 library(dplyr)
 library(tibble)
-
+library(stringr)
+library(tidyverse)
+library(xml2)
+library(ggplot2)
+library(plotly)
+library(sp)
+library(rgdal)
 
 
 options(gsubfn.engine="R")
