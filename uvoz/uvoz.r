@@ -82,6 +82,8 @@ zemljisca[2] <- zemljisca$vrsta.zemljisca %>% str_replace_all("\\.+", '')
 #left join za regije
 zemljisca <- merge(x = zemljisca, y = imena.regij, by = "regija", all.x = TRUE) %>% select(regija = oznaka, leto, vrsta.zemljisca, povrsina)
 
+
+
 vektor_zemljisc <- unique(zemljisca$vrsta.zemljisca) %>% sort()
 
 
@@ -102,10 +104,15 @@ vrste_zemljisc = tibble(
 
 
 #left join za vrste zemljisc
-zemljisca <- merge(x = zemljisca, y = vrste_zemljisc, by = "vrsta.zemljisca", all.x = TRUE) %>% select(regija, leto, vrsta.zemljisca = lepse, povrsina)
+zemljisca <- merge(x = zemljisca, y = vrste_zemljisc, by = "vrsta.zemljisca", all.x = TRUE) %>% dplyr::select(regija, leto, vrsta.zemljisca = lepse, povrsina)
 
 #izbrisem vrstice z NA v povrsini
 zemljisca <- zemljisca %>% dplyr::filter(!is.na(povrsina))
+
+zemljisca$leto <- as.integer(zemljisca$leto)
+zemljisca$regija <- as.factor(zemljisca$regija)
+zemljisca$vrsta.zemljisca <- as.factor(zemljisca$vrsta.zemljisca)
+
 
 vektor_let <- unique(zemljisca$leto) %>% sort()
 
@@ -181,11 +188,12 @@ vrste_kultur <- data.frame(
   )
 )
 
-pridelek <- pridelek %>% left_join(vrste_kultur, by = c("kmetijske.kulture"))
- 
-
-pridelek <- pridelek %>% select(regija, leto, kmetijske.kulture = lepse, povprecni.pridelek)
+pridelek <- pridelek %>% left_join(vrste_kultur, by = c("kmetijske.kulture")) %>% select(regija, leto, kmetijske.kulture = lepse, povprecni.pridelek)
 pridelek <- pridelek %>% filter(!is.na(povprecni.pridelek))
+
+pridelek$regija <- as.factor(pridelek$regija)
+pridelek$leto <- as.integer(pridelek$leto)
+pridelek$kmetijske.kulture <- as.factor(pridelek$kmetijske.kulture)
 
 
 pridelek.skupno <- pridelek %>% filter(leto %in% vektor_let) %>% group_by(leto, regija) %>% mutate(skupni.povprecni.pridelek = sum(povprecni.pridelek)) %>%
@@ -243,7 +251,11 @@ vrsta_zivine3 <- data.frame(
 zivina3 <- zivina3 %>% left_join(vrsta_zivine3, by = c("vrsta.zivine")) 
 zivina3 <- zivina3 %>% dplyr::filter(!is.na(stevilo.zivine)) %>% dplyr::select(regija, vrsta.zivine = lepse, leto, stevilo.zivine)
 
-zivina3$stevilo.zivine <- as.double(zivina3$stevilo.zivine)
+zivina3$stevilo.zivine <- as.integer(zivina3$stevilo.zivine)
+zivina3$regija <- as.factor(zivina3$regija)
+zivina3$vrsta.zivine <- as.factor(zivina3$vrsta.zivine)
+zivina3$leto <- as.integer(zivina3$leto)
+
 
 # sestejem stevilo zivine glede na leto in regijo
 
@@ -283,11 +295,13 @@ potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRU
 
 potrosnja$potrosnja <- as.double(potrosnja$potrosnja)
 potrosnja$leto <- as.integer(potrosnja$leto)
+potrosnja$pridelek <- as.factor(potrosnja$pridelek)
 
 #potrosnjo moram pretvoriti iz potrosnje na prebivalca > množim z dvema miljonoma
 potrosnja <- potrosnja %>% mutate(potrosnja = potrosnja *2000000)
 #sestejem skupne faktorje
 potrosnja <- potrosnja %>% group_by(leto,pridelek) %>% mutate(potrosnja = sum(potrosnja))
+
 
 ###########################################################################
 #prodaja v kg 
@@ -340,19 +354,18 @@ prodaja <- prodaja %>% left_join(prodaja_pridelek, by = c("pridelek")) %>%
 
 prodaja$prodaja <- as.double(prodaja$prodaja)
 prodaja$leto <- as.integer(prodaja$leto)
+prodaja$pridelek <- as.factor(prodaja$pridelek)
 
 prodaja <- prodaja %>% group_by(leto, pridelek) %>% mutate(prodaja = sum(prodaja)) %>%
   distinct(prodaja) %>% filter(pridelek %in% potrosnja$pridelek)
 
 
 potrosnja <- potrosnja %>% filter(pridelek %in% prodaja$pridelek)
-
 #zdruzenje tabeli potrosnja in prodaja po letu in zivilih
 
 prodaja.in.potrosnja <- prodaja %>% left_join(potrosnja, by = c("leto", "pridelek")) %>% 
   mutate(razmerje = potrosnja / prodaja)
 # koliko več porabimo kot prodamo, razmerje
-
 
 
 ##################################4. tabela#######################################################
@@ -402,7 +415,7 @@ ista_zivila <- tibble(
 )
 
 doma.porabljeni <- doma.porabljeni %>% left_join(ista_zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, poraba)
-
+doma.porabljeni$zivila <- as.factor(doma.porabljeni$zivila)
 doma.porabljeni$leto <- as.double(doma.porabljeni$leto)
 
 #stopnja samooskrbe v %
@@ -427,6 +440,7 @@ zivila <- tibble(
 )
 
 samooskrba <- samooskrba %>% left_join(zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, stopnja.samooskrbe)
+samooskrba$zivila <- as.factor(samooskrba$zivila)
 
 primerjava <- samooskrba$zivila
 
@@ -452,3 +466,17 @@ Zmoznost <- function(preskrba) {
 
 samooskrba.in.poraba <-samooskrba.in.poraba %>% mutate(zmoznost = Zmoznost(preskrba))
 
+
+#shranim urejene tabele v mapo podatki
+write.csv(zemljisca,"podatki/zemljisca_urejeno.csv")
+write.csv(pridelek, "podatki/pridelek_urejeno.cvs")
+write.csv(zivina3, "podatki/zivina3_urejeno.csv")
+write.csv(zemljisca.in.zivina, "podatki/zemljisca.in.zivina_urejeno.csv")
+write.csv(prodaja, "podatki/prodaja_urejeno.csv")
+write.csv(potrosnja, "podatki/potrosnja.csv")
+write.csv(prodaja.in.potrosnja, "podatki/prodaja.in.potrosnja_urejeno.csv")
+write.csv(doma.porabljeni, "podatki/doma.porabljeni_urejeno.csv")
+write.csv(zemljisca.in.pridelek, "podatki/zemljisca.in.pridelek_urejeno.csv")
+
+
+write.csv(samooskrba.in.poraba, "podatki/samooskrba.in.poraba_urejeno.csv")
