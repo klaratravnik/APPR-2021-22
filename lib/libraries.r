@@ -14,7 +14,13 @@ library(ggplot2)
 library(plotly)
 library(sp)
 library(rgdal)
-
+library(plotrix)
+library(rgeos)
+library(raster)
+library(tmap)
+library(hrbrthemes)
+library(viridis)
+library(proto)
 
 options(gsubfn.engine="R")
 
