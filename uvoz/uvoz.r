@@ -1,12 +1,7 @@
 # 2. faza: Uvoz podatkov
 
-library(readr)
-library(stringr)
-library(dplyr)
-library(tidyr)
-library(tidyverse)
-library(xml2)
-library(rvest) 
+source("lib/libraries.r")
+
 
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
@@ -46,7 +41,7 @@ zemljisca <- zemljisca %>%
     regex = "^(\\d{4})\\s+(.*)$"
   ) 
 
-zemljisca <- zemljisca %>% select(regija, vrsta.zemljisca, stevilka, povrsina)
+zemljisca <- zemljisca %>% dplyr::select(regija, vrsta.zemljisca, stevilka, povrsina)
 
 colnames(zemljisca)[3] <- 'leto'
 
@@ -80,7 +75,7 @@ zemljisca[2] <- zemljisca$vrsta.zemljisca %>% str_replace_all("\\.+", '')
 
 
 #left join za regije
-zemljisca <- merge(x = zemljisca, y = imena.regij, by = "regija", all.x = TRUE) %>% select(regija = oznaka, leto, vrsta.zemljisca, povrsina)
+zemljisca <- merge(x = zemljisca, y = imena.regij, by = "regija", all.x = TRUE) %>% dplyr::select(regija = oznaka, leto, vrsta.zemljisca, povrsina)
 
 
 
@@ -121,7 +116,7 @@ vektor_let <- unique(zemljisca$leto) %>% sort()
 
 zemljisca.skupno <- zemljisca %>% filter(vrsta.zemljisca != "skupaj") %>% 
   group_by(leto, regija) %>% mutate(skupno.stevilo.zemljisc = sum(povrsina)) %>%
-  select(regija, leto, skupno.stevilo.zemljisc)
+  dplyr::select(regija, leto, skupno.stevilo.zemljisc)
 zemljisca.skupno <- distinct(zemljisca.skupno)
 zemljisca.skupno$leto <- as.integer(zemljisca.skupno$leto)
 
@@ -150,10 +145,10 @@ pridelek <- pridelek %>%
     regex = "^(\\d{4})\\s+(.*)$"
   ) 
 
-pridelek <- pridelek %>% select(regija = crke, leto = stevilka, kmetijske.kulture, povprecni.pridelek)
+pridelek <- pridelek %>% dplyr::select(regija = crke, leto = stevilka, kmetijske.kulture, povprecni.pridelek)
 
 #left join za regije
-pridelek <- merge(x = pridelek, y = imena.regij, by = "regija", all.x = TRUE) %>% select(regija = oznaka, leto, kmetijske.kulture, povprecni.pridelek)
+pridelek <- merge(x = pridelek, y = imena.regij, by = "regija", all.x = TRUE) %>% dplyr::select(regija = oznaka, leto, kmetijske.kulture, povprecni.pridelek)
 
 #izbrišem oklepaje
 pridelek$kmetijske.kulture <- pridelek$kmetijske.kulture %>% str_replace_all("\\(([^)]+)\\)", '')  
@@ -188,7 +183,7 @@ vrste_kultur <- data.frame(
   )
 )
 
-pridelek <- pridelek %>% left_join(vrste_kultur, by = c("kmetijske.kulture")) %>% select(regija, leto, kmetijske.kulture = lepse, povprecni.pridelek)
+pridelek <- pridelek %>% left_join(vrste_kultur, by = c("kmetijske.kulture")) %>% dplyr::select(regija, leto, kmetijske.kulture = lepse, povprecni.pridelek)
 pridelek <- pridelek %>% filter(!is.na(povprecni.pridelek))
 
 pridelek$regija <- as.factor(pridelek$regija)
@@ -197,7 +192,7 @@ pridelek$kmetijske.kulture <- as.factor(pridelek$kmetijske.kulture)
 
 
 pridelek.skupno <- pridelek %>% filter(leto %in% vektor_let) %>% group_by(leto, regija) %>% mutate(skupni.povprecni.pridelek = sum(povprecni.pridelek)) %>%
-  select(regija, leto, skupni.povprecni.pridelek)
+  dplyr::select(regija, leto, skupni.povprecni.pridelek)
 #pobrisem iste vrstice
 pridelek.skupno <- distinct(pridelek.skupno)
 pridelek.skupno$leto <- as.integer(pridelek.skupno$leto)
@@ -230,7 +225,7 @@ colnames(zivina3)[1] <- 'regija'
 colnames(zivina3)[2] <- 'vrsta.zivine'
 
 zivina3 <- merge(x = zivina3, y = imena.regij, by = "regija", all.x = TRUE) %>% 
-  select(regija = oznaka, vrsta.zivine, leto, stevilo.zivine)
+  dplyr::select(regija = oznaka, vrsta.zivine, leto, stevilo.zivine)
 
 zivina3 <- zivina3 %>%
   tidyr::extract(
@@ -238,7 +233,7 @@ zivina3 <- zivina3 %>%
     into = c("stevilka", "crke"),
     regex = "^(\\d{4})\\s+(.*)$"
   ) 
-zivina3 <- zivina3 %>% rename(leto = stevilka) %>% select(!crke)
+zivina3 <- zivina3 %>% rename(leto = stevilka) %>% dplyr::select(!crke)
 zivina3$stevilo.zivine <- zivina3$stevilo.zivine %>% str_replace_all("[N, z]", NA_character_)
 
 vektor_zivine3 <- unique(zivina3$vrsta.zivine) %>% sort()
@@ -260,7 +255,7 @@ zivina3$leto <- as.integer(zivina3$leto)
 # sestejem stevilo zivine glede na leto in regijo
 
 zivina.skupno <- zivina3 %>% filter(leto %in% vektor_let) %>% group_by(leto, regija) %>% mutate(skupno.stevilo.zivine = sum(stevilo.zivine)) %>%
-  select(regija, leto, skupno.stevilo.zivine)
+  dplyr::select(regija, leto, skupno.stevilo.zivine)
 #pobrisem iste vrstice
 zivina.skupno <- distinct(zivina.skupno)
 zivina.skupno$leto <- as.integer(zivina.skupno$leto)
@@ -291,7 +286,7 @@ ime_pridelka <- tibble(
   lepse = c("zita", "meso", "jajca", "krompir", "zelenjava", "med", "riz")
 )
 
-potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRUE) %>% select(leto, pridelek = lepse, potrosnja)
+potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRUE) %>% dplyr::select(leto, pridelek = lepse, potrosnja)
 
 potrosnja$potrosnja <- as.double(potrosnja$potrosnja)
 potrosnja$leto <- as.integer(potrosnja$leto)
@@ -325,7 +320,7 @@ prodaja <- prodaja %>%
     into = c("stevilka", "crke"),
     regex = "^(\\d{4})\\s+(.*)$")
 
-prodaja <- prodaja %>% select(leto = stevilka, pridelek, prodaja)
+prodaja <- prodaja %>% dplyr::select(leto = stevilka, pridelek, prodaja)
 
 #znebim se oklepajev pri pridelkih
 
@@ -350,7 +345,7 @@ prodaja_pridelek <- tibble(
 )
 
 prodaja <- prodaja %>% left_join(prodaja_pridelek, by = c("pridelek")) %>% 
-  filter(!is.na(prodaja)) %>% select(leto, pridelek = lepse, prodaja)
+  filter(!is.na(prodaja)) %>% dplyr::select(leto, pridelek = lepse, prodaja)
 
 prodaja$prodaja <- as.double(prodaja$prodaja)
 prodaja$leto <- as.integer(prodaja$leto)
@@ -393,7 +388,7 @@ doma.porabljeni <- doma.porabljeni %>%
     into = c("stevilka", "crke"),
     regex = "^(\\d{4})\\s+(.*)$")
 
-doma.porabljeni <- doma.porabljeni %>% select(leto = stevilka, zivila, poraba)
+doma.porabljeni <- doma.porabljeni %>% dplyr::select(leto = stevilka, zivila, poraba)
 
 #znebim se oklepajev
 
@@ -402,11 +397,11 @@ doma.porabljeni$zivila <- doma.porabljeni$zivila %>% str_replace_all("\\(([^)]+)
 
 vektor_zivil <- unique(doma.porabljeni$zivila) %>% sort()
 vektor_lepse <- c("zgano", "grah", "paradiznik", "marmelada", "hruske", "margarina",
-                  "riz", "agrumi", "banane", "brezalk.pijace",
+                  "riž", "agrumi", "banane", "brezalk.pijace",
                   "cesen.cebula", "fizol", "meso", "cokolada", "meso", "mleko", "meso", "grozdje",
                   "jabolka", "jajca", "olje", "jogurt", "kakav", "kava", "zelenjava",
                   "zelenjava", "krompir", "kruh", "marelice.breskve", "maslo", "med",
-                  "voda", "mleko", "zita", "zelenjava", "meso", "pivo", "ribe", "sirup",
+                  "voda", "mleko", "žita", "zelenjava", "meso", "pivo", "ribe", "sirup",
                   "sok", "sir.skuta", "sladkor", "sladoled", "slive", "smetana", "meso",
                   "testenine", "vino", "zelenjava", "zelenjava", "pecivo")
 
@@ -416,8 +411,11 @@ ista_zivila <- tibble(
 
 doma.porabljeni <- doma.porabljeni %>% left_join(ista_zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, poraba)
 doma.porabljeni$zivila <- as.factor(doma.porabljeni$zivila)
-doma.porabljeni$leto <- as.double(doma.porabljeni$leto)
+doma.porabljeni$leto <- as.integer(doma.porabljeni$leto)
 
+#doma.porabljeni <- doma.porabljeni %>% group_by(leto) %>% mutate(skupna.poraba = sum(poraba)) %>%
+ # dplyr::select(leto, zivila, poraba = skupna.poraba)
+zemljisca.skupno <- distinct(zemljisca.skupno)
 #stopnja samooskrbe v %
 samooskrba <- read_csv("podatki/stopnja_samooskrbe.csv", skip = 2,
                             locale = locale(encoding = "Windows-1250"),
@@ -436,7 +434,7 @@ samooskrba <- pivot_longer(samooskrba,
 
 zivila <- tibble(
   zivila = c("Žita", "Meso", "Jajca", "Krompir", "Zelenjava", "Med", "Riž"),
-  lepse = c("zita", "meso", "jajca", "krompir", "zelenjava", "med", "riz")
+  lepse = c("žita", "meso", "jajca", "krompir", "zelenjava", "med", "riž")
 )
 
 samooskrba <- samooskrba %>% left_join(zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, stopnja.samooskrbe)
@@ -480,3 +478,4 @@ write.csv(zemljisca.in.pridelek, "podatki/zemljisca.in.pridelek_urejeno.csv")
 
 
 write.csv(samooskrba.in.poraba, "podatki/samooskrba.in.poraba_urejeno.csv")
+
