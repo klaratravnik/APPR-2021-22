@@ -21,6 +21,8 @@ library(tmap)
 library(hrbrthemes)
 library(viridis)
 library(proto)
+library(GGally)
+
 
 options(gsubfn.engine="R")
 
