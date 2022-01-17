@@ -34,7 +34,8 @@ ggplot(podatki2) +
 
 
 #3. graf:Število živine glede na  površino  kmetijskih zemljišč večjih slovenskih regij
-ggplot(zemljisca.in.zivina %>% filter(regija %in% c("lj", "nm", "mb", "ms", "kp", "kr"))) + aes(x = skupno.stevilo.zemljisc, y = skupno.stevilo.zivine, color = leto, size = zivina.na.ha) +
+data <- zemljisca.in.zivina %>% filter(regija %in% c("lj", "nm", "mb", "ms", "kp", "kr"))
+ggplot(data) + aes(x = skupno.stevilo.zemljisc, y = skupno.stevilo.zivine, color = leto, size = zivina.na.ha) +
   labs(title = "Število živine glede na  površino \n kmetijskih zemljišč večjih slovenskih regij") + xlab("Površina zemljišč") + ylab("Število živine") +
   labs(size="Živina na ha", color="Leto") + 
   geom_point() + 
@@ -147,7 +148,7 @@ imena.regij.nazaj = tibble(
 )
 
 #Primerjava števila goveda v regijah leta 2003 in 2016
-tmap_mode("plot")
+tmap_mode("view")
 zivina3.za.zemljevid <- merge(x = zivina3, y = imena.regij.nazaj, by = "regija", all.x = TRUE) %>% 
   dplyr::select(regija = oznaka, vrsta.zivine, leto, stevilo.zivine) %>% filter(regija != "SLOVENIJA")
 
