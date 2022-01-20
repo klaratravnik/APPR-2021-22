@@ -22,7 +22,7 @@ library(hrbrthemes)
 library(viridis)
 library(proto)
 library(GGally)
-
+library(ggtext)
 
 options(gsubfn.engine="R")
 
