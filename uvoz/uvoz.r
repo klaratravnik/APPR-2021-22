@@ -85,15 +85,15 @@ vektor_zemljisc <- unique(zemljisca$vrsta.zemljisca) %>% sort()
 vrste_zemljisc = tibble(
   vrsta.zemljisca = vektor_zemljisc,
   lepse = c(
-    "kmetijska.zemljisca",
+    "kmetijska zemljisca",
     "skupaj",
-    "travniki.in.pasniki",
+    "travniki in pašniki",
     "gozd",
     "nerodovitno",
-    "zita",
+    "žita",
     "njive",
-    "trajni.nasadi",
-    "zelena.krma"
+    "trajni nasadi",
+    "zelena krma"
   )
 )
 
@@ -125,16 +125,16 @@ zemljisca.skupno$leto <- as.integer(zemljisca.skupno$leto)
 # v tonah na hektar
 
 pridelek <- read_csv("podatki/povprecni_pridelek_poregijah.csv", skip = 2,
-                      locale = locale(encoding = "Windows-1250"),
-                      col_names=TRUE, col_types = cols(
-                        .default = col_double(),
-                        "KMETIJSKE KULTURE" = col_character(), 
-                        ))
+                     locale = locale(encoding = "Windows-1250"),
+                     col_names=TRUE, col_types = cols(
+                       .default = col_double(),
+                       "KMETIJSKE KULTURE" = col_character(), 
+                     ))
 
 pridelek <- pivot_longer(pridelek,
-                          cols = colnames(pridelek)[-c(1)],
-                          names_to = "leto", 
-                          values_to = "povprecni.pridelek" )
+                         cols = colnames(pridelek)[-c(1)],
+                         names_to = "leto", 
+                         values_to = "povprecni.pridelek" )
 
 colnames(pridelek)[1] <- 'kmetijske.kulture'
 
@@ -155,18 +155,18 @@ pridelek$kmetijske.kulture <- pridelek$kmetijske.kulture %>% str_replace_all("\\
 
 
 vektor_kultur <- unique(pridelek$kmetijske.kulture) %>% sort()
-                   
+
 vrste_kultur <- data.frame(
   kmetijske.kulture = vektor_kultur,
   lepse = c(
     "trave",
     "trave",
-    "travniki.in.pasniki",
-    "psenica.in.pira",
+    "travniki in pašniki",
+    "psenica in pira",
     "koruza",
-    "oljna.ogrscica.in.repica",
-    "belo.zelje",
-    "breskve.in.nektarine",
+    "oljna ogrscica in repica",
+    "belo zelje",
+    "breskve in nektarine",
     "buce",
     "detelja",
     "grozdje",
@@ -179,7 +179,7 @@ vrste_kultur <- data.frame(
     "oljke",
     "oves",
     "trave",
-    "tritikala", "rz.in.sorzica"
+    "tritikala", "rz in sorzica"
   )
 )
 
@@ -205,21 +205,21 @@ zemljisca.in.pridelek <- zemljisca.skupno %>% left_join(pridelek.skupno, by = c(
 ####################2. tabela##################################################
 
 zivina3 <- read_csv("podatki/zivina2.csv", skip = 2,
-                   locale = locale(encoding = "Windows-1250"),
-                   col_names=TRUE, col_types = cols(
-                     .default = col_character(),
-                     "2003 Število živali" = col_double(),
-                     "2005 Število živali" = col_double(),
-                     "2007 Število živali" = col_double(),
-                     "2010 Število živali" = col_double(),
-                     "2013 Število živali" = col_double(),
-                     "2016 Število živali" = col_double(),
-                   ))
+                    locale = locale(encoding = "Windows-1250"),
+                    col_names=TRUE, col_types = cols(
+                      .default = col_character(),
+                      "2003 Število živali" = col_double(),
+                      "2005 Število živali" = col_double(),
+                      "2007 Število živali" = col_double(),
+                      "2010 Število živali" = col_double(),
+                      "2013 Število živali" = col_double(),
+                      "2016 Število živali" = col_double(),
+                    ))
 
 zivina3 <- pivot_longer(zivina3,
-                       cols = colnames(zivina3)[-c(1, 2)],
-                       names_to = "leto", 
-                       values_to = "stevilo.zivine" )
+                        cols = colnames(zivina3)[-c(1, 2)],
+                        names_to = "leto", 
+                        values_to = "stevilo.zivine" )
 
 colnames(zivina3)[1] <- 'regija'
 colnames(zivina3)[2] <- 'vrsta.zivine'
@@ -240,7 +240,7 @@ vektor_zivine3 <- unique(zivina3$vrsta.zivine) %>% sort()
 
 vrsta_zivine3 <- data.frame(
   vrsta.zivine = vektor_zivine3,
-  lepse = c("govedo", "konji", "koze", "ovce", "perutnina", "velika.zivina", "prasici")
+  lepse = c("govedo", "konji", "koze", "ovce", "perutnina", "velika živina", "prašiči")
 )
 
 zivina3 <- zivina3 %>% left_join(vrsta_zivine3, by = c("vrsta.zivine")) 
@@ -283,7 +283,7 @@ potrosnja <- pivot_longer(potrosnja,
                        values_to = "potrosnja" )
 ime_pridelka <- tibble(
   pridelek = c("Žita", "Meso", "Jajca", "Krompir", "Zelenjava", "Med", "Riž"),
-  lepse = c("zita", "meso", "jajca", "krompir", "zelenjava", "med", "riz")
+  lepse = c("žita", "meso", "jajca", "krompir", "zelenjava", "med", "riž")
 )
 
 potrosnja <- merge(x = potrosnja, y = ime_pridelka, by = "pridelek", all.x = TRUE) %>% dplyr::select(leto, pridelek = lepse, potrosnja)
@@ -398,7 +398,7 @@ doma.porabljeni$zivila <- doma.porabljeni$zivila %>% str_replace_all("\\(([^)]+)
 vektor_zivil <- unique(doma.porabljeni$zivila) %>% sort()
 vektor_lepse <- c("zgano", "grah", "paradiznik", "marmelada", "hruske", "margarina",
                   "riž", "agrumi", "banane", "brezalk.pijace",
-                  "cesen.cebula", "fizol", "meso", "cokolada", "meso", "mleko", "meso", "grozdje",
+                  "cesen.cebula", "fizol", "meso", "cokolada", "delikatese", "mleko", "meso", "grozdje",
                   "jabolka", "jajca", "olje", "jogurt", "kakav", "kava", "zelenjava",
                   "zelenjava", "krompir", "kruh", "marelice.breskve", "maslo", "med",
                   "voda", "mleko", "žita", "zelenjava", "meso", "pivo", "ribe", "sirup",
@@ -412,10 +412,8 @@ ista_zivila <- tibble(
 doma.porabljeni <- doma.porabljeni %>% left_join(ista_zivila, by = "zivila") %>% dplyr::select(leto, zivila = lepse, poraba)
 doma.porabljeni$zivila <- as.factor(doma.porabljeni$zivila)
 doma.porabljeni$leto <- as.integer(doma.porabljeni$leto)
+doma.porabljeni <- distinct(doma.porabljeni)
 
-#doma.porabljeni <- doma.porabljeni %>% group_by(leto) %>% mutate(skupna.poraba = sum(poraba)) %>%
- # dplyr::select(leto, zivila, poraba = skupna.poraba)
-zemljisca.skupno <- distinct(zemljisca.skupno)
 #stopnja samooskrbe v %
 samooskrba <- read_csv("podatki/stopnja_samooskrbe.csv", skip = 2,
                             locale = locale(encoding = "Windows-1250"),
@@ -446,36 +444,39 @@ doma.porabljeni<- doma.porabljeni %>% filter(zivila %in% primerjava)
 
 samooskrba.in.poraba <- samooskrba %>% left_join(doma.porabljeni, by = c("leto", "zivila")) %>% 
   filter(leto %in% doma.porabljeni$leto) %>% group_by(leto, zivila) %>% 
-  mutate(poraba = mean(poraba), preskrba = stopnja.samooskrbe / poraba) 
+  mutate(poraba = mean(poraba), preskrba = (stopnja.samooskrbe/100)*poraba) 
 samooskrba.in.poraba <- distinct(samooskrba.in.poraba)
 
 
 #ce smo se zmozni preskrbeti glede na podatke o porabi in stopnji samooskrbe
 
 #funkcija za izračun zmožnosti samooskrbe z določenim živilom
-Zmoznost <- function(preskrba) {
+Zmoznost <- function(preskrba, poraba) {
   case_when(
-    preskrba <= 0.5 ~ "NE",
-    preskrba <= 30 ~ "DELNO",
-    preskrba > 30 ~ "DA",
+    preskrba <= poraba/2 ~ "NE",
+    preskrba <= 2*poraba/3 ~ "DELNO",
+    preskrba > 2*poraba/3 ~ "DA",
     TRUE ~ "neznan vhod"
   )
 }
 
-samooskrba.in.poraba <-samooskrba.in.poraba %>% mutate(zmoznost = Zmoznost(preskrba))
+samooskrba.in.poraba <-samooskrba.in.poraba %>% mutate(zmoznost = Zmoznost(preskrba, poraba))
 
 
 #shranim urejene tabele v mapo podatki
 write.csv(zemljisca,"podatki/zemljisca_urejeno.csv")
 write.csv(pridelek, "podatki/pridelek_urejeno.cvs")
 write.csv(zivina3, "podatki/zivina3_urejeno.csv")
+write.csv(zemljisca.in.pridelek, "podatki/zemljisca.in.pridelek_urejeno.csv")
 write.csv(zemljisca.in.zivina, "podatki/zemljisca.in.zivina_urejeno.csv")
 write.csv(prodaja, "podatki/prodaja_urejeno.csv")
 write.csv(potrosnja, "podatki/potrosnja_urejeno.csv")
 write.csv(prodaja.in.potrosnja, "podatki/prodaja.in.potrosnja_urejeno.csv")
 write.csv(doma.porabljeni, "podatki/doma.porabljeni_urejeno.csv")
-write.csv(zemljisca.in.pridelek, "podatki/zemljisca.in.pridelek_urejeno.csv")
-
-
 write.csv(samooskrba.in.poraba, "podatki/samooskrba.in.poraba_urejeno.csv")
+
+
+
+
+
 
