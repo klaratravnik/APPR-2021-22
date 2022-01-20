@@ -7,7 +7,7 @@ source("lib/libraries.r")
 data.za.analizo <- zemljisca.in.zivina %>% filter(regija %in% c("lj", "nm", "mb", "ms", "kp", "kr"))
 
 g <- ggplot(data.za.analizo, aes(x=skupno.stevilo.zemljisc, y=skupno.stevilo.zivine)) + geom_point() + 
-  labs(title = "Število živine glede na  površino \n kmetijskih zemljišč večjih slovenskih regij") + xlab("Površina zemljišč") + ylab("Število živine") + 
+  labs(title = "Relacija med številom živine in površino kmetijskih zemljišč") + xlab("Površina zemljišč") + ylab("Število živine") + 
   theme(plot.title = element_text(hjust=0.5, size=15),
         axis.line = element_line(colour = "purple", 
                                  size = 1, linetype = "solid"))
