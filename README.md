@@ -11,14 +11,53 @@ Viri podatkov:
 
 
 Tabele:
-1. **Kmetijska zemljišča, povprečni pridelki**
-* Stolpci: regija, leto, vrsta zemljišča, število zemljišč, vrsta kmetijske kulture, povprečni pridelek
-2. **Vrste živine**
-* Stolpci: leto, vrsta živine, število
-3. **Prodaja in potrošnja kmetijskih pridelkov**
-* Stolpci: leto, vrsta pridelka, količina prodaje, količina potrošnje
-4. **Samooskrba**
-* Stolpci: leto, vrsta živila, stopnja samooskrbe, količina porabljena na člana gospodinjstva, zmožnost samooskrbe
+1. **zemljisca** - tabela števila hektarjev posamezne vrste zemljišča v regiji, po letih
+- `regija` - regija popisa podatkov
+- `leto` - leto meritve
+- `vrsta.zemljisca` - tip vrste zemljišča
+- `povrsina` - število hektarjev
+
+2. **pridelek** - tabela povprečnih pridelkov kmetijskih kultur v tonah na hektar
+- `regija` - ime regije
+- `leto` - leto popisa
+- `kmetijske.kulture` - tip pridelka
+- `povprecni.pridelek` - število povprečnega pridelka
+
+3. **zemljisca.in.pridelek** - skupno število hektarjev, povprečni pridelek vseh seštetih kultur po regijah in letih ter šteto število živine po regijah in letih ne glede na vrsto in izračunan delež živine na število hektarjev zemljišča 
+- `regija` - ime regije
+- `leto` - leto popisa
+- `skupno.stevilo.zemljisc` - število vseh vrst zemljišč skupaj
+- `skupni.povprecni.pridelek` - seštet povprečni pridelek
+
+
+4. **zivina3** - število različnih vrst glav živine po regijah in letih
+- `regija` - ime regije
+- `vrsta.zivine` - ime živine
+- `leto` - leto popisa
+- `stevilo.zivine` - število živali
+
+5. **zemljisca.in.zivina** - sešteto število živine po regijah in letih ne glede na vrsto in izračunan delež živine na število hektarjev zemljišča 
+- `regija` - ime regije
+- `leto` - leto popisa
+- `skupno.stevilo.zemljisc` - število vseh vrst zemljišč skupaj
+- `skupno.stevilo.zivine` - število vseh živali skupaj
+- `zivina.na.ha` - razmerje števila živine in hektarjev zemljišč
+
+6. **prodaja.in.potrosnja**- število prodanih živil slovenskih kmetov in končna potrošnja prebivalcev glede na vrsto živila in leto
+- `leto` - leto popisa
+- `pridelek` - vrsta živila
+- `prodaja` - število prodanega živila v kilogramih
+- `potrosnja` - število porabljenega živila v kilogramih
+- `razmerje` - razmerje med potrošenim in prodanim živilom
+
+7. **samooskrba.in.poraba** - stopnja samooskrbe določenega živila in določena zmožnost samooskrbe z le-tem
+- `leto` - leto popisa
+- `zivila` - ime živila
+- `stopnja.samooskrbe` - stopnja samooskrbe v odstotkih
+- `poraba` - poraba živila na prebivalca v kilogramih
+- `preskrba` - število kilogramov na prabivalca, ki smo jih zmožni pridelati sami
+- `zmoznost` - s funkcijo zapisana zmožnost samooskrbe glede na povprečno število porabljenih kilogramov živila ter število samopreskrbljenih kilogramov
+
  
 ## Program
 
@@ -34,3 +73,26 @@ Potrebne knjižnice so v datoteki `lib/libraries.r`
 Podatkovni viri so v mapi `podatki/`.
 Zemljevidi v obliki SHP, ki jih program pobere,
 se shranijo v mapo `../zemljevidi/` (torej izven mape projekta).
+
+
+## Potrebni paketi za R
+
+Za zagon tega vzorca je potrebno namestiti sledeče pakete za R:
+
+* `knitr` - za izdelovanje poročila
+* `rmarkdown` - za prevajanje poročila v obliki RMarkdown
+* `shiny` - za prikaz spletnega vmesnika
+* `readr` - za branje podatkov
+* `rvest` - za pobiranje spletnih strani
+* `tidyr` - za preoblikovanje podatkov v obliko *tidy data*
+* `dplyr` - za delo s podatki
+* `gsubfn` - za delo z nizi (čiščenje podatkov)
+* `ggplot2` - za izrisovanje grafov
+* `tmap` - za risanje na zemljevide
+* `tidyverse` - za delo s podatki oblike *tidy data*
+* `dbplyr` - za delo s podatki
+* `maps` - za uvoz zamljevidov
+* `viridis` - za barvne lestvice pri risanju grafov
+* `stringr` - za delo z regularnimi izrazi
+* `readxl` - za uvoz iz Excel-ove datoteke
+* `ggplotly` - za interaktivno delo z grafi
