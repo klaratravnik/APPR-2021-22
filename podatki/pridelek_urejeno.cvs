@@ -1,74 +1,74 @@
 "","regija","leto","kmetijske.kulture","povprecni.pridelek"
 "1","kp",2016,"trave",4.5
 "2","kp",2010,"trave",5.7
-"3","kp",2019,"belo.zelje",27.5
+"3","kp",2019,"belo zelje",27.5
 "4","kp",2013,"lucerna",4
 "5","kp",2018,"trave",4.2
-"6","kp",2012,"breskve.in.nektarine",8.3
+"6","kp",2012,"breskve in nektarine",8.3
 "7","kp",2017,"grozdje",4.4
-"8","kp",2011,"travniki.in.pasniki",2.8
+"8","kp",2011,"travniki in pašniki",2.8
 "9","kp",2020,"trave",4.3
 "10","kp",2014,"oljke",0.8
 "11","sg",2020,"koruza",8.2
 "12","sg",2014,"oves",2.4
 "13","kp",2011,"trave",4.9
 "14","kp",2016,"jabolka",25.9
-"15","kp",2010,"belo.zelje",25.3
+"15","kp",2010,"belo zelje",25.3
 "16","kp",2015,"detelja",4.7
-"17","sg",2010,"psenica.in.pira",3.5
+"17","sg",2010,"psenica in pira",3.5
 "18","sg",2015,"buce",0.4
 "19","sg",2020,"lucerna",7.6
 "20","kp",2015,"jabolka",34
-"21","kp",2020,"travniki.in.pasniki",2.7
+"21","kp",2020,"travniki in pašniki",2.7
 "22","kp",2014,"detelja",5.6
 "23","kp",2019,"trave",4.2
 "24","kp",2013,"oljke",1.6
 "25","sg",2015,"grozdje",7.5
 "26","kp",2019,"koruza",5.7
 "27","kp",2013,"oves",2.7
-"28","sg",2017,"belo.zelje",23.3
+"28","sg",2017,"belo zelje",23.3
 "29","sg",2011,"lucerna",8.2
 "30","sg",2016,"trave",6.7
 "31","kp",2014,"buce",0.8
 "32","kp",2012,"lucerna",2.3
 "33","kp",2017,"trave",3.7
-"34","kp",2011,"breskve.in.nektarine",13.5
+"34","kp",2011,"breskve in nektarine",13.5
 "35","kp",2016,"grozdje",5.4
-"36","kp",2010,"travniki.in.pasniki",3.1
+"36","kp",2010,"travniki in pašniki",3.1
 "37","kp",2015,"trave",4.7
-"38","sg",2018,"belo.zelje",23.7
-"39","kp",2018,"belo.zelje",28
+"38","sg",2018,"belo zelje",23.7
+"39","kp",2018,"belo zelje",28
 "40","sg",2017,"hmelj",1.9
 "41","sg",2011,"buce",0.7
 "42","sg",2014,"trave",6.7
-"43","sg",2019,"breskve.in.nektarine",15.4
+"43","sg",2019,"breskve in nektarine",15.4
 "44","sg",2019,"trave",7.6
-"45","sg",2018,"rz.in.sorzica",3
+"45","sg",2018,"rz in sorzica",3
 "46","sg",2012,"tritikala",3.5
-"47","sg",2019,"travniki.in.pasniki",6.4
+"47","sg",2019,"travniki in pašniki",6.4
 "48","sg",2013,"detelja",6.2
 "49","sg",2018,"trave",6.8
 "50","sg",2014,"jecmen",3.6
 "51","sg",2013,"krompir",17
-"52","sg",2020,"breskve.in.nektarine",7.9
+"52","sg",2020,"breskve in nektarine",7.9
 "53","sg",2014,"jabolka",10
 "54","sg",2012,"lucerna",8
 "55","sg",2017,"trave",6.2
 "56","sg",2016,"grozdje",5.9
-"57","sg",2010,"travniki.in.pasniki",5.9
+"57","sg",2010,"travniki in pašniki",5.9
 "58","sg",2015,"trave",6.5
 "59","sg",2015,"oves",2.8
-"60","sg",2020,"psenica.in.pira",5.7
-"61","sg",2017,"oljna.ogrscica.in.repica",2.6
+"60","sg",2020,"psenica in pira",5.7
+"61","sg",2017,"oljna ogrscica in repica",2.6
 "62","sg",2011,"krompir",19.5
-"63","sg",2016,"rz.in.sorzica",3.3
+"63","sg",2016,"rz in sorzica",3.3
 "64","sg",2016,"koruza",8.6
 "65","sg",2010,"oves",2.2
 "66","sg",2010,"koruza",41.3
 "67","sg",2018,"oves",2.7
 "68","sg",2012,"jecmen",3.3
 "69","sg",2016,"tritikala",4.3
-"70","sg",2010,"oljna.ogrscica.in.repica",2.8
+"70","sg",2010,"oljna ogrscica in repica",2.8
 "71","sg",2015,"koruza",44.2
 "72","sg",2020,"oves",3.2
 "73","sg",2019,"buce",0.4
@@ -76,12 +76,12 @@
 "75","sg",2017,"krompir",26.3
 "76","sg",2011,"koruza",7.8
 "77","sg",2014,"koruza",42
-"78","sg",2014,"oljna.ogrscica.in.repica",0.9
+"78","sg",2014,"oljna ogrscica in repica",0.9
 "79","sg",2019,"koruza",45.6
-"80","sg",2013,"rz.in.sorzica",2.9
+"80","sg",2013,"rz in sorzica",2.9
 "81","sg",2018,"jecmen",4.1
 "82","sg",2012,"hmelj",1.7
-"83","sg",2015,"psenica.in.pira",4.4
+"83","sg",2015,"psenica in pira",4.4
 "84","sg",2020,"buce",0.4
 "85","sg",2017,"buce",0.3
 "86","sg",2011,"koruza",41.7
@@ -90,60 +90,60 @@
 "89","sg",2010,"tritikala",3.2
 "90","sg",2020,"koruza",47.2
 "91","sg",2018,"tritikala",4.2
-"92","sg",2012,"psenica.in.pira",3.8
+"92","sg",2012,"psenica in pira",3.8
 "93","sg",2016,"hmelj",1.9
 "94","sg",2010,"buce",0.8
 "95","sg",2015,"koruza",7.3
 "96","sg",2020,"tritikala",4.9
-"97","sg",2014,"psenica.in.pira",3.8
+"97","sg",2014,"psenica in pira",3.8
 "98","sg",2013,"koruza",4
-"99","sg",2017,"rz.in.sorzica",3.4
+"99","sg",2017,"rz in sorzica",3.4
 "100","sg",2011,"tritikala",3.5
 "101","sg",2019,"jecmen",5
 "102","sg",2013,"hmelj",1.6
 "103","sg",2019,"oves",2.9
 "104","sg",2013,"jecmen",3.3
-"105","sg",2018,"oljna.ogrscica.in.repica",2.2
+"105","sg",2018,"oljna ogrscica in repica",2.2
 "106","sg",2012,"krompir",19
-"107","sg",2014,"rz.in.sorzica",2.9
+"107","sg",2014,"rz in sorzica",2.9
 "108","sg",2017,"koruza",7.3
 "109","sg",2011,"oves",2.4
-"110","sg",2016,"psenica.in.pira",4.2
+"110","sg",2016,"psenica in pira",4.2
 "111","sg",2010,"grozdje",6.5
 "112","sg",2015,"lucerna",6.9
-"113","sg",2015,"oljna.ogrscica.in.repica",2.1
+"113","sg",2015,"oljna ogrscica in repica",2.1
 "114","sg",2018,"hmelj",2.3
 "115","sg",2012,"buce",0.7
-"116","sg",2016,"oljna.ogrscica.in.repica",2.8
+"116","sg",2016,"oljna ogrscica in repica",2.8
 "117","sg",2010,"krompir",19
-"118","sg",2015,"rz.in.sorzica",3.4
+"118","sg",2015,"rz in sorzica",3.4
 "119","sg",2020,"jecmen",5.3
 "120","sg",2014,"hmelj",2.1
 "121","sg",2019,"krompir",24.2
-"122","sg",2011,"psenica.in.pira",3.8
+"122","sg",2011,"psenica in pira",3.8
 "123","sg",2016,"buce",0.4
 "124","sg",2019,"grozdje",6.8
-"125","sg",2013,"travniki.in.pasniki",3.9
+"125","sg",2013,"travniki in pašniki",3.9
 "126","sg",2018,"trave",7.6
 "127","sg",2018,"krompir",25.5
 "128","sg",2012,"koruza",7.5
 "129","sg",2017,"tritikala",4.3
 "130","sg",2020,"trave",8
-"131","sg",2019,"belo.zelje",25.8
+"131","sg",2019,"belo zelje",25.8
 "132","sg",2017,"trave",7.1
 "133","sg",2011,"trave",7.2
 "134","sg",2016,"jabolka",5
-"135","sg",2010,"belo.zelje",25.5
+"135","sg",2010,"belo zelje",25.5
 "136","sg",2015,"detelja",6.5
 "137","sg",2020,"trave",7.3
 "138","sg",2013,"tritikala",3.4
-"139","sg",2012,"travniki.in.pasniki",5.3
+"139","sg",2012,"travniki in pašniki",5.3
 "140","sg",2010,"trave",7.9
-"141","sg",2010,"rz.in.sorzica",2.9
+"141","sg",2010,"rz in sorzica",2.9
 "142","sg",2015,"jecmen",4
 "143","sg",2014,"krompir",20.5
-"144","sg",2019,"rz.in.sorzica",4
-"145","sg",2011,"belo.zelje",23.7
+"144","sg",2019,"rz in sorzica",4
+"145","sg",2011,"belo zelje",23.7
 "146","sg",2016,"detelja",6.8
 "147","sg",2013,"oves",2.3
 "148","sg",2013,"lucerna",6.6
@@ -151,7 +151,7 @@
 "150","sg",2012,"trave",6.8
 "151","sg",2017,"jabolka",5.3
 "152","sg",2014,"buce",0.4
-"153","sg",2011,"oljna.ogrscica.in.repica",0.2
+"153","sg",2011,"oljna ogrscica in repica",0.2
 "154","sg",2016,"koruza",45.6
 "155","sg",2016,"krompir",23.9
 "156","sg",2010,"koruza",7.5
@@ -159,24 +159,24 @@
 "158","sg",2020,"hmelj",2.4
 "159","sg",2018,"grozdje",8
 "160","sg",2010,"trave",7.3
-"161","sg",2020,"rz.in.sorzica",4.2
-"162","sg",2020,"belo.zelje",25.9
+"161","sg",2020,"rz in sorzica",4.2
+"162","sg",2020,"belo zelje",25.9
 "163","sg",2014,"lucerna",6.8
 "164","sg",2019,"trave",7.6
-"165","sg",2011,"travniki.in.pasniki",5.9
+"165","sg",2011,"travniki in pašniki",5.9
 "166","sg",2016,"trave",7.4
 "167","sg",2019,"koruza",8.7
 "168","sg",2018,"jabolka",37.7
-"169","sg",2018,"psenica.in.pira",4.3
-"170","sg",2012,"oljna.ogrscica.in.repica",3.1
+"169","sg",2018,"psenica in pira",4.3
+"170","sg",2012,"oljna ogrscica in repica",3.1
 "171","sg",2017,"koruza",43
 "172","sg",2017,"grozdje",5.7
-"173","sg",2014,"travniki.in.pasniki",5.2
+"173","sg",2014,"travniki in pašniki",5.2
 "174","sg",2019,"trave",7.8
-"175","sg",2017,"psenica.in.pira",4.4
+"175","sg",2017,"psenica in pira",4.4
 "176","sg",2020,"trave",7.7
 "177","sg",2010,"trave",8.9
-"178","sg",2015,"breskve.in.nektarine",17.7
+"178","sg",2015,"breskve in nektarine",17.7
 "179","sg",2020,"grozdje",6.8
 "180","sg",2018,"koruza",9.2
 "181","sg",2012,"oves",2.3
@@ -186,82 +186,82 @@
 "185","sg",2014,"tritikala",3.6
 "186","sg",2019,"hmelj",1.9
 "187","sg",2013,"buce",0.3
-"188","sg",2011,"rz.in.sorzica",3.1
+"188","sg",2011,"rz in sorzica",3.1
 "189","sg",2016,"jecmen",4
 "190","sg",2013,"jabolka",25.8
 "191","sg",2013,"trave",4.3
 "192","sg",2012,"detelja",7.3
-"193","sg",2012,"belo.zelje",30.2
+"193","sg",2012,"belo zelje",30.2
 "194","sg",2017,"detelja",6.8
 "195","sg",2011,"trave",7.5
-"196","sg",2013,"belo.zelje",20.5
+"196","sg",2013,"belo zelje",20.5
 "197","sg",2018,"detelja",7.4
 "198","sg",2011,"detelja",7.5
 "199","sg",2016,"trave",7.3
-"200","sg",2015,"travniki.in.pasniki",5.3
+"200","sg",2015,"travniki in pašniki",5.3
 "201","kp",2019,"trave",4.2
 "202","sg",2014,"trave",6.9
 "203","sg",2019,"jabolka",0.5
 "204","sg",2012,"jabolka",20
-"205","sg",2017,"travniki.in.pasniki",5.6
+"205","sg",2017,"travniki in pašniki",5.6
 "206","sg",2015,"trave",6
 "207","sg",2014,"grozdje",6.2
 "208","sg",2013,"trave",4.9
 "209","sg",2013,"trave",5.4
-"210","sg",2018,"breskve.in.nektarine",17
-"211","sg",2016,"belo.zelje",21.3
+"210","sg",2018,"breskve in nektarine",17
+"211","sg",2016,"belo zelje",21.3
 "212","kp",2017,"trave",4.1
 "213","sg",2012,"trave",7
-"214","sg",2018,"travniki.in.pasniki",6
+"214","sg",2018,"travniki in pašniki",6
 "215","sg",2011,"grozdje",7.1
 "216","sg",2017,"trave",6.9
 "217","kp",2018,"grozdje",7.2
-"218","kp",2012,"travniki.in.pasniki",1.8
+"218","kp",2012,"travniki in pašniki",1.8
 "219","sg",2011,"trave",8.7
-"220","sg",2016,"breskve.in.nektarine",16.2
+"220","sg",2016,"breskve in nektarine",16.2
 "221","sg",2010,"jabolka",15
 "222","kp",2014,"lucerna",6
-"223","ng",2016,"psenica.in.pira",4.8
-"224","kp",2013,"breskve.in.nektarine",7.5
+"223","ng",2016,"psenica in pira",4.8
+"224","kp",2013,"breskve in nektarine",7.5
 "225","sg",2012,"grozdje",5.4
 "226","sg",2017,"lucerna",6.9
 "227","sg",2010,"lucerna",8.2
 "228","sg",2020,"jabolka",26
-"229","sg",2014,"belo.zelje",20.4
+"229","sg",2014,"belo zelje",20.4
 "230","sg",2019,"detelja",7.6
 "231","kp",2012,"trave",2.1
-"232","sg",2016,"travniki.in.pasniki",5.8
+"232","sg",2016,"travniki in pašniki",5.8
 "233","sg",2010,"detelja",7.7
 "234","ng",2020,"oves",3.7
 "235","ng",2014,"jecmen",3.6
 "236","ng",2014,"tritikala",3.7
 "237","ng",2013,"buce",0.5
 "238","sg",2016,"lucerna",7.1
-"239","ng",2010,"oljna.ogrscica.in.repica",2.8
+"239","ng",2010,"oljna ogrscica in repica",2.8
 "240","ng",2015,"koruza",34.3
 "241","kp",2016,"detelja",4.6
 "242","kp",2010,"trave",5.2
 "243","kp",2015,"oljke",1.5
-"244","kp",2020,"belo.zelje",31.5
+"244","kp",2020,"belo zelje",31.5
 "245","ng",2011,"oves",2.9
 "246","kp",2012,"oljke",0.8
 "247","kp",2017,"jabolka",8.5
-"248","kp",2011,"belo.zelje",20.8
+"248","kp",2011,"belo zelje",20.8
 "249","ng",2011,"buce",0.7
 "250","sg",2015,"trave",6.4
 "251","kp",2017,"trave",3.9
-"252","kp",2013,"travniki.in.pasniki",2.8
+"252","kp",2013,"travniki in pašniki",2.8
 "253","kp",2018,"trave",4.6
 "254","kp",2010,"lucerna",6.3
 "255","ng",2012,"tritikala",3.3
 "256","kp",2011,"lucerna",6.2
 "257","kp",2016,"trave",3.9
-"258","kp",2010,"breskve.in.nektarine",12.9
-"259","ng",2019,"oljna.ogrscica.in.repica",3
-"260","ng",2018,"rz.in.sorzica",3.4
+"258","kp",2010,"breskve in nektarine",12.9
+"259","ng",2019,"oljna ogrscica in repica",3
+"260","ng",2018,"rz in sorzica",3.4
 "261","kp",2018,"jecmen",3.4
-"262","kp",2017,"belo.zelje",22.7
-"263","ng",2019,"rz.in.sorzica",3.8
+"262","kp",2017,"belo zelje",22.7
+"263","ng",2019,"rz in sorzica",3.8
 "264","ng",2013,"tritikala",2.9
 "265","ng",2012,"buce",0.5
 "266","ng",2017,"koruza",6.6
@@ -269,39 +269,39 @@
 "268","kp",2015,"trave",3.7
 "269","kp",2020,"jabolka",39.1
 "270","kp",2013,"jabolka",23.4
-"271","kp",2018,"travniki.in.pasniki",2.9
+"271","kp",2018,"travniki in pašniki",2.9
 "272","ng",2016,"koruza",6.3
 "273","kp",2011,"jabolka",34.1
 "274","kp",2011,"oljke",1.9
-"275","kp",2016,"belo.zelje",24
+"275","kp",2016,"belo zelje",24
 "276","kp",2014,"trave",5.1
-"277","kp",2019,"breskve.in.nektarine",14
+"277","kp",2019,"breskve in nektarine",14
 "278","ng",2012,"oljke",0.9
 "279","kp",2016,"trave",3.9
 "280","kp",2010,"oljke",2.1
-"281","kp",2015,"belo.zelje",22.2
+"281","kp",2015,"belo zelje",22.2
 "282","kp",2015,"grozdje",7
 "283","ng",2013,"krompir",18.2
-"284","kp",2013,"rz.in.sorzica",3.8
+"284","kp",2013,"rz in sorzica",3.8
 "285","ng",2018,"trave",7
 "286","kp",2016,"buce",0.5
-"287","kp",2014,"belo.zelje",21
+"287","kp",2014,"belo zelje",21
 "288","kp",2019,"detelja",5
 "289","kp",2013,"trave",3
 "290","kp",2013,"detelja",3.6
 "291","kp",2010,"detelja",5.5
-"292","kp",2011,"psenica.in.pira",3.9
+"292","kp",2011,"psenica in pira",3.9
 "293","kp",2013,"grozdje",6.6
 "294","kp",2018,"lucerna",4.7
 "295","kp",2012,"trave",2.4
 "296","kp",2012,"detelja",2.2
 "297","kp",2018,"krompir",23.4
-"298","kp",2016,"travniki.in.pasniki",3.1
+"298","kp",2016,"travniki in pašniki",3.1
 "299","kp",2020,"lucerna",4.9
 "300","kp",2019,"oljke",1.5
 "301","ng",2018,"grozdje",8.7
-"302","ng",2012,"travniki.in.pasniki",3.8
-"303","ng",2017,"belo.zelje",21.5
+"302","ng",2012,"travniki in pašniki",3.8
+"303","ng",2017,"belo zelje",21.5
 "304","ng",2011,"lucerna",7.7
 "305","ng",2016,"trave",7.1
 "306","kp",2020,"detelja",4.8
@@ -311,49 +311,49 @@
 "310","kp",2010,"koruza",6.5
 "311","kp",2010,"koruza",44
 "312","kp",2015,"oves",2.7
-"313","kp",2020,"psenica.in.pira",3.8
+"313","kp",2020,"psenica in pira",3.8
 "314","ng",2014,"jabolka",27.7
 "315","kp",2012,"koruza",2.8
 "316","kp",2017,"tritikala",3.2
-"317","kp",2015,"oljna.ogrscica.in.repica",3.2
+"317","kp",2015,"oljna ogrscica in repica",3.2
 "318","kp",2020,"koruza",52.2
-"319","kp",2014,"rz.in.sorzica",4
+"319","kp",2014,"rz in sorzica",4
 "320","kp",2019,"jecmen",3.5
-"321","kp",2017,"breskve.in.nektarine",15.1
-"322","kp",2012,"rz.in.sorzica",3.5
+"321","kp",2017,"breskve in nektarine",15.1
+"322","kp",2012,"rz in sorzica",3.5
 "323","kp",2019,"oves",2.8
 "324","kp",2014,"trave",4.7
-"325","ng",2013,"breskve.in.nektarine",16.2
+"325","ng",2013,"breskve in nektarine",16.2
 "326","ng",2010,"jabolka",26.9
-"327","ng",2015,"travniki.in.pasniki",5.1
-"328","kp",2015,"psenica.in.pira",3.8
+"327","ng",2015,"travniki in pašniki",5.1
+"328","kp",2015,"psenica in pira",3.8
 "329","kp",2020,"buce",0.1
 "330","kp",2014,"koruza",47
 "331","ng",2017,"lucerna",7.9
-"332","ng",2019,"travniki.in.pasniki",4.5
+"332","ng",2019,"travniki in pašniki",4.5
 "333","kp",2015,"krompir",21.1
-"334","kp",2020,"rz.in.sorzica",4
+"334","kp",2020,"rz in sorzica",4
 "335","kp",2015,"tritikala",4
 "336","ng",2015,"trave",9
-"337","ng",2020,"breskve.in.nektarine",7.2
+"337","ng",2020,"breskve in nektarine",7.2
 "338","kp",2010,"buce",0.7
 "339","kp",2017,"jecmen",2.9
 "340","kp",2010,"jecmen",2.9
-"341","kp",2018,"oljna.ogrscica.in.repica",2.4
+"341","kp",2018,"oljna ogrscica in repica",2.4
 "342","kp",2012,"krompir",15.1
-"343","kp",2017,"rz.in.sorzica",4
-"344","kp",2013,"oljna.ogrscica.in.repica",3.9
+"343","kp",2017,"rz in sorzica",4
+"344","kp",2013,"oljna ogrscica in repica",3.9
 "345","kp",2020,"trave",4.6
 "346","kp",2014,"trave",4.3
 "347","ng",2011,"trave",9.9
-"348","ng",2016,"breskve.in.nektarine",18.6
+"348","ng",2016,"breskve in nektarine",18.6
 "349","sg",2017,"oves",2.8
 "350","sg",2011,"jecmen",3.3
 "351","ng",2017,"trave",6.4
-"352","kp",2015,"travniki.in.pasniki",3.1
+"352","kp",2015,"travniki in pašniki",3.1
 "353","ng",2012,"grozdje",4.3
-"354","sg",2013,"psenica.in.pira",3.6
-"355","ng",2011,"rz.in.sorzica",2.5
+"354","sg",2013,"psenica in pira",3.6
+"355","ng",2011,"rz in sorzica",2.5
 "356","ng",2015,"krompir",26.8
 "357","kp",2014,"tritikala",4.1
 "358","ng",2018,"oljke",3.9
@@ -361,13 +361,13 @@
 "360","ng",2017,"koruza",25.6
 "361","kp",2019,"grozdje",5.9
 "362","kp",2013,"jecmen",3.2
-"363","sg",2012,"rz.in.sorzica",3
+"363","sg",2012,"rz in sorzica",3
 "364","sg",2017,"jecmen",4.1
 "365","sg",2011,"hmelj",2.1
 "366","kp",2011,"tritikala",4.7
 "367","kp",2020,"trave",4.2
-"368","kp",2014,"breskve.in.nektarine",8.7
-"369","kp",2017,"oljna.ogrscica.in.repica",2.3
+"368","kp",2014,"breskve in nektarine",8.7
+"369","kp",2017,"oljna ogrscica in repica",2.3
 "370","sg",2018,"buce",0.5
 "371","sg",2012,"koruza",40.6
 "372","ng",2019,"oljke",0.8
@@ -380,14 +380,14 @@
 "379","ng",2016,"jecmen",4.2
 "380","kp",2016,"oljke",1.3
 "381","kp",2010,"grozdje",5.8
-"382","ng",2020,"rz.in.sorzica",4
-"383","ng",2018,"psenica.in.pira",5.2
+"382","ng",2020,"rz in sorzica",4
+"383","ng",2018,"psenica in pira",5.2
 "384","sg",2019,"tritikala",5
-"385","sg",2013,"oljna.ogrscica.in.repica",0.9
+"385","sg",2013,"oljna ogrscica in repica",0.9
 "386","sg",2018,"koruza",45.4
 "387","kp",2017,"lucerna",4.5
 "388","kp",2011,"trave",5.5
-"389","kp",2016,"breskve.in.nektarine",14.3
+"389","kp",2016,"breskve in nektarine",14.3
 "390","kp",2010,"jabolka",29.7
 "391","sg",2014,"koruza",7.6
 "392","kp",2017,"buce",0.5
@@ -395,15 +395,15 @@
 "394","ng",2020,"detelja",7.2
 "395","ng",2014,"trave",8.6
 "396","kp",2020,"grozdje",5.9
-"397","kp",2014,"travniki.in.pasniki",3.3
+"397","kp",2014,"travniki in pašniki",3.3
 "398","sg",2011,"jabolka",23
-"399","kp",2012,"psenica.in.pira",3.8
-"400","ng",2012,"oljna.ogrscica.in.repica",3.1
+"399","kp",2012,"psenica in pira",3.8
+"400","ng",2012,"oljna ogrscica in repica",3.1
 "401","kp",2014,"jabolka",30.6
 "402","ng",2017,"trave",4.5
 "403","kp",2011,"trave",5.4
 "404","sg",2012,"trave",8.2
-"405","sg",2017,"breskve.in.nektarine",9.2
+"405","sg",2017,"breskve in nektarine",9.2
 "406","kp",2018,"tritikala",3.8
 "407","ng",2013,"jabolka",19.4
 "408","kp",2017,"oljke",1.3
@@ -412,50 +412,50 @@
 "411","kp",2012,"grozdje",3.8
 "412","kp",2019,"krompir",19.9
 "413","kp",2013,"koruza",3.9
-"414","ng",2020,"oljna.ogrscica.in.repica",2.6
+"414","ng",2020,"oljna ogrscica in repica",2.6
 "415","kp",2015,"lucerna",5.3
 "416","sg",2020,"detelja",7.5
 "417","sg",2014,"trave",6.1
 "418","kp",2010,"trave",5.6
-"419","kp",2015,"breskve.in.nektarine",14.3
+"419","kp",2015,"breskve in nektarine",14.3
 "420","ng",2015,"jecmen",4.3
 "421","ng",2014,"trave",10.4
-"422","ng",2019,"breskve.in.nektarine",17.1
+"422","ng",2019,"breskve in nektarine",17.1
 "423","ng",2018,"lucerna",11.1
-"424","ng",2018,"travniki.in.pasniki",5.1
-"425","sg",2019,"psenica.in.pira",5.3
-"426","kp",2019,"travniki.in.pasniki",2.8
+"424","ng",2018,"travniki in pašniki",5.1
+"425","sg",2019,"psenica in pira",5.3
+"426","kp",2019,"travniki in pašniki",2.8
 "427","sg",2018,"lucerna",7.6
 "428","ng",2020,"lucerna",9.2
 "429","ng",2012,"jabolka",20.7
 "430","sg",2015,"hmelj",2
 "431","sg",2020,"krompir",27.9
-"432","kp",2012,"oljna.ogrscica.in.repica",3.7
+"432","kp",2012,"oljna ogrscica in repica",3.7
 "433","kp",2017,"koruza",35
 "434","kp",2016,"lucerna",5.2
-"435","ng",2018,"breskve.in.nektarine",18.6
-"436","kp",2014,"psenica.in.pira",3.9
+"435","ng",2018,"breskve in nektarine",18.6
+"436","kp",2014,"psenica in pira",3.9
 "437","kp",2019,"buce",0.4
-"438","kp",2018,"psenica.in.pira",3.7
+"438","kp",2018,"psenica in pira",3.7
 "439","ng",2011,"detelja",9.8
 "440","ng",2016,"trave",5.7
 "441","ng",2010,"oljke",2.4
 "442","kp",2011,"krompir",22.7
 "443","kp",2012,"koruza",38
 "444","kp",2017,"oves",2.3
-"445","ng",2017,"travniki.in.pasniki",4.4
-"446","sg",2020,"travniki.in.pasniki",6.6
-"447","kp",2020,"breskve.in.nektarine",9.5
+"445","ng",2017,"travniki in pašniki",4.4
+"446","sg",2020,"travniki in pašniki",6.6
+"447","kp",2020,"breskve in nektarine",9.5
 "448","kp",2018,"jabolka",41.2
 "449","sg",2013,"grozdje",6.4
 "450","ng",2015,"grozdje",7.6
-"451","kp",2018,"breskve.in.nektarine",15
+"451","kp",2018,"breskve in nektarine",15
 "452","kp",2012,"jabolka",5.6
 "453","ng",2010,"trave",9.1
 "454","ng",2014,"krompir",27.2
 "455","ng",2012,"oves",2.7
-"456","ng",2017,"psenica.in.pira",4.2
-"457","kp",2011,"rz.in.sorzica",4.8
+"456","ng",2017,"psenica in pira",4.2
+"457","kp",2011,"rz in sorzica",4.8
 "458","ng",2013,"trave",7.5
 "459","kp",2020,"tritikala",4.1
 "460","ng",2016,"trave",7.5
@@ -463,55 +463,55 @@
 "462","sg",2015,"jabolka",15
 "463","ng",2013,"lucerna",8.2
 "464","ng",2018,"trave",8
-"465","ng",2012,"breskve.in.nektarine",14.3
+"465","ng",2012,"breskve in nektarine",14.3
 "466","kp",2016,"oves",2.7
 "467","kp",2018,"buce",0.4
 "468","ng",2014,"buce",0.6
-"469","kp",2016,"rz.in.sorzica",3.8
-"470","kp",2017,"travniki.in.pasniki",2.3
+"469","kp",2016,"rz in sorzica",3.8
+"470","kp",2017,"travniki in pašniki",2.3
 "471","kp",2019,"trave",4.8
 "472","sg",2014,"detelja",6.5
 "473","ng",2014,"grozdje",6.7
-"474","ng",2010,"breskve.in.nektarine",17.3
+"474","ng",2010,"breskve in nektarine",17.3
 "475","kp",2016,"jecmen",3.2
 "476","ng",2020,"jabolka",11.9
 "477","ng",2020,"trave",8.1
 "478","ng",2014,"oljke",1.1
 "479","kp",2013,"koruza",32
-"480","kp",2016,"oljna.ogrscica.in.repica",1.8
+"480","kp",2016,"oljna ogrscica in repica",1.8
 "481","kp",2010,"krompir",23.1
-"482","ng",2011,"oljna.ogrscica.in.repica",2.7
+"482","ng",2011,"oljna ogrscica in repica",2.7
 "483","ng",2016,"koruza",27.4
-"484","ng",2011,"travniki.in.pasniki",5.2
+"484","ng",2011,"travniki in pašniki",5.2
 "485","kp",2019,"jabolka",23.8
-"486","kp",2013,"belo.zelje",12.3
+"486","kp",2013,"belo zelje",12.3
 "487","kp",2011,"jecmen",3.5
 "488","kp",2012,"trave",2
 "489","kp",2014,"koruza",6.1
 "490","kp",2019,"tritikala",4.1
-"491","kp",2012,"belo.zelje",11.6
+"491","kp",2012,"belo zelje",11.6
 "492","ng",2019,"trave",5.8
 "493","ng",2013,"oljke",1.3
-"494","ng",2018,"belo.zelje",20.7
+"494","ng",2018,"belo zelje",20.7
 "495","kp",2010,"tritikala",3.3
 "496","kp",2011,"detelja",5.2
 "497","kp",2013,"trave",3
-"498","ng",2020,"belo.zelje",20
-"499","kp",2015,"rz.in.sorzica",3.8
+"498","ng",2020,"belo zelje",20
+"499","kp",2015,"rz in sorzica",3.8
 "500","kp",2013,"trave",3.5
 "501","ng",2015,"detelja",8.4
-"502","ng",2014,"belo.zelje",24
+"502","ng",2014,"belo zelje",24
 "503","ng",2019,"detelja",6.6
 "504","ng",2010,"trave",9.4
 "505","ng",2015,"trave",7.6
-"506","ng",2016,"travniki.in.pasniki",5.2
+"506","ng",2016,"travniki in pašniki",5.2
 "507","ng",2016,"jabolka",29.7
 "508","kp",2015,"koruza",5.7
-"509","kp",2010,"psenica.in.pira",3.2
+"509","kp",2010,"psenica in pira",3.2
 "510","kp",2015,"buce",0.2
 "511","kp",2020,"koruza",6.5
 "512","ng",2013,"oves",2.1
-"513","kp",2019,"psenica.in.pira",3.8
+"513","kp",2019,"psenica in pira",3.8
 "514","ng",2011,"trave",8.3
 "515","kp",2014,"grozdje",5.6
 "516","ng",2019,"lucerna",6.9
@@ -522,24 +522,24 @@
 "521","ng",2020,"oljke",2.9
 "522","kp",2017,"koruza",4.2
 "523","ng",2010,"detelja",9.6
-"524","ng",2015,"belo.zelje",24.7
+"524","ng",2015,"belo zelje",24.7
 "525","ng",2011,"oljke",1.6
-"526","ng",2016,"belo.zelje",24.5
-"527","sg",2015,"belo.zelje",20.5
-"528","kp",2019,"oljna.ogrscica.in.repica",2.4
+"526","ng",2016,"belo zelje",24.5
+"527","sg",2015,"belo zelje",20.5
+"528","kp",2019,"oljna ogrscica in repica",2.4
 "529","ng",2016,"grozdje",5.9
-"530","ng",2010,"travniki.in.pasniki",5.4
+"530","ng",2010,"travniki in pašniki",5.4
 "531","ng",2014,"lucerna",11.2
 "532","kp",2018,"detelja",5
 "533","kp",2015,"trave",4
 "534","ng",2015,"oljke",1.1
-"535","ng",2020,"travniki.in.pasniki",5.2
+"535","ng",2020,"travniki in pašniki",5.2
 "536","kp",2011,"oves",2.6
 "537","ng",2015,"lucerna",10.2
 "538","kp",2011,"koruza",6.2
 "539","kp",2020,"oves",2.6
-"540","ng",2019,"belo.zelje",20.9
-"541","ng",2017,"breskve.in.nektarine",9.8
+"540","ng",2019,"belo zelje",20.9
+"541","ng",2017,"breskve in nektarine",9.8
 "542","kp",2014,"oves",2.6
 "543","ng",2017,"trave",6
 "544","ng",2013,"trave",6.5
@@ -558,56 +558,56 @@
 "557","ng",2020,"trave",7.2
 "558","kp",2020,"krompir",26
 "559","ng",2011,"koruza",40.2
-"560","kp",2016,"psenica.in.pira",3.6
+"560","kp",2016,"psenica in pira",3.6
 "561","ng",2010,"lucerna",9.2
 "562","ng",2017,"buce",0.6
-"563","ng",2011,"breskve.in.nektarine",17.6
-"564","kp",2013,"psenica.in.pira",3.4
-"565","ng",2014,"rz.in.sorzica",3.9
+"563","ng",2011,"breskve in nektarine",17.6
+"564","kp",2013,"psenica in pira",3.4
+"565","ng",2014,"rz in sorzica",3.9
 "566","kp",2014,"jecmen",3.6
 "567","ng",2016,"detelja",7.6
 "568","ng",2014,"detelja",9.3
 "569","ng",2018,"tritikala",4.4
-"570","ng",2014,"travniki.in.pasniki",5.2
+"570","ng",2014,"travniki in pašniki",5.2
 "571","ng",2017,"jabolka",6.8
-"572","ng",2012,"psenica.in.pira",3.5
+"572","ng",2012,"psenica in pira",3.5
 "573","kp",2013,"buce",0.3
 "574","kp",2012,"oves",2.1
-"575","kr",2012,"rz.in.sorzica",2.9
+"575","kr",2012,"rz in sorzica",2.9
 "576","kr",2018,"koruza",50.9
-"577","kr",2013,"oljna.ogrscica.in.repica",3.6
-"578","kr",2019,"psenica.in.pira",4.3
+"577","kr",2013,"oljna ogrscica in repica",3.6
+"578","kr",2019,"psenica in pira",4.3
 "579","kr",2014,"oves",3.5
 "580","kr",2020,"koruza",9.7
 "581","ng",2020,"grozdje",6
 "582","ng",2020,"koruza",33.4
 "583","ng",2016,"buce",0.8
-"584","ng",2019,"psenica.in.pira",4
+"584","ng",2019,"psenica in pira",4
 "585","kr",2015,"buce",0.7
-"586","kr",2010,"psenica.in.pira",5
+"586","kr",2010,"psenica in pira",5
 "587","ng",2019,"buce",0.6
 "588","kp",2015,"koruza",45
 "589","kr",2016,"tritikala",5.1
 "590","kr",2011,"koruza",9.3
 "591","kr",2017,"krompir",29.6
 "592","kr",2018,"jecmen",4.6
-"593","kr",2013,"rz.in.sorzica",3.9
+"593","kr",2013,"rz in sorzica",3.9
 "594","kr",2019,"koruza",52.2
-"595","kr",2014,"oljna.ogrscica.in.repica",3.9
-"596","kr",2020,"psenica.in.pira",5.2
+"595","kr",2014,"oljna ogrscica in repica",3.9
+"596","kr",2020,"psenica in pira",5.2
 "597","kr",2015,"oves",3.6
 "598","kr",2010,"koruza",48.5
 "599","kr",2016,"buce",0.8
-"600","kr",2011,"psenica.in.pira",5
+"600","kr",2011,"psenica in pira",5
 "601","kr",2017,"tritikala",5.4
 "602","kr",2012,"koruza",7.7
 "603","kr",2018,"krompir",27.3
 "604","kr",2019,"jecmen",4.8
-"605","kr",2014,"rz.in.sorzica",3.7
+"605","kr",2014,"rz in sorzica",3.7
 "606","kr",2020,"koruza",55.7
-"607","kr",2015,"oljna.ogrscica.in.repica",3
-"608","ng",2015,"oljna.ogrscica.in.repica",2.1
-"609","ng",2011,"psenica.in.pira",4.3
+"607","kr",2015,"oljna ogrscica in repica",3
+"608","ng",2015,"oljna ogrscica in repica",2.1
+"609","ng",2011,"psenica in pira",4.3
 "610","ng",2014,"oves",2.5
 "611","ng",2015,"koruza",7.7
 "612","kp",2018,"koruza",6.4
@@ -617,19 +617,19 @@
 "616","ng",2020,"koruza",9.3
 "617","ng",2012,"trave",3.7
 "618","ng",2010,"oves",2.7
-"619","kp",2010,"rz.in.sorzica",3.7
+"619","kp",2010,"rz in sorzica",3.7
 "620","ng",2015,"jabolka",30.1
-"621","ng",2010,"belo.zelje",17.2
-"622","ng",2015,"breskve.in.nektarine",19.6
+"621","ng",2010,"belo zelje",17.2
+"622","ng",2015,"breskve in nektarine",19.6
 "623","kp",2016,"tritikala",4
 "624","ng",2018,"trave",9.5
 "625","ng",2016,"krompir",25.2
 "626","kp",2016,"koruza",40
-"627","ng",2014,"psenica.in.pira",4.4
-"628","ng",2012,"rz.in.sorzica",2.3
+"627","ng",2014,"psenica in pira",4.4
+"628","ng",2012,"rz in sorzica",2.3
 "629","ng",2015,"tritikala",4.3
 "630","ng",2010,"trave",9.2
-"631","ng",2013,"belo.zelje",9.4
+"631","ng",2013,"belo zelje",9.4
 "632","ng",2018,"detelja",8.9
 "633","ng",2019,"jecmen",4.4
 "634","ng",2016,"tritikala",3.8
@@ -637,300 +637,300 @@
 "636","ng",2016,"oves",3.6
 "637","ng",2019,"jabolka",20.3
 "638","ng",2010,"krompir",26.6
-"639","ng",2015,"rz.in.sorzica",3.7
+"639","ng",2015,"rz in sorzica",3.7
 "640","ng",2020,"jecmen",4.5
-"641","ng",2014,"breskve.in.nektarine",12.4
+"641","ng",2014,"breskve in nektarine",12.4
 "642","kp",2014,"krompir",22.6
 "643","ng",2013,"koruza",2.8
 "644","kr",2010,"jecmen",4.7
 "645","kr",2016,"oves",3.6
 "646","kr",2011,"koruza",51
 "647","kr",2017,"buce",0.6
-"648","kr",2012,"psenica.in.pira",5.5
+"648","kr",2012,"psenica in pira",5.5
 "649","kr",2018,"tritikala",5.3
 "650","kr",2013,"koruza",5.4
 "651","kr",2019,"krompir",26.4
 "652","kr",2020,"jecmen",4.7
-"653","kr",2015,"rz.in.sorzica",3.9
+"653","kr",2015,"rz in sorzica",3.9
 "654","kr",2010,"krompir",27.4
-"655","kr",2016,"oljna.ogrscica.in.repica",2
+"655","kr",2016,"oljna ogrscica in repica",2
 "656","kr",2011,"jecmen",4.7
 "657","kr",2017,"oves",3
 "658","kr",2012,"koruza",47.2
 "659","kr",2018,"buce",0.8
-"660","kr",2013,"psenica.in.pira",5.2
+"660","kr",2013,"psenica in pira",5.2
 "661","kr",2019,"tritikala",5
 "662","kr",2014,"koruza",8.9
 "663","kr",2020,"krompir",33.8
 "664","kr",2010,"tritikala",4
-"665","kr",2016,"rz.in.sorzica",3.9
+"665","kr",2016,"rz in sorzica",3.9
 "666","kr",2011,"krompir",29.5
-"667","kr",2017,"oljna.ogrscica.in.repica",2.6
+"667","kr",2017,"oljna ogrscica in repica",2.6
 "668","kr",2012,"jecmen",4.9
 "669","kr",2018,"oves",3
 "670","kr",2013,"koruza",35.6
 "671","kr",2019,"buce",0.6
-"672","kr",2014,"psenica.in.pira",5.6
+"672","kr",2014,"psenica in pira",5.6
 "673","kr",2020,"tritikala",5.6
 "674","kr",2015,"koruza",9.5
 "675","kr",2010,"buce",0.7
 "676","kr",2011,"tritikala",4
-"677","kr",2017,"rz.in.sorzica",4.4
+"677","kr",2017,"rz in sorzica",4.4
 "678","kr",2012,"krompir",25.9
-"679","kr",2018,"oljna.ogrscica.in.repica",3
+"679","kr",2018,"oljna ogrscica in repica",3
 "680","kr",2013,"jecmen",4.7
 "681","kr",2019,"oves",3.2
 "682","kr",2014,"koruza",52.7
 "683","kr",2020,"buce",0.7
-"684","kr",2015,"psenica.in.pira",5.4
+"684","kr",2015,"psenica in pira",5.4
 "685","kr",2010,"oves",4.1
 "686","kr",2016,"koruza",9.4
 "687","kr",2011,"buce",0.7
 "688","kr",2012,"tritikala",4.5
-"689","kr",2018,"rz.in.sorzica",3.1
+"689","kr",2018,"rz in sorzica",3.1
 "690","kr",2013,"krompir",18.4
-"691","kr",2019,"oljna.ogrscica.in.repica",3
+"691","kr",2019,"oljna ogrscica in repica",3
 "692","kr",2014,"jecmen",5.9
 "693","kr",2020,"oves",3
 "694","kr",2015,"koruza",51.8
-"695","kr",2010,"oljna.ogrscica.in.repica",4.2
-"696","kr",2016,"psenica.in.pira",5
+"695","kr",2010,"oljna ogrscica in repica",4.2
+"696","kr",2016,"psenica in pira",5
 "697","kr",2011,"oves",3.9
 "698","kr",2017,"koruza",9
 "699","kr",2012,"buce",0.5
 "700","kr",2013,"tritikala",4.7
-"701","kr",2019,"rz.in.sorzica",3.2
+"701","kr",2019,"rz in sorzica",3.2
 "702","kr",2014,"krompir",29.5
-"703","kr",2020,"oljna.ogrscica.in.repica",3
+"703","kr",2020,"oljna ogrscica in repica",3
 "704","kr",2015,"jecmen",5.6
-"705","kr",2010,"rz.in.sorzica",3.5
+"705","kr",2010,"rz in sorzica",3.5
 "706","kr",2016,"koruza",53.6
-"707","kr",2011,"oljna.ogrscica.in.repica",2.5
-"708","kr",2017,"psenica.in.pira",4.7
+"707","kr",2011,"oljna ogrscica in repica",2.5
+"708","kr",2017,"psenica in pira",4.7
 "709","kr",2012,"oves",3.9
 "710","kr",2018,"koruza",9.6
 "711","kr",2013,"buce",0.5
 "712","kr",2014,"tritikala",5.1
-"713","kr",2020,"rz.in.sorzica",3.3
+"713","kr",2020,"rz in sorzica",3.3
 "714","kr",2015,"krompir",29.5
 "715","kr",2016,"jecmen",5.3
-"716","kr",2011,"rz.in.sorzica",3.8
+"716","kr",2011,"rz in sorzica",3.8
 "717","kr",2017,"koruza",53.2
-"718","kr",2012,"oljna.ogrscica.in.repica",3.3
-"719","kr",2018,"psenica.in.pira",4.4
+"718","kr",2012,"oljna ogrscica in repica",3.3
+"719","kr",2018,"psenica in pira",4.4
 "720","kr",2013,"oves",2.9
 "721","kr",2019,"koruza",8.7
 "722","kr",2014,"buce",0.6
 "723","kr",2015,"tritikala",5.7
 "724","kr",2010,"koruza",8.7
 "725","kr",2016,"krompir",30.4
-"726","kr",2011,"breskve.in.nektarine",16.5
+"726","kr",2011,"breskve in nektarine",16.5
 "727","kr",2017,"trave",7.8
 "728","kr",2012,"lucerna",7.3
-"729","kr",2018,"belo.zelje",49.5
+"729","kr",2018,"belo zelje",49.5
 "730","kr",2019,"trave",8.4
 "731","kr",2014,"detelja",8.2
-"732","kr",2020,"travniki.in.pasniki",6.1
+"732","kr",2020,"travniki in pašniki",6.1
 "733","kr",2015,"jabolka",29.5
 "734","kr",2010,"trave",8.5
 "735","kr",2016,"trave",8.2
-"736","kr",2011,"travniki.in.pasniki",5.6
+"736","kr",2011,"travniki in pašniki",5.6
 "737","kr",2017,"grozdje",5.5
-"738","kr",2012,"breskve.in.nektarine",10
+"738","kr",2012,"breskve in nektarine",10
 "739","kr",2018,"trave",7.4
 "740","kr",2013,"lucerna",5.9
-"741","kr",2019,"belo.zelje",46
+"741","kr",2019,"belo zelje",46
 "742","kr",2020,"trave",8.9
 "743","kr",2015,"detelja",7.9
-"744","kr",2010,"belo.zelje",51.2
+"744","kr",2010,"belo zelje",51.2
 "745","kr",2016,"jabolka",25.8
 "746","kr",2011,"trave",8.3
 "747","kr",2017,"trave",8.3
-"748","kr",2012,"travniki.in.pasniki",5
+"748","kr",2012,"travniki in pašniki",5
 "749","kr",2018,"grozdje",8.2
-"750","kr",2013,"breskve.in.nektarine",14.5
+"750","kr",2013,"breskve in nektarine",14.5
 "751","kr",2019,"trave",7.4
 "752","kr",2014,"lucerna",7.9
-"753","kr",2020,"belo.zelje",51
+"753","kr",2020,"belo zelje",51
 "754","kr",2010,"trave",7.7
 "755","kr",2016,"detelja",8.5
-"756","kr",2011,"belo.zelje",35.9
+"756","kr",2011,"belo zelje",35.9
 "757","kr",2017,"jabolka",9.5
 "758","kr",2012,"trave",7.4
 "759","kr",2018,"trave",8.2
-"760","kr",2013,"travniki.in.pasniki",4.4
+"760","kr",2013,"travniki in pašniki",4.4
 "761","kr",2019,"grozdje",6.7
-"762","kr",2014,"breskve.in.nektarine",11.9
+"762","kr",2014,"breskve in nektarine",11.9
 "763","kr",2020,"trave",7.5
 "764","kr",2015,"lucerna",6.9
 "765","kr",2010,"grozdje",7.4
 "766","kr",2011,"trave",7.4
 "767","kr",2017,"detelja",8.2
-"768","kr",2012,"belo.zelje",44.4
+"768","kr",2012,"belo zelje",44.4
 "769","kr",2018,"jabolka",32.2
 "770","kr",2013,"trave",5.4
 "771","kr",2019,"trave",8.3
-"772","kr",2014,"travniki.in.pasniki",5.6
+"772","kr",2014,"travniki in pašniki",5.6
 "773","kr",2020,"grozdje",6.7
 "774","kr",2010,"trave",10.3
 "775","kr",2016,"lucerna",8.7
 "776","kr",2011,"grozdje",7.9
 "777","kr",2012,"trave",6.7
 "778","kr",2018,"detelja",8
-"779","kr",2013,"belo.zelje",29
+"779","kr",2013,"belo zelje",29
 "780","kr",2019,"jabolka",10.6
 "781","kr",2014,"trave",8.4
 "782","kr",2020,"trave",8.5
-"783","kr",2015,"travniki.in.pasniki",5.9
+"783","kr",2015,"travniki in pašniki",5.9
 "784","kr",2010,"jabolka",25.7
 "785","kr",2011,"trave",9.1
 "786","kr",2017,"lucerna",8.5
 "787","kr",2012,"grozdje",5.9
 "788","kr",2013,"trave",5.2
 "789","kr",2019,"detelja",7.9
-"790","kr",2014,"belo.zelje",48.3
+"790","kr",2014,"belo zelje",48.3
 "791","kr",2020,"jabolka",29.2
 "792","kr",2015,"trave",7.9
 "793","kr",2010,"detelja",7.5
-"794","kr",2016,"travniki.in.pasniki",6
+"794","kr",2016,"travniki in pašniki",6
 "795","kr",2011,"jabolka",23.2
 "796","kr",2012,"trave",7
 "797","kr",2018,"lucerna",8.3
 "798","kr",2013,"grozdje",6.3
 "799","kr",2014,"trave",7.8
 "800","kr",2020,"detelja",8.6
-"801","kr",2015,"belo.zelje",49.4
+"801","kr",2015,"belo zelje",49.4
 "802","kr",2016,"trave",8.3
 "803","kr",2011,"detelja",7.3
-"804","kr",2017,"travniki.in.pasniki",5.8
+"804","kr",2017,"travniki in pašniki",5.8
 "805","kr",2012,"jabolka",17.2
 "806","kr",2013,"trave",6
 "807","kr",2019,"lucerna",8.2
 "808","kr",2014,"grozdje",6.1
 "809","kr",2015,"trave",7.8
 "810","kr",2010,"lucerna",7.7
-"811","kr",2016,"belo.zelje",52.5
+"811","kr",2016,"belo zelje",52.5
 "812","kr",2017,"trave",7.9
 "813","kr",2012,"detelja",7.8
-"814","kr",2018,"travniki.in.pasniki",5.8
+"814","kr",2018,"travniki in pašniki",5.8
 "815","kr",2013,"jabolka",21.7
 "816","kr",2014,"trave",8.1
 "817","kr",2020,"lucerna",8.8
 "818","kr",2015,"grozdje",7.4
-"819","kr",2010,"breskve.in.nektarine",16.3
+"819","kr",2010,"breskve in nektarine",16.3
 "820","kr",2016,"trave",7.8
 "821","kr",2011,"lucerna",7.7
-"822","kr",2017,"belo.zelje",52
+"822","kr",2017,"belo zelje",52
 "823","kr",2018,"trave",8.7
 "824","kr",2013,"detelja",5.8
-"825","kr",2019,"travniki.in.pasniki",5.8
+"825","kr",2019,"travniki in pašniki",5.8
 "826","kr",2014,"jabolka",25.8
 "827","kr",2015,"trave",7.9
-"828","kr",2010,"travniki.in.pasniki",5.9
+"828","kr",2010,"travniki in pašniki",5.9
 "829","kr",2016,"grozdje",6.1
-"830","nm",2012,"rz.in.sorzica",3.9
+"830","nm",2012,"rz in sorzica",3.9
 "831","nm",2018,"koruza",48.3
-"832","nm",2013,"oljna.ogrscica.in.repica",2.3
-"833","nm",2019,"psenica.in.pira",4.5
+"832","nm",2013,"oljna ogrscica in repica",2.3
+"833","nm",2019,"psenica in pira",4.5
 "834","nm",2014,"oves",2.8
 "835","nm",2020,"koruza",10.7
 "836","nm",2015,"buce",0.5
-"837","nm",2010,"psenica.in.pira",3.7
+"837","nm",2010,"psenica in pira",3.7
 "838","nm",2016,"tritikala",4.3
 "839","nm",2011,"koruza",8.1
 "840","nm",2017,"krompir",19.7
 "841","nm",2018,"jecmen",3.5
-"842","nm",2013,"rz.in.sorzica",1.9
+"842","nm",2013,"rz in sorzica",1.9
 "843","nm",2019,"koruza",42.3
-"844","nm",2014,"oljna.ogrscica.in.repica",3.4
-"845","nm",2020,"psenica.in.pira",4.5
+"844","nm",2014,"oljna ogrscica in repica",3.4
+"845","nm",2020,"psenica in pira",4.5
 "846","nm",2015,"oves",2.8
 "847","nm",2010,"koruza",40.5
 "848","nm",2016,"buce",0.6
-"849","nm",2011,"psenica.in.pira",4.2
+"849","nm",2011,"psenica in pira",4.2
 "850","nm",2017,"tritikala",3.9
 "851","nm",2012,"koruza",6.3
 "852","nm",2018,"krompir",23.2
 "853","nm",2019,"jecmen",4
-"854","nm",2014,"rz.in.sorzica",2.8
+"854","nm",2014,"rz in sorzica",2.8
 "855","nm",2020,"koruza",52.2
-"856","nm",2015,"oljna.ogrscica.in.repica",3
+"856","nm",2015,"oljna ogrscica in repica",3
 "857","nm",2010,"jecmen",3.5
 "858","nm",2016,"oves",2.6
 "859","nm",2011,"koruza",42.6
 "860","nm",2017,"buce",0.6
-"861","nm",2012,"psenica.in.pira",4.2
+"861","nm",2012,"psenica in pira",4.2
 "862","nm",2018,"tritikala",3.9
 "863","nm",2013,"koruza",4.9
 "864","nm",2019,"krompir",19.6
 "865","nm",2020,"jecmen",4.5
-"866","nm",2015,"rz.in.sorzica",4.1
+"866","nm",2015,"rz in sorzica",4.1
 "867","nm",2010,"krompir",21
-"868","nm",2016,"oljna.ogrscica.in.repica",2.5
+"868","nm",2016,"oljna ogrscica in repica",2.5
 "869","nm",2011,"jecmen",3.8
 "870","nm",2017,"oves",2.4
 "871","nm",2012,"koruza",35.1
 "872","nm",2018,"buce",1
-"873","nm",2013,"psenica.in.pira",2.9
+"873","nm",2013,"psenica in pira",2.9
 "874","nm",2019,"tritikala",4.1
 "875","nm",2014,"koruza",9.1
 "876","nm",2020,"krompir",25.1
 "877","nm",2010,"tritikala",3.4
-"878","nm",2016,"rz.in.sorzica",3.6
+"878","nm",2016,"rz in sorzica",3.6
 "879","nm",2011,"krompir",24.2
-"880","nm",2017,"oljna.ogrscica.in.repica",2.6
+"880","nm",2017,"oljna ogrscica in repica",2.6
 "881","nm",2012,"jecmen",3.7
 "882","nm",2018,"oves",2.3
 "883","nm",2013,"koruza",21.9
 "884","nm",2019,"buce",1.2
-"885","nm",2014,"psenica.in.pira",4.3
+"885","nm",2014,"psenica in pira",4.3
 "886","nm",2020,"tritikala",4.8
 "887","nm",2015,"koruza",8.7
 "888","nm",2010,"buce",0.7
 "889","nm",2011,"tritikala",3.9
-"890","nm",2017,"rz.in.sorzica",3.7
+"890","nm",2017,"rz in sorzica",3.7
 "891","nm",2012,"krompir",23.9
-"892","nm",2018,"oljna.ogrscica.in.repica",2.8
+"892","nm",2018,"oljna ogrscica in repica",2.8
 "893","nm",2013,"jecmen",2.7
 "894","nm",2019,"oves",2.3
 "895","nm",2014,"koruza",47.8
 "896","nm",2020,"buce",0.8
-"897","nm",2015,"psenica.in.pira",4.3
+"897","nm",2015,"psenica in pira",4.3
 "898","nm",2010,"oves",2.4
 "899","nm",2016,"koruza",10
 "900","nm",2011,"buce",0.4
 "901","nm",2012,"tritikala",3.8
-"902","nm",2018,"rz.in.sorzica",3.1
+"902","nm",2018,"rz in sorzica",3.1
 "903","nm",2013,"krompir",15.4
-"904","nm",2019,"oljna.ogrscica.in.repica",2.9
+"904","nm",2019,"oljna ogrscica in repica",2.9
 "905","nm",2014,"jecmen",4
 "906","nm",2020,"oves",2.6
 "907","nm",2015,"koruza",47.4
-"908","nm",2010,"oljna.ogrscica.in.repica",2.4
-"909","nm",2016,"psenica.in.pira",4.3
+"908","nm",2010,"oljna ogrscica in repica",2.4
+"909","nm",2016,"psenica in pira",4.3
 "910","nm",2011,"oves",2.9
 "911","nm",2017,"koruza",5.9
 "912","nm",2012,"buce",0.4
 "913","nm",2013,"tritikala",2.8
-"914","nm",2019,"rz.in.sorzica",2.2
+"914","nm",2019,"rz in sorzica",2.2
 "915","nm",2014,"krompir",27.3
-"916","nm",2020,"oljna.ogrscica.in.repica",2.9
+"916","nm",2020,"oljna ogrscica in repica",2.9
 "917","nm",2015,"jecmen",3.9
-"918","nm",2010,"rz.in.sorzica",3.7
+"918","nm",2010,"rz in sorzica",3.7
 "919","nm",2016,"koruza",49.4
-"920","nm",2011,"oljna.ogrscica.in.repica",2.4
-"921","nm",2017,"psenica.in.pira",3.8
+"920","nm",2011,"oljna ogrscica in repica",2.4
+"921","nm",2017,"psenica in pira",3.8
 "922","nm",2012,"oves",2.7
 "923","nm",2018,"koruza",10
 "924","nm",2013,"buce",0.1
 "925","nm",2014,"tritikala",4
-"926","nm",2020,"rz.in.sorzica",3.2
+"926","nm",2020,"rz in sorzica",3.2
 "927","nm",2015,"krompir",26.4
 "928","nm",2016,"jecmen",4.1
-"929","nm",2011,"rz.in.sorzica",2.8
+"929","nm",2011,"rz in sorzica",2.8
 "930","nm",2017,"koruza",29.3
-"931","nm",2012,"oljna.ogrscica.in.repica",2
-"932","nm",2018,"psenica.in.pira",3.6
+"931","nm",2012,"oljna ogrscica in repica",2
+"932","nm",2018,"psenica in pira",3.6
 "933","nm",2013,"oves",1.9
 "934","nm",2019,"koruza",8.8
 "935","nm",2014,"buce",0.3
@@ -939,220 +939,220 @@
 "938","nm",2016,"krompir",24.6
 "939","nm",2017,"jecmen",3.6
 "940","nm",2012,"lucerna",6.1
-"941","nm",2018,"belo.zelje",29.9
+"941","nm",2018,"belo zelje",29.9
 "942","nm",2019,"trave",7.3
 "943","nm",2014,"detelja",9.1
-"944","nm",2020,"travniki.in.pasniki",6.4
+"944","nm",2020,"travniki in pašniki",6.4
 "945","nm",2015,"jabolka",33.6
 "946","nm",2010,"trave",6.6
 "947","nm",2016,"trave",10.1
-"948","nm",2011,"travniki.in.pasniki",5.1
+"948","nm",2011,"travniki in pašniki",5.1
 "949","nm",2017,"grozdje",5.4
-"950","nm",2012,"breskve.in.nektarine",13.1
+"950","nm",2012,"breskve in nektarine",13.1
 "951","nm",2018,"trave",8.5
 "952","nm",2013,"lucerna",5.8
-"953","nm",2019,"belo.zelje",25.1
+"953","nm",2019,"belo zelje",25.1
 "954","nm",2020,"trave",7.8
 "955","nm",2015,"detelja",9.4
-"956","nm",2010,"belo.zelje",27.8
+"956","nm",2010,"belo zelje",27.8
 "957","nm",2016,"jabolka",29.6
 "958","nm",2011,"trave",7.3
 "959","nm",2017,"trave",6.7
-"960","nm",2012,"travniki.in.pasniki",3.9
+"960","nm",2012,"travniki in pašniki",3.9
 "961","nm",2018,"grozdje",8.5
-"962","nm",2013,"breskve.in.nektarine",15
+"962","nm",2013,"breskve in nektarine",15
 "963","nm",2019,"trave",7.6
 "964","nm",2014,"lucerna",9.1
-"965","nm",2020,"belo.zelje",31.6
+"965","nm",2020,"belo zelje",31.6
 "966","nm",2010,"trave",7
 "967","nm",2016,"detelja",10.4
-"968","nm",2011,"belo.zelje",26.3
+"968","nm",2011,"belo zelje",26.3
 "969","nm",2017,"jabolka",4.1
 "970","nm",2012,"trave",5.4
 "971","nm",2018,"trave",9.4
-"972","nm",2013,"travniki.in.pasniki",3.8
+"972","nm",2013,"travniki in pašniki",3.8
 "973","nm",2019,"grozdje",7.1
-"974","nm",2014,"breskve.in.nektarine",20.1
+"974","nm",2014,"breskve in nektarine",20.1
 "975","nm",2020,"trave",8.9
 "976","nm",2015,"lucerna",9.2
 "977","nm",2010,"grozdje",9.2
 "978","nm",2011,"trave",7.8
 "979","nm",2017,"detelja",6.7
-"980","nm",2012,"belo.zelje",15.2
+"980","nm",2012,"belo zelje",15.2
 "981","nm",2018,"jabolka",52.3
 "982","nm",2013,"trave",5.3
 "983","nm",2019,"trave",8.6
-"984","nm",2014,"travniki.in.pasniki",6
+"984","nm",2014,"travniki in pašniki",6
 "985","nm",2020,"grozdje",7.1
-"986","nm",2015,"breskve.in.nektarine",17.2
+"986","nm",2015,"breskve in nektarine",17.2
 "987","nm",2010,"trave",7.7
 "988","nm",2016,"lucerna",10.4
 "989","nm",2011,"grozdje",10.5
 "990","nm",2012,"trave",5.4
 "991","nm",2018,"detelja",9.8
-"992","nm",2013,"belo.zelje",19.2
+"992","nm",2013,"belo zelje",19.2
 "993","nm",2019,"jabolka",18.7
 "994","nm",2014,"trave",8.5
 "995","nm",2020,"trave",9.7
-"996","nm",2015,"travniki.in.pasniki",6.7
+"996","nm",2015,"travniki in pašniki",6.7
 "997","nm",2010,"jabolka",15.2
-"998","nm",2016,"breskve.in.nektarine",10.1
+"998","nm",2016,"breskve in nektarine",10.1
 "999","nm",2011,"trave",8.4
 "1000","nm",2017,"lucerna",6.7
 "1001","nm",2012,"grozdje",7.3
 "1002","nm",2013,"trave",5.2
 "1003","nm",2019,"detelja",8.8
-"1004","nm",2014,"belo.zelje",25.9
+"1004","nm",2014,"belo zelje",25.9
 "1005","nm",2020,"jabolka",35.2
 "1006","nm",2015,"trave",8.7
 "1007","nm",2010,"detelja",7.5
-"1008","nm",2016,"travniki.in.pasniki",6.6
+"1008","nm",2016,"travniki in pašniki",6.6
 "1009","nm",2011,"jabolka",12.2
-"1010","nm",2017,"breskve.in.nektarine",3.6
+"1010","nm",2017,"breskve in nektarine",3.6
 "1011","nm",2012,"trave",6.3
 "1012","nm",2018,"lucerna",9
 "1013","nm",2013,"grozdje",5.9
 "1014","nm",2014,"trave",8.6
 "1015","nm",2020,"detelja",9.3
-"1016","nm",2015,"belo.zelje",26.6
+"1016","nm",2015,"belo zelje",26.6
 "1017","nm",2016,"trave",9
 "1018","nm",2011,"detelja",8.4
-"1019","nm",2017,"travniki.in.pasniki",3.6
+"1019","nm",2017,"travniki in pašniki",3.6
 "1020","nm",2012,"jabolka",14.6
-"1021","nm",2018,"breskve.in.nektarine",8.5
+"1021","nm",2018,"breskve in nektarine",8.5
 "1022","nm",2013,"trave",5.5
 "1023","nm",2019,"lucerna",9
 "1024","nm",2014,"grozdje",5
 "1025","nm",2015,"trave",9.2
 "1026","nm",2010,"lucerna",8.3
-"1027","nm",2016,"belo.zelje",29.6
+"1027","nm",2016,"belo zelje",29.6
 "1028","nm",2017,"trave",5.8
 "1029","nm",2012,"detelja",6.3
-"1030","nm",2018,"travniki.in.pasniki",6.6
+"1030","nm",2018,"travniki in pašniki",6.6
 "1031","nm",2013,"jabolka",9.9
-"1032","nm",2019,"breskve.in.nektarine",15.3
+"1032","nm",2019,"breskve in nektarine",15.3
 "1033","nm",2014,"trave",8.7
 "1034","nm",2020,"lucerna",9.7
 "1035","nm",2015,"grozdje",6.9
-"1036","nm",2010,"breskve.in.nektarine",18.5
+"1036","nm",2010,"breskve in nektarine",18.5
 "1037","nm",2016,"trave",9.4
 "1038","nm",2011,"lucerna",8.9
-"1039","nm",2017,"belo.zelje",18.5
+"1039","nm",2017,"belo zelje",18.5
 "1040","nm",2018,"trave",7.7
 "1041","nm",2013,"detelja",6
-"1042","nm",2019,"travniki.in.pasniki",6.2
+"1042","nm",2019,"travniki in pašniki",6.2
 "1043","nm",2014,"jabolka",23.5
-"1044","nm",2020,"breskve.in.nektarine",12
+"1044","nm",2020,"breskve in nektarine",12
 "1045","nm",2015,"trave",9.6
-"1046","nm",2010,"travniki.in.pasniki",5
+"1046","nm",2010,"travniki in pašniki",5
 "1047","nm",2016,"grozdje",6.6
-"1048","nm",2011,"breskve.in.nektarine",17.7
+"1048","nm",2011,"breskve in nektarine",17.7
 "1049","nm",2017,"trave",6
 "1050","lj",2017,"jecmen",4.9
-"1051","lj",2012,"rz.in.sorzica",3.1
+"1051","lj",2012,"rz in sorzica",3.1
 "1052","lj",2018,"koruza",50.1
-"1053","lj",2013,"oljna.ogrscica.in.repica",3.7
-"1054","lj",2019,"psenica.in.pira",4.8
+"1053","lj",2013,"oljna ogrscica in repica",3.7
+"1054","lj",2019,"psenica in pira",4.8
 "1055","lj",2014,"oves",3.5
 "1056","lj",2020,"koruza",8.5
 "1057","lj",2015,"buce",0.9
-"1058","lj",2010,"psenica.in.pira",4.2
+"1058","lj",2010,"psenica in pira",4.2
 "1059","lj",2016,"tritikala",4.8
 "1060","lj",2011,"koruza",7.4
 "1061","lj",2017,"krompir",25.9
 "1062","lj",2018,"jecmen",4.3
-"1063","lj",2013,"rz.in.sorzica",3.3
+"1063","lj",2013,"rz in sorzica",3.3
 "1064","lj",2019,"koruza",49.5
-"1065","lj",2014,"oljna.ogrscica.in.repica",3.9
-"1066","lj",2020,"psenica.in.pira",4.7
+"1065","lj",2014,"oljna ogrscica in repica",3.9
+"1066","lj",2020,"psenica in pira",4.7
 "1067","lj",2015,"oves",3.4
 "1068","lj",2010,"koruza",45.1
 "1069","lj",2016,"buce",1.2
-"1070","lj",2011,"psenica.in.pira",5
+"1070","lj",2011,"psenica in pira",5
 "1071","lj",2017,"tritikala",4.9
 "1072","lj",2012,"koruza",6.4
 "1073","lj",2018,"krompir",28.1
 "1074","lj",2019,"jecmen",4.8
-"1075","lj",2014,"rz.in.sorzica",4
+"1075","lj",2014,"rz in sorzica",4
 "1076","lj",2020,"koruza",51.7
-"1077","lj",2015,"oljna.ogrscica.in.repica",3.4
+"1077","lj",2015,"oljna ogrscica in repica",3.4
 "1078","lj",2010,"jecmen",4.4
 "1079","lj",2016,"oves",3.5
 "1080","lj",2011,"koruza",47.9
 "1081","lj",2017,"buce",0.8
-"1082","lj",2012,"psenica.in.pira",4.6
+"1082","lj",2012,"psenica in pira",4.6
 "1083","lj",2018,"tritikala",4.1
 "1084","lj",2013,"koruza",5.2
 "1085","lj",2019,"krompir",24.5
 "1086","lj",2020,"jecmen",5.2
-"1087","lj",2015,"rz.in.sorzica",3.4
+"1087","lj",2015,"rz in sorzica",3.4
 "1088","lj",2010,"krompir",25.1
-"1089","lj",2016,"oljna.ogrscica.in.repica",1.6
+"1089","lj",2016,"oljna ogrscica in repica",1.6
 "1090","lj",2011,"jecmen",4.5
 "1091","lj",2017,"oves",3.5
 "1092","lj",2012,"koruza",43.2
 "1093","lj",2018,"buce",0.7
-"1094","lj",2013,"psenica.in.pira",3.9
+"1094","lj",2013,"psenica in pira",3.9
 "1095","lj",2019,"tritikala",4.2
 "1096","lj",2014,"koruza",8.1
 "1097","lj",2020,"krompir",30.1
 "1098","lj",2010,"tritikala",4.5
-"1099","lj",2016,"rz.in.sorzica",3.8
+"1099","lj",2016,"rz in sorzica",3.8
 "1100","lj",2011,"krompir",27
-"1101","lj",2017,"oljna.ogrscica.in.repica",2
+"1101","lj",2017,"oljna ogrscica in repica",2
 "1102","lj",2012,"jecmen",4.5
 "1103","lj",2018,"oves",3
 "1104","lj",2013,"koruza",34
 "1105","lj",2019,"buce",0.7
-"1106","lj",2014,"psenica.in.pira",4.3
+"1106","lj",2014,"psenica in pira",4.3
 "1107","lj",2020,"tritikala",4.7
 "1108","lj",2015,"koruza",7.1
 "1109","lj",2010,"buce",0.7
 "1110","lj",2016,"hmelj",1.7
 "1111","lj",2011,"tritikala",4.3
-"1112","lj",2017,"rz.in.sorzica",3.5
+"1112","lj",2017,"rz in sorzica",3.5
 "1113","lj",2012,"krompir",24.6
-"1114","lj",2018,"oljna.ogrscica.in.repica",2
+"1114","lj",2018,"oljna ogrscica in repica",2
 "1115","lj",2013,"jecmen",3.8
 "1116","lj",2019,"oves",2.9
 "1117","lj",2014,"koruza",49.5
 "1118","lj",2020,"buce",1.4
-"1119","lj",2015,"psenica.in.pira",5
+"1119","lj",2015,"psenica in pira",5
 "1120","lj",2010,"oves",3.3
 "1121","lj",2016,"koruza",7
 "1122","lj",2011,"buce",0.7
 "1123","lj",2012,"tritikala",4.5
-"1124","lj",2018,"rz.in.sorzica",2.9
+"1124","lj",2018,"rz in sorzica",2.9
 "1125","lj",2013,"krompir",20.2
-"1126","lj",2019,"oljna.ogrscica.in.repica",2
+"1126","lj",2019,"oljna ogrscica in repica",2
 "1127","lj",2014,"jecmen",4.6
 "1128","lj",2020,"oves",3.2
 "1129","lj",2015,"koruza",51.4
-"1130","lj",2010,"oljna.ogrscica.in.repica",3
-"1131","lj",2016,"psenica.in.pira",5
+"1130","lj",2010,"oljna ogrscica in repica",3
+"1131","lj",2016,"psenica in pira",5
 "1132","lj",2011,"oves",3
 "1133","lj",2017,"koruza",6.3
 "1134","lj",2012,"buce",0.5
 "1135","lj",2013,"tritikala",3.9
-"1136","lj",2019,"rz.in.sorzica",3.1
+"1136","lj",2019,"rz in sorzica",3.1
 "1137","lj",2014,"krompir",26
-"1138","lj",2020,"oljna.ogrscica.in.repica",2.2
+"1138","lj",2020,"oljna ogrscica in repica",2.2
 "1139","lj",2015,"jecmen",4.8
-"1140","lj",2010,"rz.in.sorzica",4.1
+"1140","lj",2010,"rz in sorzica",4.1
 "1141","lj",2016,"koruza",50.4
-"1142","lj",2011,"oljna.ogrscica.in.repica",3.4
-"1143","lj",2017,"psenica.in.pira",4.7
+"1142","lj",2011,"oljna ogrscica in repica",3.4
+"1143","lj",2017,"psenica in pira",4.7
 "1144","lj",2012,"oves",3.1
 "1145","lj",2018,"koruza",6.8
 "1146","lj",2013,"buce",0.4
 "1147","lj",2014,"tritikala",4.8
-"1148","lj",2020,"rz.in.sorzica",3.3
+"1148","lj",2020,"rz in sorzica",3.3
 "1149","lj",2015,"krompir",27.5
 "1150","lj",2016,"jecmen",4.9
-"1151","lj",2011,"rz.in.sorzica",3.6
+"1151","lj",2011,"rz in sorzica",3.6
 "1152","lj",2017,"koruza",45.7
-"1153","lj",2012,"oljna.ogrscica.in.repica",3.6
-"1154","lj",2018,"psenica.in.pira",4.5
+"1153","lj",2012,"oljna ogrscica in repica",3.6
+"1154","lj",2018,"psenica in pira",4.5
 "1155","lj",2013,"oves",2.9
 "1156","lj",2019,"koruza",6.7
 "1157","lj",2014,"buce",0.5
@@ -1161,221 +1161,221 @@
 "1160","lj",2016,"krompir",27.2
 "1161","lj",2017,"trave",6
 "1162","lj",2012,"lucerna",5.9
-"1163","lj",2018,"belo.zelje",36.5
+"1163","lj",2018,"belo zelje",36.5
 "1164","lj",2019,"trave",6.7
 "1165","lj",2014,"detelja",6.1
-"1166","lj",2020,"travniki.in.pasniki",6.6
+"1166","lj",2020,"travniki in pašniki",6.6
 "1167","lj",2015,"jabolka",33.6
 "1168","lj",2010,"trave",6.4
 "1169","lj",2016,"trave",6.6
-"1170","lj",2011,"travniki.in.pasniki",5.4
+"1170","lj",2011,"travniki in pašniki",5.4
 "1171","lj",2017,"grozdje",6.2
-"1172","lj",2012,"breskve.in.nektarine",10
+"1172","lj",2012,"breskve in nektarine",10
 "1173","lj",2018,"trave",6.5
 "1174","lj",2013,"lucerna",6.4
-"1175","lj",2019,"belo.zelje",35.2
+"1175","lj",2019,"belo zelje",35.2
 "1176","lj",2020,"trave",7.1
 "1177","lj",2015,"detelja",6.6
-"1178","lj",2010,"belo.zelje",46.2
+"1178","lj",2010,"belo zelje",46.2
 "1179","lj",2016,"jabolka",28.2
 "1180","lj",2011,"trave",6.2
 "1181","lj",2017,"trave",5.2
-"1182","lj",2012,"travniki.in.pasniki",4.8
+"1182","lj",2012,"travniki in pašniki",4.8
 "1183","lj",2018,"grozdje",8
-"1184","lj",2013,"breskve.in.nektarine",10
+"1184","lj",2013,"breskve in nektarine",10
 "1185","lj",2019,"trave",7
 "1186","lj",2014,"lucerna",7.3
-"1187","lj",2020,"belo.zelje",35.5
+"1187","lj",2020,"belo zelje",35.5
 "1188","lj",2010,"trave",7
 "1189","lj",2016,"detelja",6.5
-"1190","lj",2011,"belo.zelje",48.4
+"1190","lj",2011,"belo zelje",48.4
 "1191","lj",2017,"jabolka",14.8
 "1192","lj",2012,"trave",5.3
 "1193","lj",2018,"trave",6.5
-"1194","lj",2013,"travniki.in.pasniki",4.5
+"1194","lj",2013,"travniki in pašniki",4.5
 "1195","lj",2019,"grozdje",6.5
-"1196","lj",2014,"breskve.in.nektarine",11.9
+"1196","lj",2014,"breskve in nektarine",11.9
 "1197","lj",2020,"trave",7.5
 "1198","lj",2015,"lucerna",6.5
 "1199","lj",2010,"grozdje",5.9
 "1200","lj",2011,"trave",6.7
 "1201","lj",2017,"detelja",5.8
-"1202","lj",2012,"belo.zelje",40.3
+"1202","lj",2012,"belo zelje",40.3
 "1203","lj",2018,"jabolka",38.6
 "1204","lj",2013,"trave",5.8
 "1205","lj",2019,"trave",7.2
-"1206","lj",2014,"travniki.in.pasniki",5.4
+"1206","lj",2014,"travniki in pašniki",5.4
 "1207","lj",2020,"grozdje",6.5
-"1208","lj",2015,"breskve.in.nektarine",17.7
+"1208","lj",2015,"breskve in nektarine",17.7
 "1209","lj",2010,"trave",6.2
 "1210","lj",2016,"lucerna",6.2
 "1211","lj",2011,"grozdje",7.2
 "1212","lj",2012,"trave",6
 "1213","lj",2018,"detelja",6.5
-"1214","lj",2013,"belo.zelje",42.1
+"1214","lj",2013,"belo zelje",42.1
 "1215","lj",2019,"jabolka",23.7
 "1216","lj",2014,"trave",6
 "1217","lj",2020,"trave",7.9
-"1218","lj",2015,"travniki.in.pasniki",5.9
+"1218","lj",2015,"travniki in pašniki",5.9
 "1219","lj",2010,"jabolka",29.7
-"1220","lj",2016,"breskve.in.nektarine",16.2
+"1220","lj",2016,"breskve in nektarine",16.2
 "1221","lj",2011,"trave",6.4
 "1222","lj",2017,"lucerna",5.5
 "1223","lj",2012,"grozdje",4.8
 "1224","lj",2013,"trave",6.3
 "1225","lj",2019,"detelja",6.9
-"1226","lj",2014,"belo.zelje",42.7
+"1226","lj",2014,"belo zelje",42.7
 "1227","lj",2020,"jabolka",32.1
 "1228","lj",2015,"trave",6.7
 "1229","lj",2010,"detelja",6.5
-"1230","lj",2016,"travniki.in.pasniki",5.9
+"1230","lj",2016,"travniki in pašniki",5.9
 "1231","lj",2011,"jabolka",34
-"1232","lj",2017,"breskve.in.nektarine",8
+"1232","lj",2017,"breskve in nektarine",8
 "1233","lj",2012,"trave",5.8
 "1234","lj",2018,"lucerna",6.3
 "1235","lj",2013,"grozdje",5.4
 "1236","lj",2014,"trave",7.3
 "1237","lj",2020,"detelja",7.7
-"1238","lj",2015,"belo.zelje",46.1
+"1238","lj",2015,"belo zelje",46.1
 "1239","lj",2016,"trave",6.6
 "1240","lj",2011,"detelja",6.7
-"1241","lj",2017,"travniki.in.pasniki",4.8
+"1241","lj",2017,"travniki in pašniki",4.8
 "1242","lj",2012,"jabolka",23.3
-"1243","lj",2018,"breskve.in.nektarine",17
+"1243","lj",2018,"breskve in nektarine",17
 "1244","lj",2013,"trave",6.3
 "1245","lj",2019,"lucerna",7.6
 "1246","lj",2014,"grozdje",4.5
 "1247","lj",2015,"trave",7.4
 "1248","lj",2010,"lucerna",8.2
-"1249","lj",2016,"belo.zelje",40.5
+"1249","lj",2016,"belo zelje",40.5
 "1250","lj",2017,"trave",5.2
 "1251","lj",2012,"detelja",5.7
-"1252","lj",2018,"travniki.in.pasniki",5.8
+"1252","lj",2018,"travniki in pašniki",5.8
 "1253","lj",2013,"jabolka",25.1
-"1254","lj",2019,"breskve.in.nektarine",15.4
+"1254","lj",2019,"breskve in nektarine",15.4
 "1255","lj",2014,"trave",6.8
 "1256","lj",2020,"lucerna",8.1
 "1257","lj",2015,"grozdje",7.1
-"1258","lj",2010,"breskve.in.nektarine",16.3
+"1258","lj",2010,"breskve in nektarine",16.3
 "1259","lj",2016,"trave",7.1
 "1260","lj",2011,"lucerna",8
-"1261","lj",2017,"belo.zelje",37.4
+"1261","lj",2017,"belo zelje",37.4
 "1262","lj",2018,"trave",6.4
 "1263","lj",2013,"detelja",5.7
-"1264","lj",2019,"travniki.in.pasniki",6
+"1264","lj",2019,"travniki in pašniki",6
 "1265","lj",2014,"jabolka",28.8
-"1266","lj",2020,"breskve.in.nektarine",7.9
+"1266","lj",2020,"breskve in nektarine",7.9
 "1267","lj",2015,"trave",6.7
-"1268","lj",2010,"travniki.in.pasniki",5.8
+"1268","lj",2010,"travniki in pašniki",5.8
 "1269","lj",2016,"grozdje",3.1
-"1270","lj",2011,"breskve.in.nektarine",12.3
+"1270","lj",2011,"breskve in nektarine",12.3
 "1271","mb",2020,"koruza",10.5
 "1272","mb",2015,"buce",0.7
-"1273","mb",2010,"psenica.in.pira",5
+"1273","mb",2010,"psenica in pira",5
 "1274","mb",2016,"tritikala",5.1
 "1275","mb",2011,"koruza",9
 "1276","mb",2017,"krompir",24
 "1277","mb",2012,"hmelj",1.1
 "1278","mb",2018,"jecmen",4.5
-"1279","mb",2013,"rz.in.sorzica",4.1
+"1279","mb",2013,"rz in sorzica",4.1
 "1280","mb",2019,"koruza",47.5
-"1281","mb",2014,"oljna.ogrscica.in.repica",4
-"1282","mb",2020,"psenica.in.pira",5.9
+"1281","mb",2014,"oljna ogrscica in repica",4
+"1282","mb",2020,"psenica in pira",5.9
 "1283","mb",2015,"oves",3.8
 "1284","mb",2010,"koruza",45.2
 "1285","mb",2016,"buce",0.7
-"1286","mb",2011,"psenica.in.pira",5.3
+"1286","mb",2011,"psenica in pira",5.3
 "1287","mb",2017,"tritikala",4.8
 "1288","mb",2012,"koruza",7.4
 "1289","mb",2018,"krompir",26.5
 "1290","mb",2013,"hmelj",1.2
 "1291","mb",2019,"jecmen",4.6
-"1292","mb",2014,"rz.in.sorzica",4.9
+"1292","mb",2014,"rz in sorzica",4.9
 "1293","mb",2020,"koruza",53.3
-"1294","mb",2015,"oljna.ogrscica.in.repica",2.5
+"1294","mb",2015,"oljna ogrscica in repica",2.5
 "1295","mb",2010,"jecmen",4.6
 "1296","mb",2016,"oves",3.8
 "1297","mb",2011,"koruza",45.7
 "1298","mb",2017,"buce",0.5
-"1299","mb",2012,"psenica.in.pira",5.5
+"1299","mb",2012,"psenica in pira",5.5
 "1300","mb",2018,"tritikala",4.7
 "1301","mb",2013,"koruza",5.8
 "1302","mb",2019,"krompir",25.9
 "1303","mb",2014,"hmelj",1.3
 "1304","mb",2020,"jecmen",5.9
-"1305","mb",2015,"rz.in.sorzica",4.1
+"1305","mb",2015,"rz in sorzica",4.1
 "1306","mb",2010,"krompir",24.4
-"1307","mb",2016,"oljna.ogrscica.in.repica",2.6
+"1307","mb",2016,"oljna ogrscica in repica",2.6
 "1308","mb",2011,"jecmen",4.8
 "1309","mb",2017,"oves",3.4
 "1310","mb",2012,"koruza",39.7
 "1311","mb",2018,"buce",0.8
-"1312","mb",2013,"psenica.in.pira",4.8
+"1312","mb",2013,"psenica in pira",4.8
 "1313","mb",2019,"tritikala",5.1
 "1314","mb",2014,"koruza",9.4
 "1315","mb",2020,"krompir",29.3
 "1316","mb",2015,"hmelj",0.7
 "1317","mb",2010,"tritikala",4.2
-"1318","mb",2016,"rz.in.sorzica",5.2
+"1318","mb",2016,"rz in sorzica",5.2
 "1319","mb",2011,"krompir",25.6
-"1320","mb",2017,"oljna.ogrscica.in.repica",3.2
+"1320","mb",2017,"oljna ogrscica in repica",3.2
 "1321","mb",2012,"jecmen",4.9
 "1322","mb",2018,"oves",3.4
 "1323","mb",2013,"koruza",32.5
 "1324","mb",2019,"buce",0.6
-"1325","mb",2014,"psenica.in.pira",5.7
+"1325","mb",2014,"psenica in pira",5.7
 "1326","mb",2020,"tritikala",5.7
 "1327","mb",2015,"koruza",9.4
 "1328","mb",2010,"buce",0.6
 "1329","mb",2016,"hmelj",1.6
 "1330","mb",2011,"tritikala",4.9
-"1331","mb",2017,"rz.in.sorzica",4.4
+"1331","mb",2017,"rz in sorzica",4.4
 "1332","mb",2012,"krompir",23.9
-"1333","mb",2018,"oljna.ogrscica.in.repica",2.8
+"1333","mb",2018,"oljna ogrscica in repica",2.8
 "1334","mb",2013,"jecmen",4.7
 "1335","mb",2019,"oves",3.6
 "1336","mb",2014,"koruza",46.1
 "1337","mb",2020,"buce",0.7
-"1338","mb",2015,"psenica.in.pira",5.5
+"1338","mb",2015,"psenica in pira",5.5
 "1339","mb",2010,"oves",3
 "1340","mb",2016,"koruza",9.4
 "1341","mb",2011,"buce",0.6
 "1342","mb",2017,"hmelj",1
 "1343","mb",2012,"tritikala",4.7
-"1344","mb",2018,"rz.in.sorzica",4.6
+"1344","mb",2018,"rz in sorzica",4.6
 "1345","mb",2013,"krompir",19.9
-"1346","mb",2019,"oljna.ogrscica.in.repica",2.7
+"1346","mb",2019,"oljna ogrscica in repica",2.7
 "1347","mb",2014,"jecmen",5.2
 "1348","mb",2020,"oves",3.7
 "1349","mb",2015,"koruza",51
-"1350","mb",2010,"oljna.ogrscica.in.repica",2.9
-"1351","mb",2016,"psenica.in.pira",5.7
+"1350","mb",2010,"oljna ogrscica in repica",2.9
+"1351","mb",2016,"psenica in pira",5.7
 "1352","mb",2011,"oves",3.4
 "1353","mb",2017,"koruza",7.4
 "1354","mb",2012,"buce",0.5
 "1355","mb",2018,"hmelj",0.9
 "1356","mb",2013,"tritikala",4.4
-"1357","mb",2019,"rz.in.sorzica",4.2
+"1357","mb",2019,"rz in sorzica",4.2
 "1358","mb",2014,"krompir",24.7
-"1359","mb",2020,"oljna.ogrscica.in.repica",3.1
+"1359","mb",2020,"oljna ogrscica in repica",3.1
 "1360","mb",2015,"jecmen",4.9
-"1361","mb",2010,"rz.in.sorzica",3.9
+"1361","mb",2010,"rz in sorzica",3.9
 "1362","mb",2016,"koruza",49.5
-"1363","mb",2011,"oljna.ogrscica.in.repica",3.1
-"1364","mb",2017,"psenica.in.pira",5.1
+"1363","mb",2011,"oljna ogrscica in repica",3.1
+"1364","mb",2017,"psenica in pira",5.1
 "1365","mb",2012,"oves",3.5
 "1366","mb",2018,"koruza",10
 "1367","mb",2013,"buce",0.4
 "1368","mb",2019,"hmelj",1.4
 "1369","mb",2014,"tritikala",5.1
-"1370","mb",2020,"rz.in.sorzica",5.1
+"1370","mb",2020,"rz in sorzica",5.1
 "1371","mb",2015,"krompir",27.9
 "1372","mb",2010,"hmelj",0.4
 "1373","mb",2016,"jecmen",5.3
-"1374","mb",2011,"rz.in.sorzica",4.3
+"1374","mb",2011,"rz in sorzica",4.3
 "1375","mb",2017,"koruza",41.7
-"1376","mb",2012,"oljna.ogrscica.in.repica",3.3
-"1377","mb",2018,"psenica.in.pira",4.6
+"1376","mb",2012,"oljna ogrscica in repica",3.3
+"1377","mb",2018,"psenica in pira",4.6
 "1378","mb",2013,"oves",3.1
 "1379","mb",2019,"koruza",9.2
 "1380","mb",2014,"buce",0.6
@@ -1385,218 +1385,218 @@
 "1384","mb",2016,"krompir",26.5
 "1385","mb",2011,"hmelj",1.6
 "1386","mb",2017,"jecmen",5.2
-"1387","mb",2012,"rz.in.sorzica",4.6
+"1387","mb",2012,"rz in sorzica",4.6
 "1388","mb",2018,"koruza",50.8
-"1389","mb",2013,"oljna.ogrscica.in.repica",3.2
-"1390","mb",2019,"psenica.in.pira",5
+"1389","mb",2013,"oljna ogrscica in repica",3.2
+"1390","mb",2019,"psenica in pira",5
 "1391","mb",2014,"oves",3.6
-"1392","mb",2020,"travniki.in.pasniki",6.6
+"1392","mb",2020,"travniki in pašniki",6.6
 "1393","mb",2015,"jabolka",32.1
 "1394","mb",2010,"trave",8.3
 "1395","mb",2016,"trave",7.1
-"1396","mb",2011,"travniki.in.pasniki",6.6
+"1396","mb",2011,"travniki in pašniki",6.6
 "1397","mb",2017,"grozdje",5.9
-"1398","mb",2012,"breskve.in.nektarine",9.4
+"1398","mb",2012,"breskve in nektarine",9.4
 "1399","mb",2018,"trave",8.2
 "1400","mb",2013,"lucerna",4.5
-"1401","mb",2019,"belo.zelje",34.7
+"1401","mb",2019,"belo zelje",34.7
 "1402","mb",2020,"trave",8.2
 "1403","mb",2015,"detelja",5.9
-"1404","mb",2010,"belo.zelje",28.6
+"1404","mb",2010,"belo zelje",28.6
 "1405","mb",2016,"jabolka",15
 "1406","mb",2011,"trave",7.7
 "1407","mb",2017,"trave",5.7
-"1408","mb",2012,"travniki.in.pasniki",5.6
+"1408","mb",2012,"travniki in pašniki",5.6
 "1409","mb",2018,"grozdje",7.7
-"1410","mb",2013,"breskve.in.nektarine",8.8
+"1410","mb",2013,"breskve in nektarine",8.8
 "1411","mb",2019,"trave",8.3
 "1412","mb",2014,"lucerna",6.8
-"1413","mb",2020,"belo.zelje",36.8
+"1413","mb",2020,"belo zelje",36.8
 "1414","mb",2010,"trave",8.1
 "1415","mb",2016,"detelja",6.2
-"1416","mb",2011,"belo.zelje",28
+"1416","mb",2011,"belo zelje",28
 "1417","mb",2017,"jabolka",7
 "1418","mb",2012,"trave",6
 "1419","mb",2018,"trave",7.8
-"1420","mb",2013,"travniki.in.pasniki",4.1
+"1420","mb",2013,"travniki in pašniki",4.1
 "1421","mb",2019,"grozdje",7.6
-"1422","mb",2014,"breskve.in.nektarine",8.7
+"1422","mb",2014,"breskve in nektarine",8.7
 "1423","mb",2020,"trave",8.2
 "1424","mb",2015,"lucerna",7.4
 "1425","mb",2010,"grozdje",5.5
 "1426","mb",2011,"trave",7.1
 "1427","mb",2017,"detelja",5.6
-"1428","mb",2012,"belo.zelje",24.8
+"1428","mb",2012,"belo zelje",24.8
 "1429","mb",2018,"jabolka",32.8
 "1430","mb",2013,"trave",4.7
 "1431","mb",2019,"trave",7.8
-"1432","mb",2014,"travniki.in.pasniki",6.3
+"1432","mb",2014,"travniki in pašniki",6.3
 "1433","mb",2020,"grozdje",7.6
-"1434","mb",2015,"breskve.in.nektarine",13.2
+"1434","mb",2015,"breskve in nektarine",13.2
 "1435","mb",2010,"trave",7.7
 "1436","mb",2016,"lucerna",7.2
 "1437","mb",2011,"grozdje",7.1
 "1438","mb",2012,"trave",5.8
 "1439","mb",2018,"detelja",6.7
-"1440","mb",2013,"belo.zelje",22.8
+"1440","mb",2013,"belo zelje",22.8
 "1441","mb",2019,"jabolka",22
 "1442","mb",2014,"trave",6.2
 "1443","mb",2020,"trave",8.2
-"1444","mb",2015,"travniki.in.pasniki",6.6
+"1444","mb",2015,"travniki in pašniki",6.6
 "1445","mb",2010,"jabolka",24.8
-"1446","mb",2016,"breskve.in.nektarine",6.5
+"1446","mb",2016,"breskve in nektarine",6.5
 "1447","mb",2011,"trave",7.1
 "1448","mb",2017,"lucerna",6.2
 "1449","mb",2012,"grozdje",6.2
 "1450","mb",2013,"trave",4.6
 "1451","mb",2019,"detelja",6.9
-"1452","mb",2014,"belo.zelje",24.6
+"1452","mb",2014,"belo zelje",24.6
 "1453","mb",2020,"jabolka",28.6
 "1454","mb",2015,"trave",7.7
 "1455","mb",2010,"detelja",5.8
-"1456","mb",2016,"travniki.in.pasniki",6.7
+"1456","mb",2016,"travniki in pašniki",6.7
 "1457","mb",2011,"jabolka",28.8
-"1458","mb",2017,"breskve.in.nektarine",4.6
+"1458","mb",2017,"breskve in nektarine",4.6
 "1459","mb",2012,"trave",5
 "1460","mb",2018,"lucerna",7.6
 "1461","mb",2013,"grozdje",6.2
 "1462","mb",2014,"trave",6.6
 "1463","mb",2020,"detelja",7.2
-"1464","mb",2015,"belo.zelje",27.4
+"1464","mb",2015,"belo zelje",27.4
 "1465","mb",2016,"trave",7.8
 "1466","mb",2011,"detelja",5.9
-"1467","mb",2017,"travniki.in.pasniki",4.8
+"1467","mb",2017,"travniki in pašniki",4.8
 "1468","mb",2012,"jabolka",19.2
-"1469","mb",2018,"breskve.in.nektarine",17.4
+"1469","mb",2018,"breskve in nektarine",17.4
 "1470","mb",2013,"trave",4.3
 "1471","mb",2019,"lucerna",7.6
 "1472","mb",2014,"grozdje",5.7
 "1473","mb",2015,"trave",7.4
 "1474","mb",2010,"lucerna",6.5
-"1475","mb",2016,"belo.zelje",29
+"1475","mb",2016,"belo zelje",29
 "1476","mb",2017,"trave",6.5
 "1477","mb",2012,"detelja",4.9
-"1478","mb",2018,"travniki.in.pasniki",6.6
+"1478","mb",2018,"travniki in pašniki",6.6
 "1479","mb",2013,"jabolka",23.8
-"1480","mb",2019,"breskve.in.nektarine",9.1
+"1480","mb",2019,"breskve in nektarine",9.1
 "1481","mb",2014,"trave",6.9
 "1482","mb",2020,"lucerna",7.9
 "1483","mb",2015,"grozdje",7.7
-"1484","mb",2010,"breskve.in.nektarine",10.1
+"1484","mb",2010,"breskve in nektarine",10.1
 "1485","mb",2016,"trave",7.4
 "1486","mb",2011,"lucerna",5.9
-"1487","mb",2017,"belo.zelje",27.9
+"1487","mb",2017,"belo zelje",27.9
 "1488","mb",2018,"trave",8.1
 "1489","mb",2013,"detelja",4.2
-"1490","mb",2019,"travniki.in.pasniki",6.5
+"1490","mb",2019,"travniki in pašniki",6.5
 "1491","mb",2014,"jabolka",25.8
-"1492","mb",2020,"breskve.in.nektarine",10.2
+"1492","mb",2020,"breskve in nektarine",10.2
 "1493","mb",2015,"trave",6.7
-"1494","mb",2010,"travniki.in.pasniki",6.8
+"1494","mb",2010,"travniki in pašniki",6.8
 "1495","mb",2016,"grozdje",6.2
-"1496","mb",2011,"breskve.in.nektarine",11.6
+"1496","mb",2011,"breskve in nektarine",11.6
 "1497","mb",2017,"trave",6.3
 "1498","mb",2012,"lucerna",5.4
-"1499","mb",2018,"belo.zelje",33.1
+"1499","mb",2018,"belo zelje",33.1
 "1500","mb",2019,"trave",8.9
 "1501","mb",2014,"detelja",4.9
 "1502","ms",2015,"buce",0.7
-"1503","ms",2010,"psenica.in.pira",4.9
+"1503","ms",2010,"psenica in pira",4.9
 "1504","ms",2016,"tritikala",4.4
 "1505","ms",2011,"koruza",9.6
 "1506","ms",2017,"krompir",23
 "1507","ms",2018,"jecmen",4.1
-"1508","ms",2013,"rz.in.sorzica",2.9
+"1508","ms",2013,"rz in sorzica",2.9
 "1509","ms",2019,"koruza",49.8
-"1510","ms",2014,"oljna.ogrscica.in.repica",3.4
-"1511","ms",2020,"psenica.in.pira",6
+"1510","ms",2014,"oljna ogrscica in repica",3.4
+"1511","ms",2020,"psenica in pira",6
 "1512","ms",2015,"oves",3.3
 "1513","ms",2010,"koruza",46.8
 "1514","ms",2016,"buce",0.8
-"1515","ms",2011,"psenica.in.pira",5.2
+"1515","ms",2011,"psenica in pira",5.2
 "1516","ms",2017,"tritikala",4.6
 "1517","ms",2012,"koruza",7.5
 "1518","ms",2018,"krompir",26.8
 "1519","ms",2019,"jecmen",5.6
-"1520","ms",2014,"rz.in.sorzica",3.7
+"1520","ms",2014,"rz in sorzica",3.7
 "1521","ms",2020,"koruza",53.7
-"1522","ms",2015,"oljna.ogrscica.in.repica",1.8
+"1522","ms",2015,"oljna ogrscica in repica",1.8
 "1523","ms",2010,"jecmen",4.4
 "1524","ms",2016,"oves",3.1
 "1525","ms",2011,"koruza",68.1
 "1526","ms",2017,"buce",0.6
-"1527","ms",2012,"psenica.in.pira",5.7
+"1527","ms",2012,"psenica in pira",5.7
 "1528","ms",2018,"tritikala",3.8
 "1529","ms",2013,"koruza",5.6
 "1530","ms",2019,"krompir",28.2
 "1531","ms",2020,"jecmen",6
-"1532","ms",2015,"rz.in.sorzica",3.6
+"1532","ms",2015,"rz in sorzica",3.6
 "1533","ms",2010,"krompir",26.9
-"1534","ms",2016,"oljna.ogrscica.in.repica",2.9
+"1534","ms",2016,"oljna ogrscica in repica",2.9
 "1535","ms",2011,"jecmen",4.8
 "1536","ms",2017,"oves",3.4
 "1537","ms",2012,"koruza",38
 "1538","ms",2018,"buce",0.7
-"1539","ms",2013,"psenica.in.pira",4.3
+"1539","ms",2013,"psenica in pira",4.3
 "1540","ms",2019,"tritikala",4.8
 "1541","ms",2014,"koruza",9.2
 "1542","ms",2020,"krompir",33.4
 "1543","ms",2010,"tritikala",4
-"1544","ms",2016,"rz.in.sorzica",3.7
+"1544","ms",2016,"rz in sorzica",3.7
 "1545","ms",2011,"krompir",29.3
-"1546","ms",2017,"oljna.ogrscica.in.repica",2.4
+"1546","ms",2017,"oljna ogrscica in repica",2.4
 "1547","ms",2012,"jecmen",5.2
 "1548","ms",2018,"oves",2.5
 "1549","ms",2013,"koruza",30.6
 "1550","ms",2019,"buce",0.6
-"1551","ms",2014,"psenica.in.pira",5.2
+"1551","ms",2014,"psenica in pira",5.2
 "1552","ms",2020,"tritikala",4.8
 "1553","ms",2015,"koruza",9
 "1554","ms",2010,"buce",0.6
 "1555","ms",2011,"tritikala",4.5
-"1556","ms",2017,"rz.in.sorzica",4
+"1556","ms",2017,"rz in sorzica",4
 "1557","ms",2012,"krompir",23.2
-"1558","ms",2018,"oljna.ogrscica.in.repica",2
+"1558","ms",2018,"oljna ogrscica in repica",2
 "1559","ms",2013,"jecmen",3.9
 "1560","ms",2019,"oves",3.7
 "1561","ms",2014,"koruza",47.7
 "1562","ms",2020,"buce",0.6
-"1563","ms",2015,"psenica.in.pira",5
+"1563","ms",2015,"psenica in pira",5
 "1564","ms",2010,"oves",2.8
 "1565","ms",2016,"koruza",10
 "1566","ms",2011,"buce",0.7
 "1567","ms",2012,"tritikala",4.4
-"1568","ms",2018,"rz.in.sorzica",3.1
+"1568","ms",2018,"rz in sorzica",3.1
 "1569","ms",2013,"krompir",19.9
-"1570","ms",2019,"oljna.ogrscica.in.repica",3.1
+"1570","ms",2019,"oljna ogrscica in repica",3.1
 "1571","ms",2014,"jecmen",4.9
 "1572","ms",2020,"oves",3.7
 "1573","ms",2015,"koruza",45.9
-"1574","ms",2010,"oljna.ogrscica.in.repica",3
-"1575","ms",2016,"psenica.in.pira",5.1
+"1574","ms",2010,"oljna ogrscica in repica",3
+"1575","ms",2016,"psenica in pira",5.1
 "1576","ms",2011,"oves",3.2
 "1577","ms",2017,"koruza",7.6
 "1578","ms",2012,"buce",0.6
 "1579","ms",2013,"tritikala",3
-"1580","ms",2019,"rz.in.sorzica",4
+"1580","ms",2019,"rz in sorzica",4
 "1581","ms",2014,"krompir",28.9
-"1582","ms",2020,"oljna.ogrscica.in.repica",2.5
+"1582","ms",2020,"oljna ogrscica in repica",2.5
 "1583","ms",2015,"jecmen",4.5
-"1584","ms",2010,"rz.in.sorzica",3
+"1584","ms",2010,"rz in sorzica",3
 "1585","ms",2016,"koruza",49.6
-"1586","ms",2011,"oljna.ogrscica.in.repica",2.9
-"1587","ms",2017,"psenica.in.pira",5.3
+"1586","ms",2011,"oljna ogrscica in repica",2.9
+"1587","ms",2017,"psenica in pira",5.3
 "1588","ms",2012,"oves",3.3
 "1589","ms",2018,"koruza",9.4
 "1590","ms",2013,"buce",0.5
 "1591","ms",2014,"tritikala",4.8
-"1592","ms",2020,"rz.in.sorzica",3.9
+"1592","ms",2020,"rz in sorzica",3.9
 "1593","ms",2015,"krompir",28.7
 "1594","ms",2016,"jecmen",4.6
-"1595","ms",2011,"rz.in.sorzica",3.3
+"1595","ms",2011,"rz in sorzica",3.3
 "1596","ms",2017,"koruza",38.5
-"1597","ms",2012,"oljna.ogrscica.in.repica",3.3
-"1598","ms",2018,"psenica.in.pira",4.3
+"1597","ms",2012,"oljna ogrscica in repica",3.3
+"1598","ms",2018,"psenica in pira",4.3
 "1599","ms",2013,"oves",2.4
 "1600","ms",2019,"koruza",9.9
 "1601","ms",2014,"buce",0.5
@@ -1604,224 +1604,224 @@
 "1603","ms",2010,"koruza",9.1
 "1604","ms",2016,"krompir",29.7
 "1605","ms",2017,"jecmen",5.1
-"1606","ms",2012,"rz.in.sorzica",3.4
+"1606","ms",2012,"rz in sorzica",3.4
 "1607","ms",2018,"koruza",47.2
-"1608","ms",2013,"oljna.ogrscica.in.repica",2
-"1609","ms",2019,"psenica.in.pira",5.5
+"1608","ms",2013,"oljna ogrscica in repica",2
+"1609","ms",2019,"psenica in pira",5.5
 "1610","ms",2014,"oves",3.3
 "1611","ms",2020,"koruza",11.7
 "1612","ms",2015,"jabolka",37.1
 "1613","ms",2010,"trave",8.7
 "1614","ms",2016,"trave",7.7
-"1615","ms",2011,"travniki.in.pasniki",7
+"1615","ms",2011,"travniki in pašniki",7
 "1616","ms",2017,"grozdje",6.2
-"1617","ms",2012,"breskve.in.nektarine",10.9
+"1617","ms",2012,"breskve in nektarine",10.9
 "1618","ms",2018,"trave",7.4
 "1619","ms",2013,"lucerna",6.9
-"1620","ms",2019,"belo.zelje",34.2
+"1620","ms",2019,"belo zelje",34.2
 "1621","ms",2020,"trave",8.1
 "1622","ms",2015,"detelja",6.8
-"1623","ms",2010,"belo.zelje",31.8
+"1623","ms",2010,"belo zelje",31.8
 "1624","ms",2016,"jabolka",11.3
 "1625","ms",2011,"trave",8.4
 "1626","ms",2017,"trave",5.9
-"1627","ms",2012,"travniki.in.pasniki",5.2
+"1627","ms",2012,"travniki in pašniki",5.2
 "1628","ms",2018,"grozdje",7.1
-"1629","ms",2013,"breskve.in.nektarine",12.3
+"1629","ms",2013,"breskve in nektarine",12.3
 "1630","ms",2019,"trave",7.4
 "1631","ms",2014,"lucerna",8.8
-"1632","ms",2020,"belo.zelje",33.7
+"1632","ms",2020,"belo zelje",33.7
 "1633","ms",2010,"trave",8
 "1634","ms",2016,"detelja",7
-"1635","ms",2011,"belo.zelje",38.1
+"1635","ms",2011,"belo zelje",38.1
 "1636","ms",2017,"jabolka",5.5
 "1637","ms",2012,"trave",6.1
 "1638","ms",2018,"trave",6.9
-"1639","ms",2013,"travniki.in.pasniki",5.3
+"1639","ms",2013,"travniki in pašniki",5.3
 "1640","ms",2019,"grozdje",7
-"1641","ms",2014,"breskve.in.nektarine",10.8
+"1641","ms",2014,"breskve in nektarine",10.8
 "1642","ms",2020,"trave",8
 "1643","ms",2015,"lucerna",7.5
 "1644","ms",2010,"grozdje",7.1
 "1645","ms",2011,"trave",8
 "1646","ms",2017,"detelja",5.5
-"1647","ms",2012,"belo.zelje",27.2
+"1647","ms",2012,"belo zelje",27.2
 "1648","ms",2018,"jabolka",33.4
 "1649","ms",2013,"trave",4.9
 "1650","ms",2019,"trave",7.3
-"1651","ms",2014,"travniki.in.pasniki",7
+"1651","ms",2014,"travniki in pašniki",7
 "1652","ms",2020,"grozdje",7
-"1653","ms",2015,"breskve.in.nektarine",12.6
+"1653","ms",2015,"breskve in nektarine",12.6
 "1654","ms",2010,"trave",7.6
 "1655","ms",2016,"lucerna",8
 "1656","ms",2011,"grozdje",10
 "1657","ms",2012,"trave",5.6
 "1658","ms",2018,"detelja",6.1
-"1659","ms",2013,"belo.zelje",22.4
+"1659","ms",2013,"belo zelje",22.4
 "1660","ms",2019,"jabolka",29.8
 "1661","ms",2014,"trave",7.7
 "1662","ms",2020,"trave",7.6
-"1663","ms",2015,"travniki.in.pasniki",5.5
+"1663","ms",2015,"travniki in pašniki",5.5
 "1664","ms",2010,"jabolka",30.3
-"1665","ms",2016,"breskve.in.nektarine",4.4
+"1665","ms",2016,"breskve in nektarine",4.4
 "1666","ms",2011,"trave",8.1
 "1667","ms",2017,"lucerna",6.5
 "1668","ms",2012,"grozdje",7.6
 "1669","ms",2013,"trave",5.2
 "1670","ms",2019,"detelja",6.1
-"1671","ms",2014,"belo.zelje",27.8
+"1671","ms",2014,"belo zelje",27.8
 "1672","ms",2020,"jabolka",29.1
 "1673","ms",2015,"trave",7.3
 "1674","ms",2010,"detelja",7.8
-"1675","ms",2016,"travniki.in.pasniki",6.1
+"1675","ms",2016,"travniki in pašniki",6.1
 "1676","ms",2011,"jabolka",29.3
-"1677","ms",2017,"breskve.in.nektarine",0.6
+"1677","ms",2017,"breskve in nektarine",0.6
 "1678","ms",2012,"trave",6.1
 "1679","ms",2018,"lucerna",8
 "1680","ms",2013,"grozdje",6.9
 "1681","ms",2014,"trave",8.6
 "1682","ms",2020,"detelja",6.4
-"1683","ms",2015,"belo.zelje",31.3
+"1683","ms",2015,"belo zelje",31.3
 "1684","ms",2016,"trave",7.9
 "1685","ms",2011,"detelja",7.7
-"1686","ms",2017,"travniki.in.pasniki",4.6
+"1686","ms",2017,"travniki in pašniki",4.6
 "1687","ms",2012,"jabolka",20.3
-"1688","ms",2018,"breskve.in.nektarine",9.9
+"1688","ms",2018,"breskve in nektarine",9.9
 "1689","ms",2013,"trave",6.2
 "1690","ms",2019,"lucerna",6.8
 "1691","ms",2014,"grozdje",5.8
 "1692","ms",2015,"trave",7.6
 "1693","ms",2010,"lucerna",8.9
-"1694","ms",2016,"belo.zelje",33
+"1694","ms",2016,"belo zelje",33
 "1695","ms",2017,"trave",5.6
 "1696","ms",2012,"detelja",4.8
-"1697","ms",2018,"travniki.in.pasniki",6.1
+"1697","ms",2018,"travniki in pašniki",6.1
 "1698","ms",2013,"jabolka",22.5
-"1699","ms",2019,"breskve.in.nektarine",9.6
+"1699","ms",2019,"breskve in nektarine",9.6
 "1700","ms",2014,"trave",8.4
 "1701","ms",2020,"lucerna",7.5
 "1702","ms",2015,"grozdje",7.6
-"1703","ms",2010,"breskve.in.nektarine",10
+"1703","ms",2010,"breskve in nektarine",10
 "1704","ms",2016,"trave",7.9
 "1705","ms",2011,"lucerna",9.2
-"1706","ms",2017,"belo.zelje",25.8
+"1706","ms",2017,"belo zelje",25.8
 "1707","ms",2018,"trave",7.2
 "1708","ms",2013,"detelja",4.7
-"1709","ms",2019,"travniki.in.pasniki",5.5
+"1709","ms",2019,"travniki in pašniki",5.5
 "1710","ms",2014,"jabolka",25.2
-"1711","ms",2020,"breskve.in.nektarine",6.8
+"1711","ms",2020,"breskve in nektarine",6.8
 "1712","ms",2015,"trave",7.9
-"1713","ms",2010,"travniki.in.pasniki",6.8
+"1713","ms",2010,"travniki in pašniki",6.8
 "1714","ms",2016,"grozdje",5.4
-"1715","ms",2011,"breskve.in.nektarine",16.7
+"1715","ms",2011,"breskve in nektarine",16.7
 "1716","ms",2017,"trave",6.1
 "1717","ms",2012,"lucerna",7
-"1718","ms",2018,"belo.zelje",37.3
+"1718","ms",2018,"belo zelje",37.3
 "1719","ms",2019,"trave",7.8
 "1720","ms",2014,"detelja",7.1
-"1721","ms",2020,"travniki.in.pasniki",6.1
+"1721","ms",2020,"travniki in pašniki",6.1
 "1722","kk",2018,"koruza",48.8
-"1723","kk",2013,"oljna.ogrscica.in.repica",2.5
-"1724","kk",2019,"psenica.in.pira",5
+"1723","kk",2013,"oljna ogrscica in repica",2.5
+"1724","kk",2019,"psenica in pira",5
 "1725","kk",2014,"oves",3.6
 "1726","kk",2020,"koruza",10.2
 "1727","kk",2015,"buce",0.6
-"1728","kk",2010,"psenica.in.pira",4
+"1728","kk",2010,"psenica in pira",4
 "1729","kk",2016,"tritikala",4.6
 "1730","kk",2011,"koruza",5.6
 "1731","kk",2017,"krompir",20.7
 "1732","kk",2018,"jecmen",4.2
-"1733","kk",2013,"rz.in.sorzica",2.6
+"1733","kk",2013,"rz in sorzica",2.6
 "1734","kk",2019,"koruza",51.1
-"1735","kk",2014,"oljna.ogrscica.in.repica",3.1
-"1736","kk",2020,"psenica.in.pira",5.3
+"1735","kk",2014,"oljna ogrscica in repica",3.1
+"1736","kk",2020,"psenica in pira",5.3
 "1737","kk",2015,"oves",3.6
 "1738","kk",2010,"koruza",40.7
 "1739","kk",2016,"buce",0.5
-"1740","kk",2011,"psenica.in.pira",4.6
+"1740","kk",2011,"psenica in pira",4.6
 "1741","kk",2017,"tritikala",3.9
 "1742","kk",2012,"koruza",5.5
 "1743","kk",2018,"krompir",28.1
 "1744","kk",2019,"jecmen",4.7
-"1745","kk",2014,"rz.in.sorzica",2.7
+"1745","kk",2014,"rz in sorzica",2.7
 "1746","kk",2020,"koruza",51.3
-"1747","kk",2015,"oljna.ogrscica.in.repica",2.7
+"1747","kk",2015,"oljna ogrscica in repica",2.7
 "1748","kk",2010,"jecmen",3.9
 "1749","kk",2016,"oves",3.4
 "1750","kk",2011,"koruza",28.8
 "1751","kk",2017,"buce",0.5
-"1752","kk",2012,"psenica.in.pira",4.9
+"1752","kk",2012,"psenica in pira",4.9
 "1753","kk",2018,"tritikala",4.4
 "1754","kk",2013,"koruza",4.4
 "1755","kk",2019,"krompir",25.4
 "1756","kk",2020,"jecmen",4.9
-"1757","kk",2015,"rz.in.sorzica",3.7
+"1757","kk",2015,"rz in sorzica",3.7
 "1758","kk",2010,"krompir",21.8
-"1759","kk",2016,"oljna.ogrscica.in.repica",2.7
+"1759","kk",2016,"oljna ogrscica in repica",2.7
 "1760","kk",2011,"jecmen",4.2
 "1761","kk",2017,"oves",2.9
 "1762","kk",2012,"koruza",30
 "1763","kk",2018,"buce",0.8
-"1764","kk",2013,"psenica.in.pira",3.8
+"1764","kk",2013,"psenica in pira",3.8
 "1765","kk",2019,"tritikala",4.5
 "1766","kk",2014,"koruza",9
 "1767","kk",2020,"krompir",29.8
 "1768","kk",2010,"tritikala",3.7
-"1769","kk",2016,"rz.in.sorzica",2.8
+"1769","kk",2016,"rz in sorzica",2.8
 "1770","kk",2011,"krompir",24.3
-"1771","kk",2017,"oljna.ogrscica.in.repica",2.2
+"1771","kk",2017,"oljna ogrscica in repica",2.2
 "1772","kk",2012,"jecmen",4.5
 "1773","kk",2018,"oves",2.8
 "1774","kk",2013,"koruza",26.8
 "1775","kk",2019,"buce",0.8
-"1776","kk",2014,"psenica.in.pira",4.7
+"1776","kk",2014,"psenica in pira",4.7
 "1777","kk",2020,"tritikala",4.9
 "1778","kk",2015,"koruza",8.9
 "1779","kk",2010,"buce",0.7
 "1780","kk",2011,"tritikala",4
-"1781","kk",2017,"rz.in.sorzica",2.3
+"1781","kk",2017,"rz in sorzica",2.3
 "1782","kk",2012,"krompir",24.3
-"1783","kk",2018,"oljna.ogrscica.in.repica",2.5
+"1783","kk",2018,"oljna ogrscica in repica",2.5
 "1784","kk",2013,"jecmen",3.8
 "1785","kk",2019,"oves",3.1
 "1786","kk",2014,"koruza",43.8
 "1787","kk",2020,"buce",0.8
-"1788","kk",2015,"psenica.in.pira",4.8
+"1788","kk",2015,"psenica in pira",4.8
 "1789","kk",2010,"oves",3
 "1790","kk",2016,"koruza",9.8
 "1791","kk",2011,"buce",0.7
 "1792","kk",2012,"tritikala",4.5
-"1793","kk",2018,"rz.in.sorzica",2.5
+"1793","kk",2018,"rz in sorzica",2.5
 "1794","kk",2013,"krompir",21.6
-"1795","kk",2019,"oljna.ogrscica.in.repica",2.7
+"1795","kk",2019,"oljna ogrscica in repica",2.7
 "1796","kk",2014,"jecmen",4.5
 "1797","kk",2020,"oves",3.4
 "1798","kk",2015,"koruza",47.9
-"1799","kk",2010,"oljna.ogrscica.in.repica",2.3
-"1800","kk",2016,"psenica.in.pira",4.6
+"1799","kk",2010,"oljna ogrscica in repica",2.3
+"1800","kk",2016,"psenica in pira",4.6
 "1801","kk",2011,"oves",3.1
 "1802","kk",2017,"koruza",5.4
 "1803","kk",2012,"buce",0.5
 "1804","kk",2013,"tritikala",3.8
-"1805","kk",2019,"rz.in.sorzica",3.4
+"1805","kk",2019,"rz in sorzica",3.4
 "1806","kk",2014,"krompir",30.1
-"1807","kk",2020,"oljna.ogrscica.in.repica",1.7
+"1807","kk",2020,"oljna ogrscica in repica",1.7
 "1808","kk",2015,"jecmen",4.6
-"1809","kk",2010,"rz.in.sorzica",2.8
+"1809","kk",2010,"rz in sorzica",2.8
 "1810","kk",2016,"koruza",47.5
-"1811","kk",2011,"oljna.ogrscica.in.repica",2.7
-"1812","kk",2017,"psenica.in.pira",4.1
+"1811","kk",2011,"oljna ogrscica in repica",2.7
+"1812","kk",2017,"psenica in pira",4.1
 "1813","kk",2012,"oves",3.2
 "1814","kk",2018,"koruza",9.6
 "1815","kk",2013,"buce",0.5
 "1816","kk",2014,"tritikala",4.5
-"1817","kk",2020,"rz.in.sorzica",4.8
+"1817","kk",2020,"rz in sorzica",4.8
 "1818","kk",2015,"krompir",30.7
 "1819","kk",2016,"jecmen",4.6
-"1820","kk",2011,"rz.in.sorzica",3.1
+"1820","kk",2011,"rz in sorzica",3.1
 "1821","kk",2017,"koruza",28.6
-"1822","kk",2012,"oljna.ogrscica.in.repica",3
-"1823","kk",2018,"psenica.in.pira",4.3
+"1822","kk",2012,"oljna ogrscica in repica",3
+"1823","kk",2018,"psenica in pira",4.3
 "1824","kk",2013,"oves",2.9
 "1825","kk",2019,"koruza",9.8
 "1826","kk",2014,"buce",0.5
@@ -1829,215 +1829,215 @@
 "1828","kk",2010,"koruza",7.6
 "1829","kk",2016,"krompir",29.6
 "1830","kk",2017,"jecmen",3.9
-"1831","kk",2012,"rz.in.sorzica",3
-"1832","kk",2018,"belo.zelje",26.7
+"1831","kk",2012,"rz in sorzica",3
+"1832","kk",2018,"belo zelje",26.7
 "1833","kk",2019,"trave",7.9
 "1834","kk",2014,"detelja",7.2
-"1835","kk",2020,"travniki.in.pasniki",6.4
+"1835","kk",2020,"travniki in pašniki",6.4
 "1836","kk",2015,"jabolka",32.9
 "1837","kk",2010,"trave",7
 "1838","kk",2016,"trave",7.8
-"1839","kk",2011,"travniki.in.pasniki",5.6
+"1839","kk",2011,"travniki in pašniki",5.6
 "1840","kk",2017,"grozdje",5.1
-"1841","kk",2012,"breskve.in.nektarine",18
+"1841","kk",2012,"breskve in nektarine",18
 "1842","kk",2018,"trave",7.3
 "1843","kk",2013,"lucerna",6.4
-"1844","kk",2019,"belo.zelje",26.8
+"1844","kk",2019,"belo zelje",26.8
 "1845","kk",2020,"trave",8.4
 "1846","kk",2015,"detelja",7.8
-"1847","kk",2010,"belo.zelje",40.2
+"1847","kk",2010,"belo zelje",40.2
 "1848","kk",2016,"jabolka",27.1
 "1849","kk",2011,"trave",6
 "1850","kk",2017,"trave",4.9
-"1851","kk",2012,"travniki.in.pasniki",4.7
+"1851","kk",2012,"travniki in pašniki",4.7
 "1852","kk",2018,"grozdje",9.6
-"1853","kk",2013,"breskve.in.nektarine",13.2
+"1853","kk",2013,"breskve in nektarine",13.2
 "1854","kk",2019,"trave",8.2
 "1855","kk",2014,"lucerna",8.4
-"1856","kk",2020,"belo.zelje",28.6
+"1856","kk",2020,"belo zelje",28.6
 "1857","kk",2010,"trave",6.9
 "1858","kk",2016,"detelja",8
-"1859","kk",2011,"belo.zelje",35.5
+"1859","kk",2011,"belo zelje",35.5
 "1860","kk",2017,"jabolka",3.1
 "1861","kk",2012,"trave",5.3
 "1862","kk",2018,"trave",8.1
-"1863","kk",2013,"travniki.in.pasniki",4.7
+"1863","kk",2013,"travniki in pašniki",4.7
 "1864","kk",2019,"grozdje",7.3
-"1865","kk",2014,"breskve.in.nektarine",10.1
+"1865","kk",2014,"breskve in nektarine",10.1
 "1866","kk",2020,"trave",8.3
 "1867","kk",2015,"lucerna",8.6
 "1868","kk",2010,"grozdje",6.5
 "1869","kk",2011,"trave",6.3
 "1870","kk",2017,"detelja",5.1
-"1871","kk",2012,"belo.zelje",29.1
+"1871","kk",2012,"belo zelje",29.1
 "1872","kk",2018,"jabolka",38.2
 "1873","kk",2013,"trave",5.4
 "1874","kk",2019,"trave",8.5
-"1875","kk",2014,"travniki.in.pasniki",5.4
+"1875","kk",2014,"travniki in pašniki",5.4
 "1876","kk",2020,"grozdje",7.3
-"1877","kk",2015,"breskve.in.nektarine",13.4
+"1877","kk",2015,"breskve in nektarine",13.4
 "1878","kk",2010,"trave",6.6
 "1879","kk",2016,"lucerna",8.6
 "1880","kk",2011,"grozdje",6.5
 "1881","kk",2012,"trave",5.8
 "1882","kk",2018,"detelja",7.6
-"1883","kk",2013,"belo.zelje",25.8
+"1883","kk",2013,"belo zelje",25.8
 "1884","kk",2019,"jabolka",23.5
 "1885","kk",2014,"trave",6.4
 "1886","kk",2020,"trave",8.9
-"1887","kk",2015,"travniki.in.pasniki",6
+"1887","kk",2015,"travniki in pašniki",6
 "1888","kk",2010,"jabolka",31.8
-"1889","kk",2016,"breskve.in.nektarine",11.9
+"1889","kk",2016,"breskve in nektarine",11.9
 "1890","kk",2011,"trave",6.8
 "1891","kk",2017,"lucerna",5.5
 "1892","kk",2012,"grozdje",6.4
 "1893","kk",2013,"trave",5.7
 "1894","kk",2019,"detelja",9
-"1895","kk",2014,"belo.zelje",27.4
+"1895","kk",2014,"belo zelje",27.4
 "1896","kk",2020,"jabolka",29.1
 "1897","kk",2015,"trave",7.3
 "1898","kk",2010,"detelja",7.6
-"1899","kk",2016,"travniki.in.pasniki",6.2
+"1899","kk",2016,"travniki in pašniki",6.2
 "1900","kk",2011,"jabolka",35.7
-"1901","kk",2017,"breskve.in.nektarine",2.8
+"1901","kk",2017,"breskve in nektarine",2.8
 "1902","kk",2012,"trave",5.6
 "1903","kk",2018,"lucerna",8.3
 "1904","kk",2013,"grozdje",7.1
 "1905","kk",2014,"trave",7
 "1906","kk",2020,"detelja",9.2
-"1907","kk",2015,"belo.zelje",29.6
+"1907","kk",2015,"belo zelje",29.6
 "1908","kk",2016,"trave",7.6
 "1909","kk",2011,"detelja",6.7
-"1910","kk",2017,"travniki.in.pasniki",3.3
+"1910","kk",2017,"travniki in pašniki",3.3
 "1911","kk",2012,"jabolka",25.7
-"1912","kk",2018,"breskve.in.nektarine",13.9
+"1912","kk",2018,"breskve in nektarine",13.9
 "1913","kk",2013,"trave",5.3
 "1914","kk",2019,"lucerna",8.8
 "1915","kk",2014,"grozdje",5.3
 "1916","kk",2015,"trave",7.9
 "1917","kk",2010,"lucerna",7.8
-"1918","kk",2016,"belo.zelje",27.3
+"1918","kk",2016,"belo zelje",27.3
 "1919","kk",2017,"trave",4.7
 "1920","kk",2012,"detelja",6.1
-"1921","kk",2018,"travniki.in.pasniki",5.7
+"1921","kk",2018,"travniki in pašniki",5.7
 "1922","kk",2013,"jabolka",36.5
-"1923","kk",2019,"breskve.in.nektarine",12.5
+"1923","kk",2019,"breskve in nektarine",12.5
 "1924","kk",2014,"trave",6.9
 "1925","kk",2020,"lucerna",8.9
 "1926","kk",2015,"grozdje",7.8
-"1927","kk",2010,"breskve.in.nektarine",13.2
+"1927","kk",2010,"breskve in nektarine",13.2
 "1928","kk",2016,"trave",7.9
 "1929","kk",2011,"lucerna",7.4
-"1930","kk",2017,"belo.zelje",24.5
+"1930","kk",2017,"belo zelje",24.5
 "1931","kk",2018,"trave",6.7
 "1932","kk",2013,"detelja",5.6
-"1933","kk",2019,"travniki.in.pasniki",6.3
+"1933","kk",2019,"travniki in pašniki",6.3
 "1934","kk",2014,"jabolka",31.2
-"1935","kk",2020,"breskve.in.nektarine",10.3
+"1935","kk",2020,"breskve in nektarine",10.3
 "1936","kk",2015,"trave",7.9
-"1937","kk",2010,"travniki.in.pasniki",5.8
+"1937","kk",2010,"travniki in pašniki",5.8
 "1938","kk",2016,"grozdje",7.3
-"1939","kk",2011,"breskve.in.nektarine",12.9
+"1939","kk",2011,"breskve in nektarine",12.9
 "1940","kk",2017,"trave",4.8
 "1941","kk",2012,"lucerna",6.8
 "1942","po",2016,"krompir",26.4
 "1943","po",2017,"jecmen",4.2
-"1944","po",2012,"rz.in.sorzica",4.9
+"1944","po",2012,"rz in sorzica",4.9
 "1945","po",2018,"koruza",40.4
-"1946","po",2019,"psenica.in.pira",4.5
+"1946","po",2019,"psenica in pira",4.5
 "1947","po",2014,"oves",3.3
 "1948","po",2020,"koruza",8.6
 "1949","po",2015,"buce",0.7
-"1950","po",2010,"psenica.in.pira",4.1
+"1950","po",2010,"psenica in pira",4.1
 "1951","po",2016,"tritikala",4.3
 "1952","po",2011,"koruza",7
 "1953","po",2017,"krompir",25.6
 "1954","po",2018,"jecmen",4.4
-"1955","po",2013,"rz.in.sorzica",4
+"1955","po",2013,"rz in sorzica",4
 "1956","po",2019,"koruza",45.1
-"1957","po",2020,"psenica.in.pira",4.8
+"1957","po",2020,"psenica in pira",4.8
 "1958","po",2015,"oves",3.3
 "1959","po",2010,"koruza",44.3
 "1960","po",2016,"buce",0.8
-"1961","po",2011,"psenica.in.pira",4.3
+"1961","po",2011,"psenica in pira",4.3
 "1962","po",2017,"tritikala",4
 "1963","po",2012,"koruza",3.9
 "1964","po",2018,"krompir",25.9
 "1965","po",2019,"jecmen",4.6
-"1966","po",2014,"rz.in.sorzica",4.5
+"1966","po",2014,"rz in sorzica",4.5
 "1967","po",2020,"koruza",45.4
 "1968","po",2010,"jecmen",4
 "1969","po",2016,"oves",3.2
 "1970","po",2011,"koruza",40.5
 "1971","po",2017,"buce",0.6
-"1972","po",2012,"psenica.in.pira",3.9
+"1972","po",2012,"psenica in pira",3.9
 "1973","po",2018,"tritikala",4.1
 "1974","po",2013,"koruza",5.5
 "1975","po",2019,"krompir",22.8
 "1976","po",2020,"jecmen",4.7
-"1977","po",2015,"rz.in.sorzica",3.5
+"1977","po",2015,"rz in sorzica",3.5
 "1978","po",2010,"krompir",26.5
 "1979","po",2011,"jecmen",4.2
 "1980","po",2017,"oves",3
 "1981","po",2012,"koruza",23.9
 "1982","po",2018,"buce",0.8
-"1983","po",2013,"psenica.in.pira",4.1
+"1983","po",2013,"psenica in pira",4.1
 "1984","po",2019,"tritikala",4.6
 "1985","po",2014,"koruza",7.2
 "1986","po",2020,"krompir",30.3
 "1987","po",2010,"tritikala",3.8
-"1988","po",2016,"rz.in.sorzica",3.8
+"1988","po",2016,"rz in sorzica",3.8
 "1989","po",2011,"krompir",27.9
 "1990","po",2012,"jecmen",3.9
 "1991","po",2018,"oves",3.2
 "1992","po",2013,"koruza",31
 "1993","po",2019,"buce",0.6
-"1994","po",2014,"psenica.in.pira",4.6
+"1994","po",2014,"psenica in pira",4.6
 "1995","po",2020,"tritikala",4.8
 "1996","po",2015,"koruza",7.4
 "1997","po",2010,"buce",0.7
 "1998","po",2011,"tritikala",4.1
-"1999","po",2017,"rz.in.sorzica",3.5
+"1999","po",2017,"rz in sorzica",3.5
 "2000","po",2012,"krompir",21.9
-"2001","po",2018,"oljna.ogrscica.in.repica",2.3
+"2001","po",2018,"oljna ogrscica in repica",2.3
 "2002","po",2013,"jecmen",4.1
 "2003","po",2019,"oves",3
 "2004","po",2014,"koruza",46.3
 "2005","po",2020,"buce",0.5
-"2006","po",2015,"psenica.in.pira",4.4
+"2006","po",2015,"psenica in pira",4.4
 "2007","po",2010,"oves",2.7
 "2008","po",2016,"koruza",7.3
 "2009","po",2011,"buce",0.7
 "2010","po",2012,"tritikala",3.3
-"2011","po",2018,"rz.in.sorzica",3.5
+"2011","po",2018,"rz in sorzica",3.5
 "2012","po",2013,"krompir",22.1
-"2013","po",2019,"oljna.ogrscica.in.repica",2.9
+"2013","po",2019,"oljna ogrscica in repica",2.9
 "2014","po",2014,"jecmen",4.2
 "2015","po",2020,"oves",3.4
 "2016","po",2015,"koruza",44.1
-"2017","po",2016,"psenica.in.pira",4.5
+"2017","po",2016,"psenica in pira",4.5
 "2018","po",2011,"oves",3.4
 "2019","po",2017,"koruza",5.1
 "2020","po",2012,"buce",0.5
 "2021","po",2013,"tritikala",4.1
-"2022","po",2019,"rz.in.sorzica",3.8
+"2022","po",2019,"rz in sorzica",3.8
 "2023","po",2014,"krompir",30.8
-"2024","po",2020,"oljna.ogrscica.in.repica",2.6
+"2024","po",2020,"oljna ogrscica in repica",2.6
 "2025","po",2015,"jecmen",4.3
-"2026","po",2010,"rz.in.sorzica",4.9
+"2026","po",2010,"rz in sorzica",4.9
 "2027","po",2016,"koruza",40.3
-"2028","po",2017,"psenica.in.pira",4.3
+"2028","po",2017,"psenica in pira",4.3
 "2029","po",2012,"oves",3.2
 "2030","po",2018,"koruza",8
 "2031","po",2013,"buce",0.5
 "2032","po",2014,"tritikala",4.4
-"2033","po",2020,"rz.in.sorzica",4
+"2033","po",2020,"rz in sorzica",4
 "2034","po",2015,"krompir",25.4
 "2035","po",2016,"jecmen",4.3
-"2036","po",2011,"rz.in.sorzica",5.2
+"2036","po",2011,"rz in sorzica",5.2
 "2037","po",2017,"koruza",31.9
-"2038","po",2012,"oljna.ogrscica.in.repica",3.1
-"2039","po",2018,"psenica.in.pira",4.2
+"2038","po",2012,"oljna ogrscica in repica",3.1
+"2039","po",2018,"psenica in pira",4.2
 "2040","po",2013,"oves",3.3
 "2041","po",2019,"koruza",7.9
 "2042","po",2014,"buce",0.6
@@ -2046,217 +2046,217 @@
 "2045","po",2016,"grozdje",6
 "2046","po",2017,"trave",5
 "2047","po",2012,"lucerna",4.5
-"2048","po",2018,"belo.zelje",34.7
+"2048","po",2018,"belo zelje",34.7
 "2049","po",2019,"trave",6.1
 "2050","po",2014,"detelja",5.7
-"2051","po",2020,"travniki.in.pasniki",5.2
+"2051","po",2020,"travniki in pašniki",5.2
 "2052","po",2015,"jabolka",31.5
 "2053","po",2010,"trave",4.6
 "2054","po",2016,"trave",5.5
-"2055","po",2011,"travniki.in.pasniki",4.7
+"2055","po",2011,"travniki in pašniki",4.7
 "2056","po",2017,"grozdje",5.6
 "2057","po",2018,"trave",6.5
 "2058","po",2013,"lucerna",4.9
-"2059","po",2019,"belo.zelje",39
+"2059","po",2019,"belo zelje",39
 "2060","po",2020,"trave",6.7
 "2061","po",2015,"detelja",5.6
-"2062","po",2010,"belo.zelje",40.9
+"2062","po",2010,"belo zelje",40.9
 "2063","po",2016,"jabolka",29.5
 "2064","po",2011,"trave",5.4
 "2065","po",2017,"trave",5.2
-"2066","po",2012,"travniki.in.pasniki",3.9
+"2066","po",2012,"travniki in pašniki",3.9
 "2067","po",2018,"grozdje",8.1
 "2068","po",2019,"trave",5.8
 "2069","po",2014,"lucerna",7.1
-"2070","po",2020,"belo.zelje",40
+"2070","po",2020,"belo zelje",40
 "2071","po",2010,"trave",4.9
 "2072","po",2016,"detelja",5.6
-"2073","po",2011,"belo.zelje",38.1
+"2073","po",2011,"belo zelje",38.1
 "2074","po",2017,"jabolka",6.7
 "2075","po",2012,"trave",4
 "2076","po",2018,"trave",6.7
-"2077","po",2013,"travniki.in.pasniki",4.4
+"2077","po",2013,"travniki in pašniki",4.4
 "2078","po",2019,"grozdje",6.7
 "2079","po",2020,"trave",6.3
 "2080","po",2015,"lucerna",7.2
 "2081","po",2010,"grozdje",5.8
 "2082","po",2011,"trave",5.7
 "2083","po",2017,"detelja",4.5
-"2084","po",2012,"belo.zelje",24.9
+"2084","po",2012,"belo zelje",24.9
 "2085","po",2018,"jabolka",35.4
 "2086","po",2013,"trave",4.7
 "2087","po",2019,"trave",5.6
-"2088","po",2014,"travniki.in.pasniki",5.2
+"2088","po",2014,"travniki in pašniki",5.2
 "2089","po",2020,"grozdje",6.7
-"2090","po",2015,"breskve.in.nektarine",17.7
+"2090","po",2015,"breskve in nektarine",17.7
 "2091","po",2010,"trave",5
 "2092","po",2016,"lucerna",7.1
 "2093","po",2011,"grozdje",6.3
 "2094","po",2012,"trave",4.3
 "2095","po",2018,"detelja",6.1
-"2096","po",2013,"belo.zelje",25.3
+"2096","po",2013,"belo zelje",25.3
 "2097","po",2019,"jabolka",23.7
 "2098","po",2014,"trave",5.2
 "2099","po",2020,"trave",6.8
-"2100","po",2015,"travniki.in.pasniki",5.2
+"2100","po",2015,"travniki in pašniki",5.2
 "2101","po",2010,"jabolka",28
-"2102","po",2016,"breskve.in.nektarine",16.2
+"2102","po",2016,"breskve in nektarine",16.2
 "2103","po",2011,"trave",6.2
 "2104","po",2017,"lucerna",5.7
 "2105","po",2012,"grozdje",4.7
 "2106","po",2013,"trave",5.1
 "2107","po",2019,"detelja",5.7
-"2108","po",2014,"belo.zelje",31.6
+"2108","po",2014,"belo zelje",31.6
 "2109","po",2020,"jabolka",32.5
 "2110","po",2015,"trave",5.7
 "2111","po",2010,"detelja",5.1
-"2112","po",2016,"travniki.in.pasniki",5.3
+"2112","po",2016,"travniki in pašniki",5.3
 "2113","po",2011,"jabolka",30
-"2114","po",2017,"breskve.in.nektarine",9.2
+"2114","po",2017,"breskve in nektarine",9.2
 "2115","po",2012,"trave",4.6
 "2116","po",2018,"lucerna",7
 "2117","po",2013,"grozdje",6.4
 "2118","po",2014,"trave",5.6
 "2119","po",2020,"detelja",6.3
-"2120","po",2015,"belo.zelje",31.5
+"2120","po",2015,"belo zelje",31.5
 "2121","po",2016,"trave",5.7
 "2122","po",2011,"detelja",5.5
-"2123","po",2017,"travniki.in.pasniki",4.1
+"2123","po",2017,"travniki in pašniki",4.1
 "2124","po",2012,"jabolka",20.5
-"2125","po",2018,"breskve.in.nektarine",17
+"2125","po",2018,"breskve in nektarine",17
 "2126","po",2013,"trave",4.5
 "2127","po",2019,"lucerna",6.3
 "2128","po",2014,"grozdje",6.2
 "2129","po",2015,"trave",5.7
 "2130","po",2010,"lucerna",5.5
-"2131","po",2016,"belo.zelje",33.3
+"2131","po",2016,"belo zelje",33.3
 "2132","po",2017,"trave",4.5
 "2133","po",2012,"detelja",4.4
-"2134","po",2018,"travniki.in.pasniki",5.2
+"2134","po",2018,"travniki in pašniki",5.2
 "2135","po",2013,"jabolka",29.1
-"2136","po",2019,"breskve.in.nektarine",15.4
+"2136","po",2019,"breskve in nektarine",15.4
 "2137","po",2014,"trave",5.6
 "2138","po",2020,"lucerna",7
 "2139","po",2015,"grozdje",7.5
 "2140","po",2016,"trave",5.7
 "2141","po",2011,"lucerna",6.1
-"2142","po",2017,"belo.zelje",28.2
+"2142","po",2017,"belo zelje",28.2
 "2143","po",2018,"trave",6.3
 "2144","po",2013,"detelja",4.5
-"2145","po",2019,"travniki.in.pasniki",5.4
+"2145","po",2019,"travniki in pašniki",5.4
 "2146","po",2014,"jabolka",36.8
-"2147","po",2020,"breskve.in.nektarine",7.9
+"2147","po",2020,"breskve in nektarine",7.9
 "2148","po",2015,"trave",5.6
-"2149","po",2010,"travniki.in.pasniki",4.8
-"2150","ce",2019,"psenica.in.pira",5.2
+"2149","po",2010,"travniki in pašniki",4.8
+"2150","ce",2019,"psenica in pira",5.2
 "2151","ce",2014,"oves",3.1
 "2152","ce",2020,"koruza",7.7
 "2153","ce",2015,"buce",1
-"2154","ce",2010,"psenica.in.pira",4.7
+"2154","ce",2010,"psenica in pira",4.7
 "2155","ce",2016,"tritikala",5.1
 "2156","ce",2011,"koruza",6.3
 "2157","ce",2017,"krompir",23
 "2158","ce",2012,"hmelj",1.1
 "2159","ce",2018,"jecmen",3.9
-"2160","ce",2013,"rz.in.sorzica",3.4
+"2160","ce",2013,"rz in sorzica",3.4
 "2161","ce",2019,"koruza",45.6
-"2162","ce",2014,"oljna.ogrscica.in.repica",3.6
-"2163","ce",2020,"psenica.in.pira",5.8
+"2162","ce",2014,"oljna ogrscica in repica",3.6
+"2163","ce",2020,"psenica in pira",5.8
 "2164","ce",2015,"oves",3.3
 "2165","ce",2010,"koruza",40.7
 "2166","ce",2016,"buce",1.1
-"2167","ce",2011,"psenica.in.pira",4.8
+"2167","ce",2011,"psenica in pira",4.8
 "2168","ce",2017,"tritikala",4.6
 "2169","ce",2012,"koruza",7.2
 "2170","ce",2018,"krompir",21.3
 "2171","ce",2013,"hmelj",0.9
 "2172","ce",2019,"jecmen",4.1
-"2173","ce",2014,"rz.in.sorzica",3.8
+"2173","ce",2014,"rz in sorzica",3.8
 "2174","ce",2020,"koruza",50.7
-"2175","ce",2015,"oljna.ogrscica.in.repica",2.9
+"2175","ce",2015,"oljna ogrscica in repica",2.9
 "2176","ce",2010,"jecmen",3.9
 "2177","ce",2016,"oves",3
 "2178","ce",2011,"koruza",40.7
 "2179","ce",2017,"buce",0.8
-"2180","ce",2012,"psenica.in.pira",5
+"2180","ce",2012,"psenica in pira",5
 "2181","ce",2018,"tritikala",3.8
 "2182","ce",2013,"koruza",4.4
 "2183","ce",2019,"krompir",18.4
 "2184","ce",2014,"hmelj",1.7
 "2185","ce",2020,"jecmen",4.9
-"2186","ce",2015,"rz.in.sorzica",4.1
+"2186","ce",2015,"rz in sorzica",4.1
 "2187","ce",2010,"krompir",22.7
-"2188","ce",2016,"oljna.ogrscica.in.repica",2.3
+"2188","ce",2016,"oljna ogrscica in repica",2.3
 "2189","ce",2011,"jecmen",4.1
 "2190","ce",2017,"oves",3.1
 "2191","ce",2012,"koruza",36.7
 "2192","ce",2018,"buce",1
-"2193","ce",2013,"psenica.in.pira",4.6
+"2193","ce",2013,"psenica in pira",4.6
 "2194","ce",2019,"tritikala",4.5
 "2195","ce",2014,"koruza",8.1
 "2196","ce",2020,"krompir",28
 "2197","ce",2015,"hmelj",1.4
 "2198","ce",2010,"tritikala",4.5
-"2199","ce",2016,"rz.in.sorzica",3.2
+"2199","ce",2016,"rz in sorzica",3.2
 "2200","ce",2011,"krompir",23.6
-"2201","ce",2017,"oljna.ogrscica.in.repica",2.5
+"2201","ce",2017,"oljna ogrscica in repica",2.5
 "2202","ce",2012,"jecmen",4
 "2203","ce",2018,"oves",2.4
 "2204","ce",2013,"koruza",26.1
 "2205","ce",2019,"buce",0.8
-"2206","ce",2014,"psenica.in.pira",5.2
+"2206","ce",2014,"psenica in pira",5.2
 "2207","ce",2020,"tritikala",5.5
 "2208","ce",2015,"koruza",7.9
 "2209","ce",2010,"buce",0.6
 "2210","ce",2016,"hmelj",1.6
 "2211","ce",2011,"tritikala",4.4
-"2212","ce",2017,"rz.in.sorzica",3.8
+"2212","ce",2017,"rz in sorzica",3.8
 "2213","ce",2012,"krompir",22.3
-"2214","ce",2018,"oljna.ogrscica.in.repica",2.1
+"2214","ce",2018,"oljna ogrscica in repica",2.1
 "2215","ce",2013,"jecmen",4.3
 "2216","ce",2019,"oves",2.9
 "2217","ce",2014,"koruza",48.3
 "2218","ce",2020,"buce",0.9
-"2219","ce",2015,"psenica.in.pira",5.3
+"2219","ce",2015,"psenica in pira",5.3
 "2220","ce",2010,"oves",3.1
 "2221","ce",2016,"koruza",8
 "2222","ce",2011,"buce",1
 "2223","ce",2017,"hmelj",1.3
 "2224","ce",2012,"tritikala",4.4
-"2225","ce",2018,"rz.in.sorzica",3
+"2225","ce",2018,"rz in sorzica",3
 "2226","ce",2013,"krompir",16.5
-"2227","ce",2019,"oljna.ogrscica.in.repica",3
+"2227","ce",2019,"oljna ogrscica in repica",3
 "2228","ce",2014,"jecmen",4.7
 "2229","ce",2020,"oves",3.1
 "2230","ce",2015,"koruza",49.3
-"2231","ce",2010,"oljna.ogrscica.in.repica",3.2
-"2232","ce",2016,"psenica.in.pira",5
+"2231","ce",2010,"oljna ogrscica in repica",3.2
+"2232","ce",2016,"psenica in pira",5
 "2233","ce",2011,"oves",3.1
 "2234","ce",2017,"koruza",5.2
 "2235","ce",2012,"buce",0.8
 "2236","ce",2018,"hmelj",1.9
 "2237","ce",2013,"tritikala",4.7
-"2238","ce",2019,"rz.in.sorzica",3.2
+"2238","ce",2019,"rz in sorzica",3.2
 "2239","ce",2014,"krompir",25.1
-"2240","ce",2020,"oljna.ogrscica.in.repica",2.1
+"2240","ce",2020,"oljna ogrscica in repica",2.1
 "2241","ce",2015,"jecmen",4.6
-"2242","ce",2010,"rz.in.sorzica",3.2
+"2242","ce",2010,"rz in sorzica",3.2
 "2243","ce",2016,"koruza",50.3
-"2244","ce",2011,"oljna.ogrscica.in.repica",3.1
-"2245","ce",2017,"psenica.in.pira",4.8
+"2244","ce",2011,"oljna ogrscica in repica",3.1
+"2245","ce",2017,"psenica in pira",4.8
 "2246","ce",2012,"oves",3.1
 "2247","ce",2018,"koruza",7.1
 "2248","ce",2013,"buce",0.4
 "2249","ce",2019,"hmelj",1.5
 "2250","ce",2014,"tritikala",5.1
-"2251","ce",2020,"rz.in.sorzica",3.9
+"2251","ce",2020,"rz in sorzica",3.9
 "2252","ce",2015,"krompir",26.2
 "2253","ce",2010,"hmelj",1.4
 "2254","ce",2016,"jecmen",4.7
-"2255","ce",2011,"rz.in.sorzica",3.2
+"2255","ce",2011,"rz in sorzica",3.2
 "2256","ce",2017,"koruza",36.7
-"2257","ce",2012,"oljna.ogrscica.in.repica",2.7
-"2258","ce",2018,"psenica.in.pira",4
+"2257","ce",2012,"oljna ogrscica in repica",2.7
+"2258","ce",2018,"psenica in pira",4
 "2259","ce",2013,"oves",2.7
 "2260","ce",2019,"koruza",6.6
 "2261","ce",2014,"buce",0.9
@@ -2266,224 +2266,224 @@
 "2265","ce",2016,"krompir",25.2
 "2266","ce",2011,"hmelj",1.5
 "2267","ce",2017,"jecmen",4.3
-"2268","ce",2012,"rz.in.sorzica",3.2
+"2268","ce",2012,"rz in sorzica",3.2
 "2269","ce",2018,"koruza",46.9
-"2270","ce",2013,"oljna.ogrscica.in.repica",2.7
+"2270","ce",2013,"oljna ogrscica in repica",2.7
 "2271","ce",2019,"trave",8.4
 "2272","ce",2014,"detelja",7.9
-"2273","ce",2020,"travniki.in.pasniki",7.1
+"2273","ce",2020,"travniki in pašniki",7.1
 "2274","ce",2015,"jabolka",39.9
 "2275","ce",2010,"trave",7.9
 "2276","ce",2016,"trave",8.4
-"2277","ce",2011,"travniki.in.pasniki",6.3
+"2277","ce",2011,"travniki in pašniki",6.3
 "2278","ce",2017,"grozdje",3.2
-"2279","ce",2012,"breskve.in.nektarine",19
+"2279","ce",2012,"breskve in nektarine",19
 "2280","ce",2018,"trave",8.5
 "2281","ce",2013,"lucerna",6.5
-"2282","ce",2019,"belo.zelje",21.3
+"2282","ce",2019,"belo zelje",21.3
 "2283","ce",2020,"trave",8.7
 "2284","ce",2015,"detelja",8.9
-"2285","ce",2010,"belo.zelje",25.6
+"2285","ce",2010,"belo zelje",25.6
 "2286","ce",2016,"jabolka",5
 "2287","ce",2011,"trave",7.1
 "2288","ce",2017,"trave",6.8
-"2289","ce",2012,"travniki.in.pasniki",5.1
+"2289","ce",2012,"travniki in pašniki",5.1
 "2290","ce",2018,"grozdje",8.3
-"2291","ce",2013,"breskve.in.nektarine",13.2
+"2291","ce",2013,"breskve in nektarine",13.2
 "2292","ce",2019,"trave",8.7
 "2293","ce",2014,"lucerna",8.4
-"2294","ce",2020,"belo.zelje",26.4
+"2294","ce",2020,"belo zelje",26.4
 "2295","ce",2010,"trave",8
 "2296","ce",2016,"detelja",8.8
-"2297","ce",2011,"belo.zelje",29
+"2297","ce",2011,"belo zelje",29
 "2298","ce",2017,"jabolka",4.7
 "2299","ce",2012,"trave",6.7
 "2300","ce",2018,"trave",8.3
-"2301","ce",2013,"travniki.in.pasniki",4.2
+"2301","ce",2013,"travniki in pašniki",4.2
 "2302","ce",2019,"grozdje",6.7
-"2303","ce",2014,"breskve.in.nektarine",18.2
+"2303","ce",2014,"breskve in nektarine",18.2
 "2304","ce",2020,"trave",9.1
 "2305","ce",2015,"lucerna",9
 "2306","ce",2010,"grozdje",7.2
 "2307","ce",2011,"trave",7.7
 "2308","ce",2017,"detelja",7
-"2309","ce",2012,"belo.zelje",21
+"2309","ce",2012,"belo zelje",21
 "2310","ce",2018,"jabolka",45.2
 "2311","ce",2013,"trave",5.2
 "2312","ce",2019,"trave",8.3
-"2313","ce",2014,"travniki.in.pasniki",6.5
+"2313","ce",2014,"travniki in pašniki",6.5
 "2314","ce",2020,"grozdje",6.7
-"2315","ce",2015,"breskve.in.nektarine",16.1
+"2315","ce",2015,"breskve in nektarine",16.1
 "2316","ce",2010,"trave",7.7
 "2317","ce",2016,"lucerna",9.2
 "2318","ce",2011,"grozdje",6.4
 "2319","ce",2012,"trave",6.3
 "2320","ce",2018,"detelja",8.9
-"2321","ce",2013,"belo.zelje",17.8
+"2321","ce",2013,"belo zelje",17.8
 "2322","ce",2019,"jabolka",29.1
 "2323","ce",2014,"trave",7.5
 "2324","ce",2020,"trave",8.5
-"2325","ce",2015,"travniki.in.pasniki",6.6
+"2325","ce",2015,"travniki in pašniki",6.6
 "2326","ce",2010,"jabolka",29.6
-"2327","ce",2016,"breskve.in.nektarine",12.8
+"2327","ce",2016,"breskve in nektarine",12.8
 "2328","ce",2011,"trave",7.3
 "2329","ce",2017,"lucerna",8.1
 "2330","ce",2012,"grozdje",6.9
 "2331","ce",2013,"trave",5.4
 "2332","ce",2019,"detelja",9.1
-"2333","ce",2014,"belo.zelje",25.7
+"2333","ce",2014,"belo zelje",25.7
 "2334","ce",2020,"jabolka",36.2
 "2335","ce",2015,"trave",7.6
 "2336","ce",2010,"detelja",8.9
-"2337","ce",2016,"travniki.in.pasniki",6.9
+"2337","ce",2016,"travniki in pašniki",6.9
 "2338","ce",2011,"jabolka",26
-"2339","ce",2017,"breskve.in.nektarine",6.3
+"2339","ce",2017,"breskve in nektarine",6.3
 "2340","ce",2012,"trave",5.1
 "2341","ce",2018,"lucerna",9.7
 "2342","ce",2013,"grozdje",5.6
 "2343","ce",2014,"trave",8.1
 "2344","ce",2020,"detelja",8.8
-"2345","ce",2015,"belo.zelje",29.2
+"2345","ce",2015,"belo zelje",29.2
 "2346","ce",2016,"trave",7.7
 "2347","ce",2011,"detelja",8.7
-"2348","ce",2017,"travniki.in.pasniki",4.7
+"2348","ce",2017,"travniki in pašniki",4.7
 "2349","ce",2012,"jabolka",17.4
-"2350","ce",2018,"breskve.in.nektarine",12.2
+"2350","ce",2018,"breskve in nektarine",12.2
 "2351","ce",2013,"trave",4.5
 "2352","ce",2019,"lucerna",9.5
 "2353","ce",2014,"grozdje",6
 "2354","ce",2015,"trave",8.6
 "2355","ce",2010,"lucerna",8.8
-"2356","ce",2016,"belo.zelje",28
+"2356","ce",2016,"belo zelje",28
 "2357","ce",2017,"trave",5.3
 "2358","ce",2012,"detelja",7.6
-"2359","ce",2018,"travniki.in.pasniki",6.6
+"2359","ce",2018,"travniki in pašniki",6.6
 "2360","ce",2013,"jabolka",25.3
-"2361","ce",2019,"breskve.in.nektarine",14.4
+"2361","ce",2019,"breskve in nektarine",14.4
 "2362","ce",2014,"trave",7.5
 "2363","ce",2020,"lucerna",9.6
 "2364","ce",2015,"grozdje",7.4
-"2365","ce",2010,"breskve.in.nektarine",19.3
+"2365","ce",2010,"breskve in nektarine",19.3
 "2366","ce",2016,"trave",8.5
 "2367","ce",2011,"lucerna",8.8
-"2368","ce",2017,"belo.zelje",23.4
+"2368","ce",2017,"belo zelje",23.4
 "2369","ce",2018,"trave",8.6
 "2370","ce",2013,"detelja",5.7
-"2371","ce",2019,"travniki.in.pasniki",6.7
+"2371","ce",2019,"travniki in pašniki",6.7
 "2372","ce",2014,"jabolka",29.1
-"2373","ce",2020,"breskve.in.nektarine",5
+"2373","ce",2020,"breskve in nektarine",5
 "2374","ce",2015,"trave",8.6
-"2375","ce",2010,"travniki.in.pasniki",6.7
+"2375","ce",2010,"travniki in pašniki",6.7
 "2376","ce",2016,"grozdje",4.6
-"2377","ce",2011,"breskve.in.nektarine",21.7
+"2377","ce",2011,"breskve in nektarine",21.7
 "2378","ce",2017,"trave",6.9
 "2379","ce",2012,"lucerna",7.5
-"2380","ce",2018,"belo.zelje",26.3
-"2381","slo",2010,"psenica.in.pira",4.8
+"2380","ce",2018,"belo zelje",26.3
+"2381","slo",2010,"psenica in pira",4.8
 "2382","slo",2016,"tritikala",4.7
 "2383","slo",2011,"koruza",8.7
 "2384","slo",2017,"krompir",24.4
 "2385","slo",2012,"hmelj",1.2
 "2386","slo",2018,"jecmen",4.2
-"2387","slo",2013,"rz.in.sorzica",3.4
+"2387","slo",2013,"rz in sorzica",3.4
 "2388","slo",2019,"koruza",47.4
-"2389","slo",2014,"oljna.ogrscica.in.repica",3.6
-"2390","slo",2020,"psenica.in.pira",5.8
+"2389","slo",2014,"oljna ogrscica in repica",3.6
+"2390","slo",2020,"psenica in pira",5.8
 "2391","slo",2015,"oves",3.3
 "2392","slo",2010,"koruza",44.1
 "2393","slo",2016,"buce",0.8
-"2394","slo",2011,"psenica.in.pira",5.2
+"2394","slo",2011,"psenica in pira",5.2
 "2395","slo",2017,"tritikala",4.6
 "2396","slo",2012,"koruza",7.1
 "2397","slo",2018,"krompir",25.9
 "2398","slo",2013,"hmelj",1.1
 "2399","slo",2019,"jecmen",4.8
-"2400","slo",2014,"rz.in.sorzica",4.1
+"2400","slo",2014,"rz in sorzica",4.1
 "2401","slo",2020,"koruza",52.2
-"2402","slo",2015,"oljna.ogrscica.in.repica",2.2
+"2402","slo",2015,"oljna ogrscica in repica",2.2
 "2403","slo",2010,"jecmen",4.3
 "2404","slo",2016,"oves",3.2
 "2405","slo",2011,"koruza",46.5
 "2406","slo",2017,"buce",0.6
-"2407","slo",2012,"psenica.in.pira",5.4
+"2407","slo",2012,"psenica in pira",5.4
 "2408","slo",2018,"tritikala",4.2
 "2409","slo",2013,"koruza",5.4
 "2410","slo",2019,"krompir",23.6
 "2411","slo",2014,"hmelj",1.8
 "2412","slo",2020,"jecmen",5.5
-"2413","slo",2015,"rz.in.sorzica",3.8
+"2413","slo",2015,"rz in sorzica",3.8
 "2414","slo",2010,"krompir",24.5
-"2415","slo",2016,"oljna.ogrscica.in.repica",2.7
+"2415","slo",2016,"oljna ogrscica in repica",2.7
 "2416","slo",2011,"jecmen",4.5
 "2417","slo",2017,"oves",3.2
 "2418","slo",2012,"koruza",39.4
 "2419","slo",2018,"buce",0.8
-"2420","slo",2013,"psenica.in.pira",4.4
+"2420","slo",2013,"psenica in pira",4.4
 "2421","slo",2019,"tritikala",4.6
 "2422","slo",2014,"koruza",9.1
 "2423","slo",2020,"krompir",30.3
 "2424","slo",2015,"hmelj",1.5
 "2425","slo",2010,"tritikala",4
-"2426","slo",2016,"rz.in.sorzica",4.1
+"2426","slo",2016,"rz in sorzica",4.1
 "2427","slo",2011,"krompir",26.4
-"2428","slo",2017,"oljna.ogrscica.in.repica",2.6
+"2428","slo",2017,"oljna ogrscica in repica",2.6
 "2429","slo",2012,"jecmen",4.7
 "2430","slo",2018,"oves",2.7
 "2431","slo",2013,"koruza",30.3
 "2432","slo",2019,"buce",0.6
-"2433","slo",2014,"psenica.in.pira",5.2
+"2433","slo",2014,"psenica in pira",5.2
 "2434","slo",2020,"tritikala",5.1
 "2435","slo",2015,"koruza",9
 "2436","slo",2010,"buce",0.6
 "2437","slo",2016,"hmelj",1.7
 "2438","slo",2011,"tritikala",4.4
-"2439","slo",2017,"rz.in.sorzica",4.1
+"2439","slo",2017,"rz in sorzica",4.1
 "2440","slo",2012,"krompir",23.4
-"2441","slo",2018,"oljna.ogrscica.in.repica",2.3
+"2441","slo",2018,"oljna ogrscica in repica",2.3
 "2442","slo",2013,"jecmen",4
 "2443","slo",2019,"oves",3.3
 "2444","slo",2014,"koruza",48
 "2445","slo",2020,"buce",0.7
-"2446","slo",2015,"psenica.in.pira",5.1
+"2446","slo",2015,"psenica in pira",5.1
 "2447","slo",2010,"oves",2.9
 "2448","slo",2016,"koruza",9.5
 "2449","slo",2011,"buce",0.7
 "2450","slo",2017,"hmelj",1.4
 "2451","slo",2012,"tritikala",4.4
-"2452","slo",2018,"rz.in.sorzica",3.5
+"2452","slo",2018,"rz in sorzica",3.5
 "2453","slo",2013,"krompir",18.8
-"2454","slo",2019,"oljna.ogrscica.in.repica",2.9
+"2454","slo",2019,"oljna ogrscica in repica",2.9
 "2455","slo",2014,"jecmen",4.9
 "2456","slo",2020,"oves",3.4
 "2457","slo",2015,"koruza",49.4
-"2458","slo",2010,"oljna.ogrscica.in.repica",2.9
-"2459","slo",2016,"psenica.in.pira",5.2
+"2458","slo",2010,"oljna ogrscica in repica",2.9
+"2459","slo",2016,"psenica in pira",5.2
 "2460","slo",2011,"oves",3.2
 "2461","slo",2017,"koruza",7.1
 "2462","slo",2012,"buce",0.6
 "2463","slo",2018,"hmelj",1.8
 "2464","slo",2013,"tritikala",3.6
-"2465","slo",2019,"rz.in.sorzica",3.8
+"2465","slo",2019,"rz in sorzica",3.8
 "2466","slo",2014,"krompir",26.9
-"2467","slo",2020,"oljna.ogrscica.in.repica",2.6
+"2467","slo",2020,"oljna ogrscica in repica",2.6
 "2468","slo",2015,"jecmen",4.6
-"2469","slo",2010,"rz.in.sorzica",3.4
+"2469","slo",2010,"rz in sorzica",3.4
 "2470","slo",2016,"koruza",49.7
-"2471","slo",2011,"oljna.ogrscica.in.repica",2.9
-"2472","slo",2017,"psenica.in.pira",5
+"2471","slo",2011,"oljna ogrscica in repica",2.9
+"2472","slo",2017,"psenica in pira",5
 "2473","slo",2012,"oves",3.2
 "2474","slo",2018,"koruza",9.5
 "2475","slo",2013,"buce",0.5
 "2476","slo",2019,"hmelj",1.6
 "2477","slo",2014,"tritikala",4.7
-"2478","slo",2020,"rz.in.sorzica",4.1
+"2478","slo",2020,"rz in sorzica",4.1
 "2479","slo",2015,"krompir",27.4
 "2480","slo",2010,"hmelj",1.4
 "2481","slo",2016,"jecmen",4.8
-"2482","slo",2011,"rz.in.sorzica",3.5
+"2482","slo",2011,"rz in sorzica",3.5
 "2483","slo",2017,"koruza",40.5
-"2484","slo",2012,"oljna.ogrscica.in.repica",3.2
-"2485","slo",2018,"psenica.in.pira",4.4
+"2484","slo",2012,"oljna ogrscica in repica",3.2
+"2485","slo",2018,"psenica in pira",4.4
 "2486","slo",2013,"oves",2.6
 "2487","slo",2019,"koruza",9.3
 "2488","slo",2014,"buce",0.6
@@ -2493,151 +2493,151 @@
 "2492","slo",2016,"krompir",26.8
 "2493","slo",2011,"hmelj",1.6
 "2494","slo",2017,"jecmen",4.8
-"2495","slo",2012,"rz.in.sorzica",3.8
+"2495","slo",2012,"rz in sorzica",3.8
 "2496","slo",2018,"koruza",48.8
-"2497","slo",2013,"oljna.ogrscica.in.repica",2.5
-"2498","slo",2019,"psenica.in.pira",5.2
+"2497","slo",2013,"oljna ogrscica in repica",2.5
+"2498","slo",2019,"psenica in pira",5.2
 "2499","slo",2014,"oves",3.3
 "2500","slo",2020,"koruza",10.8
 "2501","slo",2015,"buce",0.7
 "2502","slo",2010,"trave",7.3
 "2503","slo",2016,"trave",7.8
-"2504","slo",2011,"travniki.in.pasniki",5.5
+"2504","slo",2011,"travniki in pašniki",5.5
 "2505","slo",2017,"grozdje",5.6
-"2506","slo",2012,"breskve.in.nektarine",13.6
+"2506","slo",2012,"breskve in nektarine",13.6
 "2507","slo",2018,"trave",7.6
 "2508","slo",2013,"lucerna",6.1
-"2509","slo",2019,"belo.zelje",34
+"2509","slo",2019,"belo zelje",34
 "2510","slo",2014,"oljke",0.8
 "2511","slo",2020,"trave",7.8
 "2512","slo",2015,"detelja",7.1
-"2513","slo",2010,"belo.zelje",35
+"2513","slo",2010,"belo zelje",35
 "2514","slo",2016,"jabolka",17.7
 "2515","slo",2011,"trave",7.1
 "2516","slo",2017,"trave",6
-"2517","slo",2012,"travniki.in.pasniki",4.6
+"2517","slo",2012,"travniki in pašniki",4.6
 "2518","slo",2018,"grozdje",8.1
-"2519","slo",2013,"breskve.in.nektarine",14.2
+"2519","slo",2013,"breskve in nektarine",14.2
 "2520","slo",2019,"trave",7.6
 "2521","slo",2014,"lucerna",8.1
-"2522","slo",2020,"belo.zelje",36.3
+"2522","slo",2020,"belo zelje",36.3
 "2523","slo",2015,"oljke",1.5
 "2524","slo",2010,"trave",7.5
 "2525","slo",2016,"detelja",7.3
-"2526","slo",2011,"belo.zelje",35.9
+"2526","slo",2011,"belo zelje",35.9
 "2527","slo",2017,"jabolka",5.8
 "2528","slo",2012,"trave",5.6
 "2529","slo",2018,"trave",7.7
-"2530","slo",2013,"travniki.in.pasniki",4.2
+"2530","slo",2013,"travniki in pašniki",4.2
 "2531","slo",2019,"grozdje",6.8
-"2532","slo",2014,"breskve.in.nektarine",11.7
+"2532","slo",2014,"breskve in nektarine",11.7
 "2533","slo",2020,"trave",8.1
 "2534","slo",2015,"lucerna",8
 "2535","slo",2010,"grozdje",6.6
 "2536","slo",2016,"oljke",1.4
 "2537","slo",2011,"trave",7.3
 "2538","slo",2017,"detelja",5.8
-"2539","slo",2012,"belo.zelje",28.4
+"2539","slo",2012,"belo zelje",28.4
 "2540","slo",2018,"jabolka",37.2
 "2541","slo",2013,"trave",5.1
 "2542","slo",2019,"trave",7.6
-"2543","slo",2014,"travniki.in.pasniki",5.7
+"2543","slo",2014,"travniki in pašniki",5.7
 "2544","slo",2020,"grozdje",6.8
-"2545","slo",2015,"breskve.in.nektarine",17.5
+"2545","slo",2015,"breskve in nektarine",17.5
 "2546","slo",2010,"trave",7.5
 "2547","slo",2016,"lucerna",8.3
 "2548","slo",2011,"grozdje",7.4
 "2549","slo",2017,"oljke",1.4
 "2550","slo",2012,"trave",5.9
 "2551","slo",2018,"detelja",6.9
-"2552","slo",2013,"belo.zelje",25.6
+"2552","slo",2013,"belo zelje",25.6
 "2553","slo",2019,"jabolka",23.9
 "2554","slo",2014,"trave",7
 "2555","slo",2020,"trave",8.2
-"2556","slo",2015,"travniki.in.pasniki",5.9
+"2556","slo",2015,"travniki in pašniki",5.9
 "2557","slo",2010,"jabolka",28
-"2558","slo",2016,"breskve.in.nektarine",15.7
+"2558","slo",2016,"breskve in nektarine",15.7
 "2559","slo",2011,"trave",7.5
 "2560","slo",2017,"lucerna",6.7
 "2561","slo",2012,"grozdje",5.6
 "2562","slo",2018,"oljke",3
 "2563","slo",2013,"trave",5.4
 "2564","slo",2019,"detelja",6.8
-"2565","slo",2014,"belo.zelje",32
+"2565","slo",2014,"belo zelje",32
 "2566","slo",2020,"jabolka",30.5
 "2567","slo",2015,"trave",7.4
 "2568","slo",2010,"detelja",7.4
-"2569","slo",2016,"travniki.in.pasniki",6
+"2569","slo",2016,"travniki in pašniki",6
 "2570","slo",2011,"jabolka",29.7
-"2571","slo",2017,"breskve.in.nektarine",8.7
+"2571","slo",2017,"breskve in nektarine",8.7
 "2572","slo",2012,"trave",5.6
 "2573","slo",2018,"lucerna",8.3
 "2574","slo",2013,"grozdje",6.2
 "2575","slo",2019,"oljke",1.4
 "2576","slo",2014,"trave",7.4
 "2577","slo",2020,"detelja",7.2
-"2578","slo",2015,"belo.zelje",34.4
+"2578","slo",2015,"belo zelje",34.4
 "2579","slo",2010,"oljke",2.1
 "2580","slo",2016,"trave",7.6
 "2581","slo",2011,"detelja",7.5
-"2582","slo",2017,"travniki.in.pasniki",4.5
+"2582","slo",2017,"travniki in pašniki",4.5
 "2583","slo",2012,"jabolka",20.5
-"2584","slo",2018,"breskve.in.nektarine",16.9
+"2584","slo",2018,"breskve in nektarine",16.9
 "2585","slo",2013,"trave",5.3
 "2586","slo",2019,"lucerna",8.2
 "2587","slo",2014,"grozdje",5.9
 "2588","slo",2020,"oljke",2.2
 "2589","slo",2015,"trave",7.7
 "2590","slo",2010,"lucerna",8.1
-"2591","slo",2016,"belo.zelje",35.1
+"2591","slo",2016,"belo zelje",35.1
 "2592","slo",2011,"oljke",1.9
 "2593","slo",2017,"trave",5.8
 "2594","slo",2012,"detelja",5.6
-"2595","slo",2018,"travniki.in.pasniki",5.8
+"2595","slo",2018,"travniki in pašniki",5.8
 "2596","slo",2013,"jabolka",26.3
-"2597","slo",2019,"breskve.in.nektarine",15.1
+"2597","slo",2019,"breskve in nektarine",15.1
 "2598","slo",2014,"trave",7.6
 "2599","slo",2020,"lucerna",8.6
 "2600","slo",2015,"grozdje",7.5
-"2601","slo",2010,"breskve.in.nektarine",15.7
+"2601","slo",2010,"breskve in nektarine",15.7
 "2602","slo",2016,"trave",7.6
 "2603","slo",2011,"lucerna",7.7
-"2604","slo",2017,"belo.zelje",31.9
+"2604","slo",2017,"belo zelje",31.9
 "2605","slo",2012,"oljke",0.8
 "2606","slo",2018,"trave",7.4
 "2607","slo",2013,"detelja",5.2
-"2608","slo",2019,"travniki.in.pasniki",5.8
+"2608","slo",2019,"travniki in pašniki",5.8
 "2609","slo",2014,"jabolka",27.9
-"2610","slo",2020,"breskve.in.nektarine",8.2
+"2610","slo",2020,"breskve in nektarine",8.2
 "2611","slo",2015,"trave",7.7
-"2612","slo",2010,"travniki.in.pasniki",5.7
+"2612","slo",2010,"travniki in pašniki",5.7
 "2613","slo",2016,"grozdje",6
-"2614","slo",2011,"breskve.in.nektarine",16.3
+"2614","slo",2011,"breskve in nektarine",16.3
 "2615","slo",2017,"trave",6.2
 "2616","slo",2012,"lucerna",6.4
-"2617","slo",2018,"belo.zelje",34.8
+"2617","slo",2018,"belo zelje",34.8
 "2618","slo",2013,"oljke",1.6
 "2619","slo",2019,"trave",7.6
 "2620","slo",2014,"detelja",7
-"2621","slo",2020,"travniki.in.pasniki",6.1
+"2621","slo",2020,"travniki in pašniki",6.1
 "2622","slo",2015,"jabolka",34
-"2623","za",2013,"oljna.ogrscica.in.repica",2.2
-"2624","za",2019,"psenica.in.pira",2.7
+"2623","za",2013,"oljna ogrscica in repica",2.2
+"2624","za",2019,"psenica in pira",2.7
 "2625","za",2014,"oves",3.3
 "2626","za",2020,"koruza",5.7
 "2627","za",2015,"buce",0.7
-"2628","za",2010,"psenica.in.pira",3.9
+"2628","za",2010,"psenica in pira",3.9
 "2629","za",2016,"tritikala",3.5
 "2630","za",2011,"koruza",4.1
 "2631","za",2017,"krompir",18.1
 "2632","za",2018,"jecmen",2.2
-"2633","za",2013,"rz.in.sorzica",3.1
+"2633","za",2013,"rz in sorzica",3.1
 "2634","za",2019,"koruza",40.6
-"2635","za",2020,"psenica.in.pira",2.6
+"2635","za",2020,"psenica in pira",2.6
 "2636","za",2015,"oves",2.6
 "2637","za",2010,"koruza",38.6
 "2638","za",2016,"buce",0.8
-"2639","za",2011,"psenica.in.pira",4.5
+"2639","za",2011,"psenica in pira",4.5
 "2640","za",2017,"tritikala",3.4
 "2641","za",2012,"koruza",3.3
 "2642","za",2018,"krompir",18.5
@@ -2647,7 +2647,7 @@
 "2646","za",2016,"oves",2.5
 "2647","za",2011,"koruza",39.7
 "2648","za",2017,"buce",0.6
-"2649","za",2012,"psenica.in.pira",3.9
+"2649","za",2012,"psenica in pira",3.9
 "2650","za",2018,"tritikala",4.2
 "2651","za",2013,"koruza",2.8
 "2652","za",2019,"krompir",15.9
@@ -2657,18 +2657,18 @@
 "2656","za",2017,"oves",2.5
 "2657","za",2012,"koruza",34.7
 "2658","za",2018,"buce",0.8
-"2659","za",2013,"psenica.in.pira",3.7
+"2659","za",2013,"psenica in pira",3.7
 "2660","za",2019,"tritikala",4.7
 "2661","za",2014,"koruza",4.3
 "2662","za",2020,"krompir",18.5
 "2663","za",2010,"tritikala",3.5
 "2664","za",2011,"krompir",18.6
-"2665","za",2017,"oljna.ogrscica.in.repica",2.7
+"2665","za",2017,"oljna ogrscica in repica",2.7
 "2666","za",2012,"jecmen",3
 "2667","za",2018,"oves",2
 "2668","za",2013,"koruza",31.1
 "2669","za",2019,"buce",0.6
-"2670","za",2014,"psenica.in.pira",4.1
+"2670","za",2014,"psenica in pira",4.1
 "2671","za",2020,"tritikala",3.5
 "2672","za",2015,"koruza",5
 "2673","za",2011,"tritikala",3.5
@@ -2677,32 +2677,32 @@
 "2676","za",2019,"oves",2
 "2677","za",2014,"koruza",44.6
 "2678","za",2020,"buce",0.7
-"2679","za",2015,"psenica.in.pira",4.1
+"2679","za",2015,"psenica in pira",4.1
 "2680","za",2010,"oves",2.9
 "2681","za",2016,"koruza",4.8
 "2682","za",2012,"tritikala",3.5
-"2683","za",2018,"rz.in.sorzica",3.4
+"2683","za",2018,"rz in sorzica",3.4
 "2684","za",2013,"krompir",20.7
 "2685","za",2014,"jecmen",3.5
 "2686","za",2020,"oves",2
 "2687","za",2015,"koruza",47.2
-"2688","za",2016,"psenica.in.pira",3.5
+"2688","za",2016,"psenica in pira",3.5
 "2689","za",2011,"oves",3.2
 "2690","za",2017,"koruza",3.9
 "2691","za",2013,"tritikala",3.5
-"2692","za",2019,"rz.in.sorzica",3.8
+"2692","za",2019,"rz in sorzica",3.8
 "2693","za",2014,"krompir",18.3
 "2694","za",2015,"jecmen",3.3
 "2695","za",2016,"koruza",38.1
-"2696","za",2017,"psenica.in.pira",3.4
+"2696","za",2017,"psenica in pira",3.4
 "2697","za",2012,"oves",3.2
 "2698","za",2018,"koruza",4.6
 "2699","za",2014,"tritikala",4
-"2700","za",2020,"rz.in.sorzica",4
+"2700","za",2020,"rz in sorzica",4
 "2701","za",2015,"krompir",20.7
 "2702","za",2016,"jecmen",2.8
 "2703","za",2017,"koruza",33.1
-"2704","za",2018,"psenica.in.pira",2.6
+"2704","za",2018,"psenica in pira",2.6
 "2705","za",2013,"oves",2.6
 "2706","za",2019,"koruza",4.7
 "2707","za",2015,"tritikala",3.5
@@ -2712,176 +2712,176 @@
 "2711","za",2018,"koruza",41
 "2712","za",2019,"trave",4.1
 "2713","za",2014,"detelja",5.3
-"2714","za",2020,"travniki.in.pasniki",3.9
+"2714","za",2020,"travniki in pašniki",3.9
 "2715","za",2015,"jabolka",26.3
 "2716","za",2010,"trave",4.5
 "2717","za",2016,"trave",5.9
-"2718","za",2011,"travniki.in.pasniki",4.6
+"2718","za",2011,"travniki in pašniki",4.6
 "2719","za",2017,"grozdje",5.5
-"2720","za",2012,"breskve.in.nektarine",13.6
+"2720","za",2012,"breskve in nektarine",13.6
 "2721","za",2018,"trave",4.2
 "2722","za",2013,"lucerna",4
-"2723","za",2019,"belo.zelje",15.2
+"2723","za",2019,"belo zelje",15.2
 "2724","za",2020,"trave",4.6
 "2725","za",2015,"detelja",5.8
-"2726","za",2010,"belo.zelje",13
+"2726","za",2010,"belo zelje",13
 "2727","za",2016,"jabolka",30
 "2728","za",2011,"trave",4.1
 "2729","za",2017,"trave",4.1
-"2730","za",2012,"travniki.in.pasniki",3.7
+"2730","za",2012,"travniki in pašniki",3.7
 "2731","za",2018,"grozdje",4.6
-"2732","za",2013,"breskve.in.nektarine",14.5
+"2732","za",2013,"breskve in nektarine",14.5
 "2733","za",2019,"trave",4.5
 "2734","za",2014,"lucerna",5.2
-"2735","za",2020,"belo.zelje",15.2
+"2735","za",2020,"belo zelje",15.2
 "2736","za",2010,"trave",5.5
 "2737","za",2016,"detelja",8
-"2738","za",2011,"belo.zelje",12.9
+"2738","za",2011,"belo zelje",12.9
 "2739","za",2017,"jabolka",5.3
 "2740","za",2012,"trave",3.6
 "2741","za",2018,"trave",4.4
-"2742","za",2013,"travniki.in.pasniki",3.6
+"2742","za",2013,"travniki in pašniki",3.6
 "2743","za",2019,"grozdje",4.2
-"2744","za",2014,"breskve.in.nektarine",11.9
+"2744","za",2014,"breskve in nektarine",11.9
 "2745","za",2020,"trave",5.1
 "2746","za",2015,"lucerna",6.3
 "2747","za",2010,"grozdje",6.1
 "2748","za",2011,"trave",4.6
 "2749","za",2017,"detelja",4
-"2750","za",2012,"belo.zelje",12.6
+"2750","za",2012,"belo zelje",12.6
 "2751","za",2018,"jabolka",34.2
 "2752","za",2013,"trave",3.5
 "2753","za",2019,"trave",4.8
-"2754","za",2014,"travniki.in.pasniki",3.9
+"2754","za",2014,"travniki in pašniki",3.9
 "2755","za",2020,"grozdje",4.2
-"2756","za",2015,"breskve.in.nektarine",17.7
+"2756","za",2015,"breskve in nektarine",17.7
 "2757","za",2010,"trave",5.7
 "2758","za",2016,"lucerna",8.6
 "2759","za",2011,"grozdje",6.5
 "2760","za",2012,"trave",3.7
 "2761","za",2018,"detelja",4.4
-"2762","za",2013,"belo.zelje",13.5
+"2762","za",2013,"belo zelje",13.5
 "2763","za",2019,"jabolka",22.6
 "2764","za",2014,"trave",4.4
 "2765","za",2020,"trave",5.3
-"2766","za",2015,"travniki.in.pasniki",4.2
+"2766","za",2015,"travniki in pašniki",4.2
 "2767","za",2010,"jabolka",30
-"2768","za",2016,"breskve.in.nektarine",16.2
+"2768","za",2016,"breskve in nektarine",16.2
 "2769","za",2011,"trave",4.7
 "2770","za",2017,"lucerna",4.2
 "2771","za",2012,"grozdje",4.9
 "2772","za",2013,"trave",3.7
 "2773","za",2019,"detelja",4.1
-"2774","za",2014,"belo.zelje",11.7
+"2774","za",2014,"belo zelje",11.7
 "2775","za",2020,"jabolka",37.4
 "2776","za",2015,"trave",5.7
 "2777","za",2010,"detelja",5.1
-"2778","za",2016,"travniki.in.pasniki",4.3
+"2778","za",2016,"travniki in pašniki",4.3
 "2779","za",2011,"jabolka",30
-"2780","za",2017,"breskve.in.nektarine",9.2
+"2780","za",2017,"breskve in nektarine",9.2
 "2781","za",2012,"trave",4.2
 "2782","za",2018,"lucerna",4.5
 "2783","za",2013,"grozdje",6.4
 "2784","za",2014,"trave",4.7
 "2785","za",2020,"detelja",4.9
-"2786","za",2015,"belo.zelje",15.1
+"2786","za",2015,"belo zelje",15.1
 "2787","za",2016,"trave",5
 "2788","za",2011,"detelja",5
-"2789","za",2017,"travniki.in.pasniki",3.1
+"2789","za",2017,"travniki in pašniki",3.1
 "2790","za",2012,"jabolka",20
-"2791","za",2018,"breskve.in.nektarine",17
+"2791","za",2018,"breskve in nektarine",17
 "2792","za",2013,"trave",4.2
 "2793","za",2019,"lucerna",4.5
 "2794","za",2014,"grozdje",6.2
 "2795","za",2015,"trave",6.2
 "2796","za",2010,"lucerna",8
-"2797","za",2016,"belo.zelje",13.3
+"2797","za",2016,"belo zelje",13.3
 "2798","za",2017,"trave",3.9
 "2799","za",2012,"detelja",4.4
-"2800","za",2018,"travniki.in.pasniki",3.5
+"2800","za",2018,"travniki in pašniki",3.5
 "2801","za",2013,"jabolka",25.8
-"2802","za",2019,"breskve.in.nektarine",15.4
+"2802","za",2019,"breskve in nektarine",15.4
 "2803","za",2014,"trave",5.2
 "2804","za",2020,"lucerna",5
 "2805","za",2015,"grozdje",5.1
-"2806","za",2010,"breskve.in.nektarine",16.3
+"2806","za",2010,"breskve in nektarine",16.3
 "2807","za",2016,"trave",5.1
 "2808","za",2011,"lucerna",8.3
-"2809","za",2017,"belo.zelje",12.7
+"2809","za",2017,"belo zelje",12.7
 "2810","za",2018,"trave",3.9
 "2811","za",2013,"detelja",5.5
-"2812","za",2019,"travniki.in.pasniki",3.7
+"2812","za",2019,"travniki in pašniki",3.7
 "2813","za",2014,"jabolka",30
-"2814","za",2020,"breskve.in.nektarine",7.9
+"2814","za",2020,"breskve in nektarine",7.9
 "2815","za",2015,"trave",6.4
-"2816","za",2010,"travniki.in.pasniki",4.5
+"2816","za",2010,"travniki in pašniki",4.5
 "2817","za",2016,"grozdje",4.8
-"2818","za",2011,"breskve.in.nektarine",16.5
+"2818","za",2011,"breskve in nektarine",16.5
 "2819","za",2017,"trave",3.8
 "2820","za",2012,"lucerna",6.5
-"2821","za",2018,"belo.zelje",12.7
+"2821","za",2018,"belo zelje",12.7
 "2822","ng",2010,"jecmen",3.7
-"2823","ng",2017,"rz.in.sorzica",4
+"2823","ng",2017,"rz in sorzica",4
 "2824","ng",2011,"koruza",8.4
-"2825","ng",2020,"psenica.in.pira",4.4
+"2825","ng",2020,"psenica in pira",4.4
 "2826","ng",2018,"jabolka",30.7
 "2827","ng",2012,"koruza",2.5
 "2828","ng",2017,"jecmen",3.7
 "2829","ng",2018,"oves",3.2
 "2830","ng",2012,"jecmen",3.6
-"2831","ng",2017,"oljna.ogrscica.in.repica",2.6
-"2832","ng",2013,"oljna.ogrscica.in.repica",2.2
+"2831","ng",2017,"oljna ogrscica in repica",2.6
+"2832","ng",2013,"oljna ogrscica in repica",2.2
 "2833","ng",2015,"oves",2.8
 "2834","ng",2014,"koruza",37.9
-"2835","ng",2010,"psenica.in.pira",4.3
+"2835","ng",2010,"psenica in pira",4.3
 "2836","ng",2015,"buce",0.7
-"2837","ng",2013,"rz.in.sorzica",3
+"2837","ng",2013,"rz in sorzica",3
 "2838","ng",2018,"jecmen",4.4
-"2839","ng",2011,"belo.zelje",18.2
+"2839","ng",2011,"belo zelje",18.2
 "2840","kp",2015,"jecmen",3.4
 "2841","ng",2013,"trave",5.2
 "2842","ng",2011,"grozdje",7.3
 "2843","ng",2010,"tritikala",4.2
 "2844","ng",2014,"trave",7.3
-"2845","ng",2013,"travniki.in.pasniki",4.5
-"2846","ng",2018,"oljna.ogrscica.in.repica",2.2
+"2845","ng",2013,"travniki in pašniki",4.5
+"2846","ng",2018,"oljna ogrscica in repica",2.2
 "2847","ng",2011,"jecmen",4.3
 "2848","ng",2020,"tritikala",4.4
 "2849","ng",2020,"buce",0.7
 "2850","ng",2018,"koruza",32.8
-"2851","ng",2012,"belo.zelje",10
+"2851","ng",2012,"belo zelje",10
 "2852","ng",2013,"koruza",18.9
-"2853","ng",2016,"oljna.ogrscica.in.repica",2.8
+"2853","ng",2016,"oljna ogrscica in repica",2.8
 "2854","ng",2012,"krompir",19.7
 "2855","ng",2010,"koruza",39.5
 "2856","ng",2017,"oljke",2
-"2857","ng",2016,"rz.in.sorzica",4
+"2857","ng",2016,"rz in sorzica",4
 "2858","ng",2019,"oves",2.8
 "2859","ng",2016,"lucerna",8.9
-"2860","kp",2017,"psenica.in.pira",3
+"2860","kp",2017,"psenica in pira",3
 "2861","ng",2012,"koruza",14.4
 "2862","ng",2017,"oves",2.9
 "2863","ng",2017,"krompir",25
 "2864","ng",2012,"trave",4.8
 "2865","ng",2019,"trave",6.4
-"2866","kp",2020,"oljna.ogrscica.in.repica",2.5
+"2866","kp",2020,"oljna ogrscica in repica",2.5
 "2867","ng",2019,"krompir",19.9
 "2868","ng",2011,"tritikala",4.3
 "2869","ng",2019,"koruza",20.5
-"2870","ng",2015,"psenica.in.pira",4.5
+"2870","ng",2015,"psenica in pira",4.5
 "2871","ng",2018,"buce",0.8
 "2872","ng",2011,"krompir",29.3
-"2873","kp",2019,"rz.in.sorzica",4.3
+"2873","kp",2019,"rz in sorzica",4.3
 "2874","kp",2013,"tritikala",3.6
 "2875","kp",2012,"buce",0.6
 "2876","kp",2013,"krompir",15.7
 "2877","ng",2013,"jecmen",2.6
 "2878","ng",2019,"tritikala",4.1
-"2879","ng",2013,"psenica.in.pira",3.1
+"2879","ng",2013,"psenica in pira",3.1
 "2880","kp",2011,"buce",0.7
 "2881","kp",2016,"koruza",4.6
 "2882","kp",2010,"oves",2.2
 "2883","ng",2020,"krompir",27.1
 "2884","ng",2014,"koruza",9.4
-"2885","kp",2018,"rz.in.sorzica",3.8
+"2885","kp",2018,"rz in sorzica",3.8
 "2886","kp",2012,"tritikala",3.4

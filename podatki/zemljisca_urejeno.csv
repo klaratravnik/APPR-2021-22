@@ -1,66 +1,66 @@
 "","regija","leto","vrsta.zemljisca","povrsina"
-"1","slo",2005,"kmetijska.zemljisca",526660
-"2","lj",2016,"kmetijska.zemljisca",60497
-"3","kk",2013,"kmetijska.zemljisca",27651
-"4","sg",2010,"kmetijska.zemljisca",22069
-"5","mb",2007,"kmetijska.zemljisca",83264
-"6","mb",2005,"kmetijska.zemljisca",81486
-"7","kr",2013,"kmetijska.zemljisca",33647
-"8","kp",2007,"kmetijska.zemljisca",24587
-"9","sg",2007,"kmetijska.zemljisca",21214
-"10","mb",2013,"kmetijska.zemljisca",81011
-"11","ce",2016,"kmetijska.zemljisca",64739
-"12","za",2016,"kmetijska.zemljisca",10202
-"13","kk",2016,"kmetijska.zemljisca",30408
-"14","po",2010,"kmetijska.zemljisca",26866
-"15","ng",2007,"kmetijska.zemljisca",38959
-"16","ce",2007,"kmetijska.zemljisca",69095
-"17","mb",2010,"kmetijska.zemljisca",81706
-"18","kk",2010,"kmetijska.zemljisca",27379
-"19","kk",2007,"kmetijska.zemljisca",28849
-"20","kk",2005,"kmetijska.zemljisca",30050
-"21","kr",2003,"kmetijska.zemljisca",34903
-"22","lj",2003,"kmetijska.zemljisca",67387
-"23","sg",2016,"kmetijska.zemljisca",21736
-"24","kr",2005,"kmetijska.zemljisca",36744
-"25","mb",2003,"kmetijska.zemljisca",84313
-"26","kk",2003,"kmetijska.zemljisca",28882
-"27","nm",2003,"kmetijska.zemljisca",58778
-"28","po",2007,"kmetijska.zemljisca",25754
-"29","kr",2007,"kmetijska.zemljisca",36182
-"30","za",2007,"kmetijska.zemljisca",5642
-"31","po",2005,"kmetijska.zemljisca",25077
-"32","nm",2010,"kmetijska.zemljisca",57032
-"33","kp",2003,"kmetijska.zemljisca",19689
-"34","ms",2010,"kmetijska.zemljisca",64772
-"35","slo",2003,"kmetijska.zemljisca",526247
-"36","ce",2010,"kmetijska.zemljisca",68545
-"37","po",2003,"kmetijska.zemljisca",24976
-"38","ng",2010,"kmetijska.zemljisca",36717
-"39","slo",2010,"kmetijska.zemljisca",507091
-"40","nm",2007,"kmetijska.zemljisca",56420
-"41","mb",2016,"kmetijska.zemljisca",80100
-"42","ng",2005,"kmetijska.zemljisca",36231
-"43","lj",2013,"kmetijska.zemljisca",64296
-"44","lj",2010,"kmetijska.zemljisca",65726
-"45","lj",2007,"kmetijska.zemljisca",68152
+"1","slo",2005,"kmetijska zemljisca",526660
+"2","lj",2016,"kmetijska zemljisca",60497
+"3","kk",2013,"kmetijska zemljisca",27651
+"4","sg",2010,"kmetijska zemljisca",22069
+"5","mb",2007,"kmetijska zemljisca",83264
+"6","mb",2005,"kmetijska zemljisca",81486
+"7","kr",2013,"kmetijska zemljisca",33647
+"8","kp",2007,"kmetijska zemljisca",24587
+"9","sg",2007,"kmetijska zemljisca",21214
+"10","mb",2013,"kmetijska zemljisca",81011
+"11","ce",2016,"kmetijska zemljisca",64739
+"12","za",2016,"kmetijska zemljisca",10202
+"13","kk",2016,"kmetijska zemljisca",30408
+"14","po",2010,"kmetijska zemljisca",26866
+"15","ng",2007,"kmetijska zemljisca",38959
+"16","ce",2007,"kmetijska zemljisca",69095
+"17","mb",2010,"kmetijska zemljisca",81706
+"18","kk",2010,"kmetijska zemljisca",27379
+"19","kk",2007,"kmetijska zemljisca",28849
+"20","kk",2005,"kmetijska zemljisca",30050
+"21","kr",2003,"kmetijska zemljisca",34903
+"22","lj",2003,"kmetijska zemljisca",67387
+"23","sg",2016,"kmetijska zemljisca",21736
+"24","kr",2005,"kmetijska zemljisca",36744
+"25","mb",2003,"kmetijska zemljisca",84313
+"26","kk",2003,"kmetijska zemljisca",28882
+"27","nm",2003,"kmetijska zemljisca",58778
+"28","po",2007,"kmetijska zemljisca",25754
+"29","kr",2007,"kmetijska zemljisca",36182
+"30","za",2007,"kmetijska zemljisca",5642
+"31","po",2005,"kmetijska zemljisca",25077
+"32","nm",2010,"kmetijska zemljisca",57032
+"33","kp",2003,"kmetijska zemljisca",19689
+"34","ms",2010,"kmetijska zemljisca",64772
+"35","slo",2003,"kmetijska zemljisca",526247
+"36","ce",2010,"kmetijska zemljisca",68545
+"37","po",2003,"kmetijska zemljisca",24976
+"38","ng",2010,"kmetijska zemljisca",36717
+"39","slo",2010,"kmetijska zemljisca",507091
+"40","nm",2007,"kmetijska zemljisca",56420
+"41","mb",2016,"kmetijska zemljisca",80100
+"42","ng",2005,"kmetijska zemljisca",36231
+"43","lj",2013,"kmetijska zemljisca",64296
+"44","lj",2010,"kmetijska zemljisca",65726
+"45","lj",2007,"kmetijska zemljisca",68152
 "46","kr",2005,"skupaj",85430
 "47","za",2007,"skupaj",15395
-"48","ms",2003,"kmetijska.zemljisca",65391
-"49","za",2010,"kmetijska.zemljisca",6257
-"50","ce",2005,"kmetijska.zemljisca",72073
-"51","za",2005,"kmetijska.zemljisca",6826
-"52","nm",2016,"kmetijska.zemljisca",52502
+"48","ms",2003,"kmetijska zemljisca",65391
+"49","za",2010,"kmetijska zemljisca",6257
+"50","ce",2005,"kmetijska zemljisca",72073
+"51","za",2005,"kmetijska zemljisca",6826
+"52","nm",2016,"kmetijska zemljisca",52502
 "53","ms",2005,"skupaj",81089
-"54","lj",2005,"kmetijska.zemljisca",67277
-"55","nm",2005,"kmetijska.zemljisca",62238
+"54","lj",2005,"kmetijska zemljisca",67277
+"55","nm",2005,"kmetijska zemljisca",62238
 "56","po",2003,"skupaj",42660
 "57","za",2010,"skupaj",15439
 "58","lj",2003,"skupaj",132308
 "59","kr",2007,"skupaj",87735
-"60","ce",2013,"kmetijska.zemljisca",67388
-"61","ms",2005,"kmetijska.zemljisca",65686
-"62","kr",2016,"kmetijska.zemljisca",32145
+"60","ce",2013,"kmetijska zemljisca",67388
+"61","ms",2005,"kmetijska zemljisca",65686
+"62","kr",2016,"kmetijska zemljisca",32145
 "63","slo",2007,"skupaj",921226
 "64","ms",2010,"skupaj",80557
 "65","kk",2003,"skupaj",47814
@@ -70,22 +70,22 @@
 "69","za",2005,"skupaj",16433
 "70","po",2007,"skupaj",46035
 "71","po",2005,"skupaj",43330
-"72","slo",2013,"kmetijska.zemljisca",499414
-"73","ce",2003,"kmetijska.zemljisca",71199
-"74","kr",2010,"kmetijska.zemljisca",33077
-"75","ng",2003,"kmetijska.zemljisca",41731
-"76","ms",2007,"kmetijska.zemljisca",66050
+"72","slo",2013,"kmetijska zemljisca",499414
+"73","ce",2003,"kmetijska zemljisca",71199
+"74","kr",2010,"kmetijska zemljisca",33077
+"75","ng",2003,"kmetijska zemljisca",41731
+"76","ms",2007,"kmetijska zemljisca",66050
 "77","po",2010,"skupaj",46177
-"78","ms",2013,"kmetijska.zemljisca",67487
-"79","kp",2010,"kmetijska.zemljisca",16946
-"80","kp",2013,"kmetijska.zemljisca",19054
-"81","po",2013,"kmetijska.zemljisca",23870
-"82","sg",2005,"kmetijska.zemljisca",22311
-"83","za",2013,"kmetijska.zemljisca",5358
+"78","ms",2013,"kmetijska zemljisca",67487
+"79","kp",2010,"kmetijska zemljisca",16946
+"80","kp",2013,"kmetijska zemljisca",19054
+"81","po",2013,"kmetijska zemljisca",23870
+"82","sg",2005,"kmetijska zemljisca",22311
+"83","za",2013,"kmetijska zemljisca",5358
 "84","ng",2016,"skupaj",62014
 "85","slo",2005,"skupaj",921312
 "86","ce",2013,"skupaj",126583
-"87","ng",2005,"travniki.in.pasniki",20789
+"87","ng",2005,"travniki in pašniki",20789
 "88","ce",2010,"skupaj",136491
 "89","za",2013,"skupaj",13104
 "90","mb",2013,"skupaj",119944
@@ -102,19 +102,19 @@
 "101","za",2016,"skupaj",24267
 "102","po",2013,"skupaj",42700
 "103","slo",2003,"skupaj",926821
-"104","za",2005,"travniki.in.pasniki",6084
-"105","lj",2005,"travniki.in.pasniki",44946
-"106","ce",2003,"travniki.in.pasniki",51625
-"107","ng",2016,"travniki.in.pasniki",23131
-"108","mb",2003,"travniki.in.pasniki",33218
-"109","ng",2016,"kmetijska.zemljisca",33986
-"110","ms",2016,"kmetijska.zemljisca",69185
-"111","nm",2013,"kmetijska.zemljisca",54703
-"112","sg",2013,"kmetijska.zemljisca",20851
-"113","slo",2007,"kmetijska.zemljisca",524167
+"104","za",2005,"travniki in pašniki",6084
+"105","lj",2005,"travniki in pašniki",44946
+"106","ce",2003,"travniki in pašniki",51625
+"107","ng",2016,"travniki in pašniki",23131
+"108","mb",2003,"travniki in pašniki",33218
+"109","ng",2016,"kmetijska zemljisca",33986
+"110","ms",2016,"kmetijska zemljisca",69185
+"111","nm",2013,"kmetijska zemljisca",54703
+"112","sg",2013,"kmetijska zemljisca",20851
+"113","slo",2007,"kmetijska zemljisca",524167
 "114","ms",2007,"skupaj",82043
 "115","kp",2003,"skupaj",26477
-"116","sg",2003,"kmetijska.zemljisca",22057
+"116","sg",2003,"kmetijska zemljisca",22057
 "117","kk",2010,"skupaj",46251
 "118","sg",2010,"skupaj",57717
 "119","mb",2003,"skupaj",120554
@@ -123,109 +123,109 @@
 "122","lj",2005,"skupaj",136458
 "123","lj",2013,"skupaj",131309
 "124","lj",2010,"skupaj",131079
-"125","kk",2005,"travniki.in.pasniki",15334
-"126","kk",2003,"travniki.in.pasniki",14966
+"125","kk",2005,"travniki in pašniki",15334
+"126","kk",2003,"travniki in pašniki",14966
 "127","slo",2013,"skupaj",893431
-"128","za",2007,"travniki.in.pasniki",5160
-"129","mb",2007,"travniki.in.pasniki",30649
-"130","kp",2013,"travniki.in.pasniki",10489
-"131","kr",2003,"travniki.in.pasniki",24225
-"132","kr",2005,"travniki.in.pasniki",24427
-"133","ng",2013,"kmetijska.zemljisca",34100
-"134","sg",2007,"travniki.in.pasniki",16824
-"135","ms",2005,"travniki.in.pasniki",8989
-"136","po",2003,"travniki.in.pasniki",18119
-"137","slo",2016,"kmetijska.zemljisca",494641
-"138","kp",2016,"kmetijska.zemljisca",16783
-"139","kp",2003,"travniki.in.pasniki",7628
-"140","po",2016,"kmetijska.zemljisca",22357
-"141","ms",2007,"travniki.in.pasniki",9502
-"142","nm",2013,"travniki.in.pasniki",34310
+"128","za",2007,"travniki in pašniki",5160
+"129","mb",2007,"travniki in pašniki",30649
+"130","kp",2013,"travniki in pašniki",10489
+"131","kr",2003,"travniki in pašniki",24225
+"132","kr",2005,"travniki in pašniki",24427
+"133","ng",2013,"kmetijska zemljisca",34100
+"134","sg",2007,"travniki in pašniki",16824
+"135","ms",2005,"travniki in pašniki",8989
+"136","po",2003,"travniki in pašniki",18119
+"137","slo",2016,"kmetijska zemljisca",494641
+"138","kp",2016,"kmetijska zemljisca",16783
+"139","kp",2003,"travniki in pašniki",7628
+"140","po",2016,"kmetijska zemljisca",22357
+"141","ms",2007,"travniki in pašniki",9502
+"142","nm",2013,"travniki in pašniki",34310
 "143","kk",2013,"skupaj",46056
-"144","mb",2010,"travniki.in.pasniki",30204
-"145","lj",2010,"travniki.in.pasniki",44807
-"146","slo",2007,"travniki.in.pasniki",288222
-"147","ms",2010,"travniki.in.pasniki",9165
-"148","po",2007,"travniki.in.pasniki",19637
-"149","kr",2010,"travniki.in.pasniki",22589
-"150","ng",2010,"travniki.in.pasniki",21451
-"151","kp",2010,"travniki.in.pasniki",8917
-"152","kk",2016,"travniki.in.pasniki",16051
-"153","kr",2016,"travniki.in.pasniki",23325
-"154","nm",2010,"travniki.in.pasniki",33445
-"155","ng",2003,"travniki.in.pasniki",23810
-"156","lj",2007,"travniki.in.pasniki",46630
-"157","kk",2013,"travniki.in.pasniki",14649
-"158","za",2016,"travniki.in.pasniki",8750
-"159","ce",2005,"travniki.in.pasniki",50365
+"144","mb",2010,"travniki in pašniki",30204
+"145","lj",2010,"travniki in pašniki",44807
+"146","slo",2007,"travniki in pašniki",288222
+"147","ms",2010,"travniki in pašniki",9165
+"148","po",2007,"travniki in pašniki",19637
+"149","kr",2010,"travniki in pašniki",22589
+"150","ng",2010,"travniki in pašniki",21451
+"151","kp",2010,"travniki in pašniki",8917
+"152","kk",2016,"travniki in pašniki",16051
+"153","kr",2016,"travniki in pašniki",23325
+"154","nm",2010,"travniki in pašniki",33445
+"155","ng",2003,"travniki in pašniki",23810
+"156","lj",2007,"travniki in pašniki",46630
+"157","kk",2013,"travniki in pašniki",14649
+"158","za",2016,"travniki in pašniki",8750
+"159","ce",2005,"travniki in pašniki",50365
 "160","slo",2016,"skupaj",897650
-"161","sg",2016,"travniki.in.pasniki",17132
-"162","ms",2003,"travniki.in.pasniki",10114
-"163","po",2013,"travniki.in.pasniki",19307
-"164","po",2016,"travniki.in.pasniki",18672
-"165","po",2010,"travniki.in.pasniki",20107
-"166","ng",2013,"travniki.in.pasniki",22195
-"167","slo",2003,"travniki.in.pasniki",285562
-"168","mb",2013,"travniki.in.pasniki",29389
-"169","slo",2016,"travniki.in.pasniki",276244
-"170","slo",2013,"travniki.in.pasniki",276047
+"161","sg",2016,"travniki in pašniki",17132
+"162","ms",2003,"travniki in pašniki",10114
+"163","po",2013,"travniki in pašniki",19307
+"164","po",2016,"travniki in pašniki",18672
+"165","po",2010,"travniki in pašniki",20107
+"166","ng",2013,"travniki in pašniki",22195
+"167","slo",2003,"travniki in pašniki",285562
+"168","mb",2013,"travniki in pašniki",29389
+"169","slo",2016,"travniki in pašniki",276244
+"170","slo",2013,"travniki in pašniki",276047
 "171","kp",2013,"skupaj",26814
 "172","kp",2016,"skupaj",23677
 "173","ng",2010,"skupaj",63090
-"174","sg",2005,"travniki.in.pasniki",17242
-"175","sg",2013,"travniki.in.pasniki",16982
-"176","nm",2016,"travniki.in.pasniki",32841
-"177","sg",2010,"travniki.in.pasniki",17321
+"174","sg",2005,"travniki in pašniki",17242
+"175","sg",2013,"travniki in pašniki",16982
+"176","nm",2016,"travniki in pašniki",32841
+"177","sg",2010,"travniki in pašniki",17321
 "178","sg",2007,"skupaj",52822
-"179","za",2013,"travniki.in.pasniki",4766
+"179","za",2013,"travniki in pašniki",4766
 "180","mb",2005,"skupaj",119512
-"181","kp",2016,"travniki.in.pasniki",10152
+"181","kp",2016,"travniki in pašniki",10152
 "182","slo",2005,"gozd",376741
-"183","mb",2016,"travniki.in.pasniki",28517
-"184","nm",2007,"travniki.in.pasniki",33017
-"185","lj",2016,"travniki.in.pasniki",42749
-"186","kk",2010,"travniki.in.pasniki",14448
-"187","kr",2007,"travniki.in.pasniki",24868
-"188","po",2005,"travniki.in.pasniki",18023
-"189","sg",2003,"travniki.in.pasniki",17864
-"190","nm",2003,"travniki.in.pasniki",30805
+"183","mb",2016,"travniki in pašniki",28517
+"184","nm",2007,"travniki in pašniki",33017
+"185","lj",2016,"travniki in pašniki",42749
+"186","kk",2010,"travniki in pašniki",14448
+"187","kr",2007,"travniki in pašniki",24868
+"188","po",2005,"travniki in pašniki",18023
+"189","sg",2003,"travniki in pašniki",17864
+"190","nm",2003,"travniki in pašniki",30805
 "191","kr",2003,"skupaj",85329
 "192","ce",2016,"skupaj",128685
 "193","kp",2007,"skupaj",31379
-"194","ce",2007,"travniki.in.pasniki",50004
-"195","kk",2007,"travniki.in.pasniki",14861
+"194","ce",2007,"travniki in pašniki",50004
+"195","kk",2007,"travniki in pašniki",14861
 "196","nm",2016,"skupaj",101154
 "197","lj",2010,"gozd",63484
 "198","nm",2010,"gozd",38524
 "199","po",2016,"gozd",20087
-"200","ce",2016,"travniki.in.pasniki",46088
-"201","ng",2007,"travniki.in.pasniki",24185
-"202","slo",2010,"travniki.in.pasniki",277492
+"200","ce",2016,"travniki in pašniki",46088
+"201","ng",2007,"travniki in pašniki",24185
+"202","slo",2010,"travniki in pašniki",277492
 "203","sg",2016,"skupaj",55430
-"204","slo",2005,"travniki.in.pasniki",282119
+"204","slo",2005,"travniki in pašniki",282119
 "205","mb",2010,"skupaj",118567
-"206","mb",2005,"travniki.in.pasniki",30113
-"207","ms",2016,"travniki.in.pasniki",8836
-"208","kp",2007,"travniki.in.pasniki",12886
-"209","lj",2003,"travniki.in.pasniki",47273
-"210","po",2016,"zita",455
-"211","lj",2013,"travniki.in.pasniki",44872
-"212","ce",2013,"travniki.in.pasniki",46614
-"213","nm",2005,"travniki.in.pasniki",34827
-"214","mb",2016,"zita",28968
-"215","kr",2013,"travniki.in.pasniki",24203
-"216","slo",2016,"zita",98378
+"206","mb",2005,"travniki in pašniki",30113
+"207","ms",2016,"travniki in pašniki",8836
+"208","kp",2007,"travniki in pašniki",12886
+"209","lj",2003,"travniki in pašniki",47273
+"210","po",2016,"žita",455
+"211","lj",2013,"travniki in pašniki",44872
+"212","ce",2013,"travniki in pašniki",46614
+"213","nm",2005,"travniki in pašniki",34827
+"214","mb",2016,"žita",28968
+"215","kr",2013,"travniki in pašniki",24203
+"216","slo",2016,"žita",98378
 "217","nm",2003,"skupaj",98698
 "218","mb",2007,"skupaj",117786
-"219","po",2010,"zita",270
-"220","ce",2010,"travniki.in.pasniki",49461
-"221","za",2010,"travniki.in.pasniki",5577
+"219","po",2010,"žita",270
+"220","ce",2010,"travniki in pašniki",49461
+"221","za",2010,"travniki in pašniki",5577
 "222","lj",2016,"skupaj",121405
 "223","kr",2013,"skupaj",86001
 "224","kp",2010,"skupaj",22802
-"225","po",2013,"zita",291
-"226","po",2007,"zita",268
-"227","po",2005,"zita",347
+"225","po",2013,"žita",291
+"226","po",2007,"žita",268
+"227","po",2005,"žita",347
 "228","ms",2007,"gozd",14458
 "229","kr",2010,"gozd",47919
 "230","ng",2005,"gozd",23661
@@ -432,217 +432,217 @@
 "431","po",2003,"njive",1667
 "432","po",2005,"njive",1655
 "433","po",2007,"njive",1643
-"434","ng",2010,"trajni.nasadi",5273
-"435","sg",2010,"trajni.nasadi",603
-"436","ng",2013,"trajni.nasadi",5035
-"437","sg",2007,"trajni.nasadi",473
-"438","ce",2013,"trajni.nasadi",2823
-"439","kp",2016,"trajni.nasadi",3668
-"440","sg",2013,"trajni.nasadi",703
-"441","kp",2003,"trajni.nasadi",3131
-"442","kk",2016,"trajni.nasadi",2804
-"443","kk",2013,"trajni.nasadi",2560
-"444","lj",2013,"trajni.nasadi",718
-"445","ce",2010,"trajni.nasadi",2554
-"446","lj",2016,"trajni.nasadi",645
-"447","ms",2013,"trajni.nasadi",2832
-"448","kk",2010,"trajni.nasadi",2663
-"449","mb",2010,"trajni.nasadi",6000
-"450","ce",2016,"trajni.nasadi",2881
-"451","nm",2016,"trajni.nasadi",2067
-"452","kr",2007,"trajni.nasadi",377
-"453","kp",2005,"trajni.nasadi",3301
-"454","nm",2013,"trajni.nasadi",1864
-"455","slo",2016,"trajni.nasadi",26538
-"456","ng",2016,"trajni.nasadi",5099
-"457","po",2016,"trajni.nasadi",409
-"458","sg",2005,"trajni.nasadi",453
-"459","po",2013,"trajni.nasadi",373
-"460","lj",2003,"trajni.nasadi",1061
-"461","nm",2010,"trajni.nasadi",1778
-"462","ms",2016,"trajni.nasadi",2232
-"463","lj",2005,"trajni.nasadi",670
-"464","za",2016,"trajni.nasadi",300
-"465","sg",2016,"trajni.nasadi",631
-"466","mb",2005,"trajni.nasadi",6159
-"467","za",2010,"trajni.nasadi",179
-"468","po",2010,"trajni.nasadi",393
-"469","ce",2007,"trajni.nasadi",2741
-"470","slo",2003,"trajni.nasadi",28767
-"471","kp",2010,"trajni.nasadi",3509
-"472","ng",2003,"trajni.nasadi",5472
-"473","kp",2007,"trajni.nasadi",3481
-"474","mb",2016,"trajni.nasadi",5381
-"475","kr",2005,"trajni.nasadi",391
-"476","ms",2010,"trajni.nasadi",2729
-"477","kk",2007,"trajni.nasadi",2623
-"478","mb",2007,"trajni.nasadi",6112
-"479","ng",2007,"trajni.nasadi",4683
-"480","slo",2013,"trajni.nasadi",26934
-"481","za",2013,"trajni.nasadi",226
-"482","lj",2007,"trajni.nasadi",601
-"483","ng",2005,"trajni.nasadi",5366
-"484","ms",2003,"trajni.nasadi",3268
-"485","lj",2010,"trajni.nasadi",722
-"486","slo",2010,"trajni.nasadi",26796
-"487","mb",2003,"trajni.nasadi",7031
-"488","nm",2003,"trajni.nasadi",2086
-"489","ce",2005,"trajni.nasadi",2900
-"490","kr",2016,"trajni.nasadi",421
-"491","mb",2013,"trajni.nasadi",5817
-"492","kp",2013,"trajni.nasadi",3565
-"493","kr",2003,"trajni.nasadi",628
-"494","ce",2003,"trajni.nasadi",2334
-"495","kk",2003,"trajni.nasadi",2990
-"496","slo",2005,"trajni.nasadi",27449
-"497","slo",2007,"trajni.nasadi",25843
-"498","kr",2013,"trajni.nasadi",418
-"499","kk",2005,"trajni.nasadi",2626
-"500","kr",2010,"trajni.nasadi",395
-"501","ms",2005,"trajni.nasadi",3057
-"502","nm",2007,"trajni.nasadi",1784
-"503","po",2005,"trajni.nasadi",399
-"504","nm",2005,"trajni.nasadi",2050
-"505","ms",2007,"trajni.nasadi",2669
-"506","ms",2010,"zelena.krma",5270
-"507","ms",2013,"zelena.krma",3795
-"508","ms",2016,"zelena.krma",5746
-"509","ce",2016,"zelena.krma",7848
-"510","slo",2016,"zelena.krma",52656
-"511","ng",2007,"zelena.krma",1108
-"512","ng",2005,"zelena.krma",1151
-"513","mb",2016,"zelena.krma",10591
-"514","sg",2003,"zelena.krma",2596
-"515","lj",2010,"zelena.krma",10160
-"516","ng",2016,"zelena.krma",1139
-"517","ng",2013,"zelena.krma",1212
-"518","ng",2010,"zelena.krma",1079
-"519","za",2016,"zelena.krma",508
-"520","lj",2013,"zelena.krma",10869
-"521","lj",2016,"zelena.krma",8986
-"522","kk",2016,"zelena.krma",2488
-"523","kr",2007,"zelena.krma",5106
-"524","slo",2013,"zelena.krma",53323
-"525","sg",2005,"zelena.krma",2528
-"526","kr",2005,"zelena.krma",5305
-"527","za",2013,"zelena.krma",105
-"528","kr",2010,"zelena.krma",5179
-"529","kr",2003,"zelena.krma",4390
-"530","kr",2016,"zelena.krma",4536
-"531","nm",2003,"zelena.krma",7459
-"532","kr",2013,"zelena.krma",4876
-"533","po",2016,"zelena.krma",1043
-"534","ce",2010,"zelena.krma",8336
-"535","ce",2003,"zelena.krma",7200
-"536","kp",2013,"zelena.krma",784
-"537","ce",2007,"zelena.krma",7948
-"538","sg",2007,"zelena.krma",2385
-"539","ce",2013,"zelena.krma",8870
-"540","ce",2005,"zelena.krma",7803
-"541","slo",2010,"zelena.krma",54374
-"542","kk",2007,"zelena.krma",1892
-"543","kp",2010,"zelena.krma",595
-"544","kp",2016,"zelena.krma",460
-"545","kk",2005,"zelena.krma",2145
-"546","po",2013,"zelena.krma",914
-"547","kk",2010,"zelena.krma",1839
-"548","kk",2003,"zelena.krma",1728
-"549","nm",2016,"zelena.krma",6633
-"550","mb",2005,"zelena.krma",9710
-"551","za",2010,"zelena.krma",162
-"552","kk",2013,"zelena.krma",2160
-"553","mb",2003,"zelena.krma",8419
-"554","mb",2007,"zelena.krma",10070
-"555","mb",2010,"zelena.krma",10818
-"556","mb",2013,"zelena.krma",10426
-"557","nm",2013,"zelena.krma",7227
-"558","slo",2007,"zelena.krma",51469
-"559","nm",2007,"zelena.krma",6645
-"560","nm",2010,"zelena.krma",7374
-"561","slo",2005,"zelena.krma",53665
-"562","nm",2005,"zelena.krma",8081
-"563","slo",2003,"zelena.krma",47922
-"564","po",2010,"zelena.krma",1152
-"565","sg",2016,"zelena.krma",2678
-"566","za",2005,"zelena.krma",121
-"567","sg",2013,"zelena.krma",2084
-"568","sg",2010,"zelena.krma",2411
-"569","ms",2007,"zelena.krma",3793
-"570","lj",2007,"zelena.krma",10655
-"571","po",2007,"zelena.krma",1013
-"572","lj",2005,"zelena.krma",10372
-"573","ms",2003,"zelena.krma",4540
-"574","ms",2005,"zelena.krma",5130
-"575","lj",2003,"zelena.krma",9096
+"434","ng",2010,"trajni nasadi",5273
+"435","sg",2010,"trajni nasadi",603
+"436","ng",2013,"trajni nasadi",5035
+"437","sg",2007,"trajni nasadi",473
+"438","ce",2013,"trajni nasadi",2823
+"439","kp",2016,"trajni nasadi",3668
+"440","sg",2013,"trajni nasadi",703
+"441","kp",2003,"trajni nasadi",3131
+"442","kk",2016,"trajni nasadi",2804
+"443","kk",2013,"trajni nasadi",2560
+"444","lj",2013,"trajni nasadi",718
+"445","ce",2010,"trajni nasadi",2554
+"446","lj",2016,"trajni nasadi",645
+"447","ms",2013,"trajni nasadi",2832
+"448","kk",2010,"trajni nasadi",2663
+"449","mb",2010,"trajni nasadi",6000
+"450","ce",2016,"trajni nasadi",2881
+"451","nm",2016,"trajni nasadi",2067
+"452","kr",2007,"trajni nasadi",377
+"453","kp",2005,"trajni nasadi",3301
+"454","nm",2013,"trajni nasadi",1864
+"455","slo",2016,"trajni nasadi",26538
+"456","ng",2016,"trajni nasadi",5099
+"457","po",2016,"trajni nasadi",409
+"458","sg",2005,"trajni nasadi",453
+"459","po",2013,"trajni nasadi",373
+"460","lj",2003,"trajni nasadi",1061
+"461","nm",2010,"trajni nasadi",1778
+"462","ms",2016,"trajni nasadi",2232
+"463","lj",2005,"trajni nasadi",670
+"464","za",2016,"trajni nasadi",300
+"465","sg",2016,"trajni nasadi",631
+"466","mb",2005,"trajni nasadi",6159
+"467","za",2010,"trajni nasadi",179
+"468","po",2010,"trajni nasadi",393
+"469","ce",2007,"trajni nasadi",2741
+"470","slo",2003,"trajni nasadi",28767
+"471","kp",2010,"trajni nasadi",3509
+"472","ng",2003,"trajni nasadi",5472
+"473","kp",2007,"trajni nasadi",3481
+"474","mb",2016,"trajni nasadi",5381
+"475","kr",2005,"trajni nasadi",391
+"476","ms",2010,"trajni nasadi",2729
+"477","kk",2007,"trajni nasadi",2623
+"478","mb",2007,"trajni nasadi",6112
+"479","ng",2007,"trajni nasadi",4683
+"480","slo",2013,"trajni nasadi",26934
+"481","za",2013,"trajni nasadi",226
+"482","lj",2007,"trajni nasadi",601
+"483","ng",2005,"trajni nasadi",5366
+"484","ms",2003,"trajni nasadi",3268
+"485","lj",2010,"trajni nasadi",722
+"486","slo",2010,"trajni nasadi",26796
+"487","mb",2003,"trajni nasadi",7031
+"488","nm",2003,"trajni nasadi",2086
+"489","ce",2005,"trajni nasadi",2900
+"490","kr",2016,"trajni nasadi",421
+"491","mb",2013,"trajni nasadi",5817
+"492","kp",2013,"trajni nasadi",3565
+"493","kr",2003,"trajni nasadi",628
+"494","ce",2003,"trajni nasadi",2334
+"495","kk",2003,"trajni nasadi",2990
+"496","slo",2005,"trajni nasadi",27449
+"497","slo",2007,"trajni nasadi",25843
+"498","kr",2013,"trajni nasadi",418
+"499","kk",2005,"trajni nasadi",2626
+"500","kr",2010,"trajni nasadi",395
+"501","ms",2005,"trajni nasadi",3057
+"502","nm",2007,"trajni nasadi",1784
+"503","po",2005,"trajni nasadi",399
+"504","nm",2005,"trajni nasadi",2050
+"505","ms",2007,"trajni nasadi",2669
+"506","ms",2010,"zelena krma",5270
+"507","ms",2013,"zelena krma",3795
+"508","ms",2016,"zelena krma",5746
+"509","ce",2016,"zelena krma",7848
+"510","slo",2016,"zelena krma",52656
+"511","ng",2007,"zelena krma",1108
+"512","ng",2005,"zelena krma",1151
+"513","mb",2016,"zelena krma",10591
+"514","sg",2003,"zelena krma",2596
+"515","lj",2010,"zelena krma",10160
+"516","ng",2016,"zelena krma",1139
+"517","ng",2013,"zelena krma",1212
+"518","ng",2010,"zelena krma",1079
+"519","za",2016,"zelena krma",508
+"520","lj",2013,"zelena krma",10869
+"521","lj",2016,"zelena krma",8986
+"522","kk",2016,"zelena krma",2488
+"523","kr",2007,"zelena krma",5106
+"524","slo",2013,"zelena krma",53323
+"525","sg",2005,"zelena krma",2528
+"526","kr",2005,"zelena krma",5305
+"527","za",2013,"zelena krma",105
+"528","kr",2010,"zelena krma",5179
+"529","kr",2003,"zelena krma",4390
+"530","kr",2016,"zelena krma",4536
+"531","nm",2003,"zelena krma",7459
+"532","kr",2013,"zelena krma",4876
+"533","po",2016,"zelena krma",1043
+"534","ce",2010,"zelena krma",8336
+"535","ce",2003,"zelena krma",7200
+"536","kp",2013,"zelena krma",784
+"537","ce",2007,"zelena krma",7948
+"538","sg",2007,"zelena krma",2385
+"539","ce",2013,"zelena krma",8870
+"540","ce",2005,"zelena krma",7803
+"541","slo",2010,"zelena krma",54374
+"542","kk",2007,"zelena krma",1892
+"543","kp",2010,"zelena krma",595
+"544","kp",2016,"zelena krma",460
+"545","kk",2005,"zelena krma",2145
+"546","po",2013,"zelena krma",914
+"547","kk",2010,"zelena krma",1839
+"548","kk",2003,"zelena krma",1728
+"549","nm",2016,"zelena krma",6633
+"550","mb",2005,"zelena krma",9710
+"551","za",2010,"zelena krma",162
+"552","kk",2013,"zelena krma",2160
+"553","mb",2003,"zelena krma",8419
+"554","mb",2007,"zelena krma",10070
+"555","mb",2010,"zelena krma",10818
+"556","mb",2013,"zelena krma",10426
+"557","nm",2013,"zelena krma",7227
+"558","slo",2007,"zelena krma",51469
+"559","nm",2007,"zelena krma",6645
+"560","nm",2010,"zelena krma",7374
+"561","slo",2005,"zelena krma",53665
+"562","nm",2005,"zelena krma",8081
+"563","slo",2003,"zelena krma",47922
+"564","po",2010,"zelena krma",1152
+"565","sg",2016,"zelena krma",2678
+"566","za",2005,"zelena krma",121
+"567","sg",2013,"zelena krma",2084
+"568","sg",2010,"zelena krma",2411
+"569","ms",2007,"zelena krma",3793
+"570","lj",2007,"zelena krma",10655
+"571","po",2007,"zelena krma",1013
+"572","lj",2005,"zelena krma",10372
+"573","ms",2003,"zelena krma",4540
+"574","ms",2005,"zelena krma",5130
+"575","lj",2003,"zelena krma",9096
 "576","sg",2005,"skupaj",56688
-"577","mb",2003,"zita",28673
-"578","mb",2005,"zita",27470
-"579","kk",2005,"zita",7364
-"580","ce",2005,"zita",5692
-"581","ms",2013,"travniki.in.pasniki",8273
-"582","za",2010,"zita",35
+"577","mb",2003,"žita",28673
+"578","mb",2005,"žita",27470
+"579","kk",2005,"žita",7364
+"580","ce",2005,"žita",5692
+"581","ms",2013,"travniki in pašniki",8273
+"582","za",2010,"žita",35
 "583","ms",2013,"skupaj",86437
-"584","mb",2007,"zita",29483
-"585","kp",2013,"zita",302
+"584","mb",2007,"žita",29483
+"585","kp",2013,"žita",302
 "586","kp",2005,"skupaj",27563
-"587","mb",2010,"zita",27995
+"587","mb",2010,"žita",27995
 "588","sg",2013,"skupaj",57163
 "589","ng",2005,"skupaj",60932
-"590","kr",2003,"zita",1685
-"591","kk",2016,"zita",6910
-"592","mb",2013,"zita",28882
+"590","kr",2003,"žita",1685
+"591","kk",2016,"žita",6910
+"592","mb",2013,"žita",28882
 "593","sg",2003,"skupaj",59762
-"594","ce",2007,"zita",4948
-"595","kr",2007,"zita",1933
-"596","ms",2005,"zita",38148
-"597","ms",2003,"zita",38657
-"598","nm",2016,"zita",6143
-"599","kk",2007,"zita",6984
-"600","kk",2003,"zita",7392
-"601","ng",2013,"zita",1200
-"602","ms",2007,"zita",41461
-"603","kr",2005,"zita",1893
-"604","kk",2013,"zita",6632
-"605","nm",2010,"zita",5877
-"606","ce",2016,"zita",4231
-"607","kr",2013,"zita",1856
-"608","nm",2005,"zita",6684
+"594","ce",2007,"žita",4948
+"595","kr",2007,"žita",1933
+"596","ms",2005,"žita",38148
+"597","ms",2003,"žita",38657
+"598","nm",2016,"žita",6143
+"599","kk",2007,"žita",6984
+"600","kk",2003,"žita",7392
+"601","ng",2013,"žita",1200
+"602","ms",2007,"žita",41461
+"603","kr",2005,"žita",1893
+"604","kk",2013,"žita",6632
+"605","nm",2010,"žita",5877
+"606","ce",2016,"žita",4231
+"607","kr",2013,"žita",1856
+"608","nm",2005,"žita",6684
 "609","ce",2007,"skupaj",137996
-"610","sg",2010,"zita",345
-"611","ng",2007,"zita",1226
+"610","sg",2010,"žita",345
+"611","ng",2007,"žita",1226
 "612","ng",2003,"skupaj",70845
-"613","ng",2016,"zita",875
-"614","kp",2010,"zita",249
+"613","ng",2016,"žita",875
+"614","kp",2010,"žita",249
 "615","slo",2010,"skupaj",897769
 "616","ng",2013,"skupaj",60118
-"617","lj",2007,"zita",4955
+"617","lj",2007,"žita",4955
 "618","kr",2010,"skupaj",82802
-"619","ms",2013,"zita",44680
-"620","ms",2010,"zita",39201
+"619","ms",2013,"žita",44680
+"620","ms",2010,"žita",39201
 "621","po",2016,"skupaj",43021
-"622","sg",2007,"zita",212
-"623","ng",2010,"zita",1213
-"624","slo",2010,"zita",93941
-"625","kp",2016,"zita",289
-"626","ms",2016,"zita",43222
-"627","slo",2003,"zita",98286
-"628","kp",2005,"zita",478
-"629","ce",2003,"zita",6084
-"630","slo",2005,"zita",94637
-"631","slo",2013,"zita",99231
-"632","ce",2010,"zita",4637
-"633","kk",2010,"zita",6650
-"634","nm",2013,"zita",6202
-"635","ce",2013,"zita",4658
-"636","lj",2010,"zita",5365
-"637","lj",2016,"zita",4914
-"638","lj",2013,"zita",4209
-"639","lj",2005,"zita",4814
-"640","kr",2016,"zita",1823
-"641","kr",2010,"zita",2105
-"642","nm",2003,"zita",7100
-"643","sg",2016,"zita",346
-"644","slo",2007,"zita",98584
-"645","sg",2013,"zita",294
-"646","lj",2003,"zita",5768
-"647","nm",2007,"zita",6533
+"622","sg",2007,"žita",212
+"623","ng",2010,"žita",1213
+"624","slo",2010,"žita",93941
+"625","kp",2016,"žita",289
+"626","ms",2016,"žita",43222
+"627","slo",2003,"žita",98286
+"628","kp",2005,"žita",478
+"629","ce",2003,"žita",6084
+"630","slo",2005,"žita",94637
+"631","slo",2013,"žita",99231
+"632","ce",2010,"žita",4637
+"633","kk",2010,"žita",6650
+"634","nm",2013,"žita",6202
+"635","ce",2013,"žita",4658
+"636","lj",2010,"žita",5365
+"637","lj",2016,"žita",4914
+"638","lj",2013,"žita",4209
+"639","lj",2005,"žita",4814
+"640","kr",2016,"žita",1823
+"641","kr",2010,"žita",2105
+"642","nm",2003,"žita",7100
+"643","sg",2016,"žita",346
+"644","slo",2007,"žita",98584
+"645","sg",2013,"žita",294
+"646","lj",2003,"žita",5768
+"647","nm",2007,"žita",6533

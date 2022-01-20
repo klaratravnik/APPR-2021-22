@@ -1,34 +1,34 @@
 "","regija","vrsta.zivine","leto","stevilo.zivine"
-"1","ng","prasici",2016,2409
-"2","ng","prasici",2013,3248
-"3","ng","velika.zivina",2010,18104
+"1","ng","prašici",2016,2409
+"2","ng","prašici",2013,3248
+"3","ng","velika živina",2010,18104
 "4","ng","ovce",2016,19174
 "5","ng","ovce",2013,14503
-"6","ng","velika.zivina",2007,17607
-"7","kr","velika.zivina",2003,39262
-"8","kr","velika.zivina",2005,38692
-"9","kr","velika.zivina",2007,36872
-"10","kr","velika.zivina",2010,39525
-"11","ng","velika.zivina",2013,17683
+"6","ng","velika živina",2007,17607
+"7","kr","velika živina",2003,39262
+"8","kr","velika živina",2005,38692
+"9","kr","velika živina",2007,36872
+"10","kr","velika živina",2010,39525
+"11","ng","velika živina",2013,17683
 "12","ng","perutnina",2013,136649
-"13","ng","prasici",2003,4828
+"13","ng","prašici",2003,4828
 "14","ng","govedo",2016,21074
-"15","ng","velika.zivina",2005,16518
+"15","ng","velika živina",2005,16518
 "16","ng","govedo",2003,21194
-"17","kr","velika.zivina",2013,39177
-"18","kr","velika.zivina",2016,38054
+"17","kr","velika živina",2013,39177
+"18","kr","velika živina",2016,38054
 "19","kr","govedo",2003,51177
 "20","kr","govedo",2005,50361
 "21","kr","govedo",2007,49168
 "22","kr","govedo",2010,51914
 "23","kr","govedo",2013,51713
 "24","kr","govedo",2016,49631
-"25","kr","prasici",2003,5290
-"26","kr","prasici",2005,3766
-"27","kr","prasici",2007,3157
-"28","kr","prasici",2010,3355
-"29","kr","prasici",2013,2557
-"30","kr","prasici",2016,2450
+"25","kr","prašici",2003,5290
+"26","kr","prašici",2005,3766
+"27","kr","prašici",2007,3157
+"28","kr","prašici",2010,3355
+"29","kr","prašici",2013,2557
+"30","kr","prašici",2016,2450
 "31","kr","perutnina",2003,69277
 "32","kr","perutnina",2007,62872
 "33","kr","perutnina",2010,37961
@@ -45,24 +45,24 @@
 "44","kr","koze",2010,2354
 "45","kr","koze",2013,2878
 "46","kr","koze",2016,3993
-"47","nm","velika.zivina",2003,40683
-"48","nm","velika.zivina",2005,38662
-"49","nm","velika.zivina",2007,38738
-"50","nm","velika.zivina",2010,39589
-"51","nm","velika.zivina",2013,38613
-"52","nm","velika.zivina",2016,41211
+"47","nm","velika živina",2003,40683
+"48","nm","velika živina",2005,38662
+"49","nm","velika živina",2007,38738
+"50","nm","velika živina",2010,39589
+"51","nm","velika živina",2013,38613
+"52","nm","velika živina",2016,41211
 "53","nm","govedo",2003,43374
 "54","nm","govedo",2005,41912
 "55","nm","govedo",2007,44077
 "56","nm","govedo",2010,44059
 "57","nm","govedo",2013,45620
 "58","nm","govedo",2016,50443
-"59","nm","prasici",2003,30457
-"60","nm","prasici",2005,31040
-"61","nm","prasici",2007,31028
-"62","nm","prasici",2010,15904
-"63","nm","prasici",2013,13535
-"64","nm","prasici",2016,13805
+"59","nm","prašici",2003,30457
+"60","nm","prašici",2005,31040
+"61","nm","prašici",2007,31028
+"62","nm","prašici",2010,15904
+"63","nm","prašici",2013,13535
+"64","nm","prašici",2016,13805
 "65","nm","perutnina",2003,152081
 "66","nm","perutnina",2005,98354
 "67","nm","perutnina",2007,125198
@@ -83,23 +83,23 @@
 "82","nm","koze",2010,3592
 "83","nm","koze",2013,3279
 "84","nm","koze",2016,4894
-"85","lj","velika.zivina",2003,70722
-"86","lj","velika.zivina",2005,63387
-"87","lj","velika.zivina",2007,64703
-"88","lj","velika.zivina",2010,64274
-"89","lj","velika.zivina",2013,60883
-"90","lj","velika.zivina",2016,60871
+"85","lj","velika živina",2003,70722
+"86","lj","velika živina",2005,63387
+"87","lj","velika živina",2007,64703
+"88","lj","velika živina",2010,64274
+"89","lj","velika živina",2013,60883
+"90","lj","velika živina",2016,60871
 "91","lj","govedo",2003,79089
 "92","lj","govedo",2005,75553
 "93","lj","govedo",2007,77468
 "94","lj","govedo",2010,77192
 "95","lj","govedo",2013,74488
 "96","lj","govedo",2016,74143
-"97","lj","prasici",2003,60203
-"98","lj","prasici",2005,47821
-"99","lj","prasici",2007,50608
-"100","lj","prasici",2010,47146
-"101","lj","prasici",2016,31797
+"97","lj","prašici",2003,60203
+"98","lj","prašici",2005,47821
+"99","lj","prašici",2007,50608
+"100","lj","prašici",2010,47146
+"101","lj","prašici",2016,31797
 "102","lj","perutnina",2005,397103
 "103","lj","perutnina",2007,490272
 "104","lj","perutnina",2010,616055
@@ -118,24 +118,24 @@
 "117","lj","koze",2010,5968
 "118","lj","koze",2013,6067
 "119","lj","koze",2016,6060
-"120","mb","velika.zivina",2003,88341
-"121","mb","velika.zivina",2005,78165
-"122","mb","velika.zivina",2007,83801
-"123","mb","velika.zivina",2010,79851
-"124","mb","velika.zivina",2013,73095
-"125","mb","velika.zivina",2016,73173
+"120","mb","velika živina",2003,88341
+"121","mb","velika živina",2005,78165
+"122","mb","velika živina",2007,83801
+"123","mb","velika živina",2010,79851
+"124","mb","velika živina",2013,73095
+"125","mb","velika živina",2016,73173
 "126","mb","govedo",2003,85214
 "127","mb","govedo",2005,79472
 "128","mb","govedo",2007,87351
 "129","mb","govedo",2010,84135
 "130","mb","govedo",2013,80672
 "131","mb","govedo",2016,81696
-"132","mb","prasici",2003,185928
-"133","mb","prasici",2005,142895
-"134","mb","prasici",2007,148351
-"135","mb","prasici",2010,102376
-"136","mb","prasici",2013,83367
-"137","mb","prasici",2016,69374
+"132","mb","prašici",2003,185928
+"133","mb","prašici",2005,142895
+"134","mb","prašici",2007,148351
+"135","mb","prašici",2010,102376
+"136","mb","prašici",2013,83367
+"137","mb","prašici",2016,69374
 "138","mb","perutnina",2003,1709295
 "139","mb","perutnina",2005,1071976
 "140","mb","perutnina",2007,1744793
@@ -151,24 +151,24 @@
 "150","mb","ovce",2016,12491
 "151","mb","koze",2010,3192
 "152","mb","koze",2016,2782
-"153","ms","velika.zivina",2003,56568
-"154","ms","velika.zivina",2005,50365
-"155","ms","velika.zivina",2007,54222
-"156","ms","velika.zivina",2010,43933
-"157","ms","velika.zivina",2013,36830
-"158","ms","velika.zivina",2016,38056
+"153","ms","velika živina",2003,56568
+"154","ms","velika živina",2005,50365
+"155","ms","velika živina",2007,54222
+"156","ms","velika živina",2010,43933
+"157","ms","velika živina",2013,36830
+"158","ms","velika živina",2016,38056
 "159","ms","govedo",2003,40592
 "160","ms","govedo",2005,38025
 "161","ms","govedo",2007,39454
 "162","ms","govedo",2010,35153
 "163","ms","govedo",2013,33235
 "164","ms","govedo",2016,32973
-"165","ms","prasici",2003,235161
-"166","ms","prasici",2005,208319
-"167","ms","prasici",2007,238785
-"168","ms","prasici",2010,157817
-"169","ms","prasici",2013,103877
-"170","ms","prasici",2016,106351
+"165","ms","prašici",2003,235161
+"166","ms","prašici",2005,208319
+"167","ms","prašici",2007,238785
+"168","ms","prašici",2010,157817
+"169","ms","prašici",2013,103877
+"170","ms","prašici",2016,106351
 "171","ms","perutnina",2003,355087
 "172","ms","perutnina",2005,357697
 "173","ms","perutnina",2007,478533
@@ -183,24 +183,24 @@
 "182","ms","koze",2010,1569
 "183","ms","koze",2013,929
 "184","ms","koze",2016,696
-"185","kk","velika.zivina",2003,20985
-"186","kk","velika.zivina",2005,21276
-"187","kk","velika.zivina",2007,20221
-"188","kk","velika.zivina",2010,19333
-"189","kk","velika.zivina",2013,19552
-"190","kk","velika.zivina",2016,22815
+"185","kk","velika živina",2003,20985
+"186","kk","velika živina",2005,21276
+"187","kk","velika živina",2007,20221
+"188","kk","velika živina",2010,19333
+"189","kk","velika živina",2013,19552
+"190","kk","velika živina",2016,22815
 "191","kk","govedo",2003,21630
 "192","kk","govedo",2005,21390
 "193","kk","govedo",2007,20750
 "194","kk","govedo",2010,20612
 "195","kk","govedo",2013,22021
 "196","kk","govedo",2016,25794
-"197","kk","prasici",2003,35103
-"198","kk","prasici",2005,32837
-"199","kk","prasici",2007,30844
-"200","kk","prasici",2010,18090
-"201","kk","prasici",2013,17330
-"202","kk","prasici",2016,18905
+"197","kk","prašici",2003,35103
+"198","kk","prašici",2005,32837
+"199","kk","prašici",2007,30844
+"200","kk","prašici",2010,18090
+"201","kk","prašici",2013,17330
+"202","kk","prašici",2016,18905
 "203","kk","perutnina",2003,119784
 "204","kk","perutnina",2005,89236
 "205","kk","perutnina",2007,68293
@@ -220,23 +220,23 @@
 "219","kk","koze",2010,1760
 "220","kk","koze",2013,2190
 "221","kk","koze",2016,3533
-"222","po","velika.zivina",2003,12559
-"223","po","velika.zivina",2005,11135
-"224","po","velika.zivina",2007,13913
-"225","po","velika.zivina",2010,11298
-"226","po","velika.zivina",2013,11134
-"227","po","velika.zivina",2016,12742
+"222","po","velika živina",2003,12559
+"223","po","velika živina",2005,11135
+"224","po","velika živina",2007,13913
+"225","po","velika živina",2010,11298
+"226","po","velika živina",2013,11134
+"227","po","velika živina",2016,12742
 "228","po","govedo",2003,10840
 "229","po","govedo",2005,9704
 "230","po","govedo",2007,9394
 "231","po","govedo",2010,11420
 "232","po","govedo",2013,11294
 "233","po","govedo",2016,13397
-"234","po","prasici",2005,721
-"235","po","prasici",2007,864
-"236","po","prasici",2010,925
-"237","po","prasici",2013,508
-"238","po","prasici",2016,824
+"234","po","prašici",2005,721
+"235","po","prašici",2007,864
+"236","po","prašici",2010,925
+"237","po","prašici",2013,508
+"238","po","prašici",2016,824
 "239","po","perutnina",2005,310871
 "240","po","perutnina",2007,1092632
 "241","po","perutnina",2010,72226
@@ -253,24 +253,24 @@
 "252","po","koze",2010,1446
 "253","po","koze",2013,1951
 "254","po","koze",2016,1479
-"255","ce","velika.zivina",2003,74625
-"256","ce","velika.zivina",2005,70570
-"257","ce","velika.zivina",2007,72068
-"258","ce","velika.zivina",2010,72636
-"259","ce","velika.zivina",2013,69461
-"260","ce","velika.zivina",2016,70261
+"255","ce","velika živina",2003,74625
+"256","ce","velika živina",2005,70570
+"257","ce","velika živina",2007,72068
+"258","ce","velika živina",2010,72636
+"259","ce","velika živina",2013,69461
+"260","ce","velika živina",2016,70261
 "261","ce","govedo",2003,87383
 "262","ce","govedo",2005,86736
 "263","ce","govedo",2007,88787
 "264","ce","govedo",2010,89756
 "265","ce","govedo",2013,86376
 "266","ce","govedo",2016,88998
-"267","ce","prasici",2003,36829
-"268","ce","prasici",2005,24680
-"269","ce","prasici",2007,29142
-"270","ce","prasici",2010,25129
-"271","ce","prasici",2013,21451
-"272","ce","prasici",2016,19358
+"267","ce","prašici",2003,36829
+"268","ce","prašici",2005,24680
+"269","ce","prašici",2007,29142
+"270","ce","prašici",2010,25129
+"271","ce","prašici",2013,21451
+"272","ce","prašici",2016,19358
 "273","ce","perutnina",2005,529142
 "274","ce","perutnina",2007,791268
 "275","ce","perutnina",2010,791606
@@ -289,24 +289,24 @@
 "288","ce","koze",2010,5551
 "289","ce","koze",2013,4497
 "290","ce","koze",2016,5153
-"291","slo","velika.zivina",2003,456167
-"292","slo","velika.zivina",2005,421587
-"293","slo","velika.zivina",2007,433382
-"294","slo","velika.zivina",2010,421553
-"295","slo","velika.zivina",2013,399349
-"296","slo","velika.zivina",2016,418684
+"291","slo","velika živina",2003,456167
+"292","slo","velika živina",2005,421587
+"293","slo","velika živina",2007,433382
+"294","slo","velika živina",2010,421553
+"295","slo","velika živina",2013,399349
+"296","slo","velika živina",2016,418684
 "297","slo","govedo",2003,478331
 "298","slo","govedo",2005,461224
 "299","slo","govedo",2007,472363
 "300","slo","govedo",2010,472333
 "301","slo","govedo",2013,462066
 "302","slo","govedo",2016,486014
-"303","slo","prasici",2003,607881
-"304","slo","prasici",2005,505161
-"305","slo","prasici",2007,544405
-"306","slo","prasici",2010,382031
-"307","slo","prasici",2013,287498
-"308","slo","prasici",2016,273359
+"303","slo","prašici",2003,607881
+"304","slo","prašici",2005,505161
+"305","slo","prašici",2007,544405
+"306","slo","prašici",2010,382031
+"307","slo","prašici",2013,287498
+"308","slo","prašici",2016,273359
 "309","slo","perutnina",2003,5133858
 "310","slo","perutnina",2005,3292826
 "311","slo","perutnina",2007,5364220
@@ -331,19 +331,19 @@
 "330","slo","koze",2010,34864
 "331","slo","koze",2013,34542
 "332","slo","koze",2016,38564
-"333","za","velika.zivina",2005,5777
-"334","za","velika.zivina",2007,4660
-"335","za","velika.zivina",2010,5325
-"336","za","velika.zivina",2013,4389
-"337","za","velika.zivina",2016,9995
+"333","za","velika živina",2005,5777
+"334","za","velika živina",2007,4660
+"335","za","velika živina",2010,5325
+"336","za","velika živina",2013,4389
+"337","za","velika živina",2016,9995
 "338","za","govedo",2005,7645
 "339","za","govedo",2007,5761
 "340","za","govedo",2010,6741
 "341","za","govedo",2013,5146
 "342","za","govedo",2016,12468
-"343","za","prasici",2007,756
-"344","za","prasici",2010,691
-"345","za","prasici",2013,417
+"343","za","prašici",2007,756
+"344","za","prašici",2010,691
+"345","za","prašici",2013,417
 "346","za","perutnina",2010,40691
 "347","za","perutnina",2013,57172
 "348","za","perutnina",2016,56901
@@ -356,16 +356,16 @@
 "355","ng","konji",2013,1391
 "356","ng","ovce",2010,15804
 "357","ng","ovce",2007,16171
-"358","ng","prasici",2010,3416
-"359","ng","velika.zivina",2016,19700
+"358","ng","prašici",2010,3416
+"359","ng","velika živina",2016,19700
 "360","ng","perutnina",2016,177132
 "361","kp","ovce",2016,5802
 "362","kp","ovce",2013,5708
 "363","ng","perutnina",2010,134118
 "364","ng","perutnina",2007,186128
 "365","ng","govedo",2013,19283
-"366","ng","velika.zivina",2003,19424
-"367","ng","prasici",2007,3456
+"366","ng","velika živina",2003,19424
+"367","ng","prašici",2007,3456
 "368","ng","govedo",2007,19846
 "369","ng","govedo",2005,18889
 "370","kp","koze",2016,1505
@@ -377,15 +377,15 @@
 "376","kp","ovce",2010,5595
 "377","ng","konji",2010,1302
 "378","ng","konji",2007,687
-"379","kp","velika.zivina",2010,3876
-"380","kp","velika.zivina",2007,4183
-"381","kp","velika.zivina",2005,3772
+"379","kp","velika živina",2010,3876
+"380","kp","velika živina",2007,4183
+"381","kp","velika živina",2005,3772
 "382","kp","ovce",2007,5930
 "383","kp","koze",2010,1157
-"384","kp","velika.zivina",2016,5525
-"385","kp","velika.zivina",2013,4557
+"384","kp","velika živina",2016,5525
+"385","kp","velika živina",2013,4557
 "386","ng","koze",2007,6669
-"387","kp","velika.zivina",2003,3110
+"387","kp","velika živina",2003,3110
 "388","ng","koze",2013,5907
 "389","ng","koze",2010,5997
 "390","sg","konji",2013,914
@@ -403,35 +403,35 @@
 "402","sg","perutnina",2016,278899
 "403","sg","perutnina",2013,194951
 "404","sg","govedo",2003,28192
-"405","sg","velika.zivina",2016,26281
-"406","sg","velika.zivina",2013,23974
-"407","sg","velika.zivina",2010,23809
-"408","sg","velika.zivina",2007,22393
-"409","sg","velika.zivina",2005,23270
+"405","sg","velika živina",2016,26281
+"406","sg","velika živina",2013,23974
+"407","sg","velika živina",2010,23809
+"408","sg","velika živina",2007,22393
+"409","sg","velika živina",2005,23270
 "410","sg","govedo",2007,27173
 "411","sg","govedo",2005,28692
-"412","sg","prasici",2007,6050
-"413","sg","prasici",2005,6713
-"414","sg","prasici",2003,10113
+"412","sg","prašici",2007,6050
+"413","sg","prašici",2005,6713
+"414","sg","prašici",2003,10113
 "415","sg","govedo",2016,32346
 "416","sg","govedo",2013,29634
 "417","sg","govedo",2010,29084
-"418","sg","prasici",2013,4395
-"419","sg","prasici",2010,6117
+"418","sg","prašici",2013,4395
+"419","sg","prašici",2010,6117
 "420","kp","konji",2016,1209
 "421","kp","konji",2013,1165
 "422","kp","konji",2010,1150
 "423","kp","konji",2007,1049
-"424","sg","prasici",2016,5224
+"424","sg","prašici",2016,5224
 "425","kp","govedo",2007,3133
-"426","sg","velika.zivina",2003,23864
+"426","sg","velika živina",2003,23864
 "427","kp","govedo",2016,3052
 "428","kp","govedo",2013,2585
 "429","kp","govedo",2010,2585
-"430","kp","prasici",2010,1065
+"430","kp","prašici",2010,1065
 "431","kp","perutnina",2013,167391
 "432","kp","perutnina",2010,25715
 "433","kp","perutnina",2005,19418
 "434","kp","perutnina",2003,63514
-"435","kp","prasici",2016,1374
+"435","kp","prašici",2016,1374
 "436","kp","perutnina",2016,190639
