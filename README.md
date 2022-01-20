@@ -90,9 +90,21 @@ Za zagon tega vzorca je potrebno namestiti sledeče pakete za R:
 * `ggplot2` - za izrisovanje grafov
 * `tmap` - za risanje na zemljevide
 * `tidyverse` - za delo s podatki oblike *tidy data*
-* `dbplyr` - za delo s podatki
+* `dplyr` - za delo s podatki
 * `maps` - za uvoz zamljevidov
 * `viridis` - za barvne lestvice pri risanju grafov
 * `stringr` - za delo z regularnimi izrazi
 * `readxl` - za uvoz iz Excel-ove datoteke
-* `ggplotly` - za interaktivno delo z grafi
+* `plotly` - za interaktivno delo z grafi
+* `tibble`za ustvarjanje tabel
+* `xml` - za branje podatkov
+* `sp` - za grafe
+* `rgdal` - za zemljevide
+* `plotrix` - za 3D grafe
+* `rgeos` - za zemljevide
+* `raster` - za normiranje podatkov
+* `hrbrthemes` - za grafe
+* `viridis` - za grafe
+* `proto` - za knjižnice
+* `GGally` - za grafe
+* `ggtext` - za grafe
