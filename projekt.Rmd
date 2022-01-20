@@ -1,5 +1,5 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Analiza slovenskega kmetijstva in samooskrbe"
 author: "Klara Travnik"
 output:
   html_document: default
@@ -20,37 +20,71 @@ source("lib/libraries.r", encoding="UTF-8")
 
 ## Izbira teme
 
-V sklopu projekta bom analizirala sestavo kmetijstva v Sloveniji in zmožnost samooskrbe z doma pridelano hrano. Opazovala bom števila različnih vrst kmetijskih zemljišč po statističnih regijah, povprečne pridelke na teh zemljiščih ter števila kmetij, ki imajo posamezno vrsto živine. Analizirala bom prodajo kmetijskih pridelkov iz lastne pridelave na živilskih trgih ter potrošnjo teh proizvodov na prebivalca (v kg). Primerjala bom tudi stopnjo samooskrbe (v %) po vrstah kmetijskih proizvodov ter količino doma porabljenih živil na člana gospodinjstva ter izračunala, kako je Slovenija sposobna samooskrbe glede na te podatke.
+Za izbrano temo sem se odločila, ker se mi je zdelo zanimivo analizirati stanje kmetijstva v naši državi ter sposobnosti samooskrbe.
 
-Viri podatkov:
 
-    https://pxweb.stat.si/SiStat/sl/Podrocja/Index/85/kmetijstvo-gozdarstvo-in-ribistvo
-    eurostat
+Vemo, da se večina mladih odseljuje iz rodnih vasi oziroma domačih kmetij, saj poklic kmeta ni deležen velikega spoštovanja, posledično kmetije propadajo, kmetijske površine pa se zaraščajo. Zato sem med seboj primerjala podatke v različnih časovnih obdobjih med različnimi vrstami kultur, zemljišč... 
 
-Tabele:
 
-    1. **Kmetijska zemljišča, povprečni pridelki in živina**
+<center>
+![](slike/njiva.jpg)
 
-    *Stolpci: regija, leto, vrsta zemljišča, število zemljišč, vrsta kmetijske kulture, povprečni pridelek
-
-    2. **Vrste živine**
-
-    *Stolpci: leto, vrsta živine, število
-
-    3. **Prodaja in potrošnja kmetijskih pridelkov**
-
-    *Stolpci: leto, vrsta pridelka, količina prodaje, količina potrošnje
-
-    4. **Samooskrba**
-
-    Stolpci: leto, vrsta živila, stopnja samooskrbe, količina porabljena na člana gospodinjstva, zmožnost samooskrbe
-
+***
 
 ## Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz}
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
+Podatke sem uvažala iz podatkovne baze [SURS](https://pxweb.stat.si/SiStat/sl) v obliki CSV. Podatke sem prečistila in spremenila v obliko primerno za nadaljno analizo.
+
+1. `zemljisca` - tabela števila hektarjev posamezne vrste zemljišča v regiji, po letih
+- `regija` - regija popisa podatkov
+- `leto` - leto meritve
+- `vrsta.zemljisca` - tip vrste zemljišča
+- `povrsina` - število hektarjev
+
+2. `pridelek` - tabela povprečnih pridelkov kmetijskih kultur v tonah na hektar
+- `regija` - ime regije
+- `leto` - leto popisa
+- `kmetijske.kulture` - tip pridelka
+- `povprecni.pridelek` - število povprečnega pridelka
+
+3. `zemljisca.in.pridelek` - skupno število hektarjev, povprečni pridelek vseh seštetih kultur po regijah in letih ter šteto število živine po regijah in letih ne glede na vrsto in izračunan delež živine na število hektarjev zemljišča 
+- `regija` - ime regije
+- `leto` - leto popisa
+- `skupno.stevilo.zemljisc` - število vseh vrst zemljišč skupaj
+- `skupni.povprecni.pridelek` - seštet povprečni pridelek
+
+
+4. `zivina3` - število različnih vrst glav živine po regijah in letih
+- `regija` - ime regije
+- `vrsta.zivine` - ime živine
+- `leto` - leto popisa
+- `stevilo.zivine` - število živali
+
+5. `zemljisca.in.zivina` - sešteto število živine po regijah in letih ne glede na vrsto in izračunan delež živine na število hektarjev zemljišča 
+- `regija` - ime regije
+- `leto` - leto popisa
+- `skupno.stevilo.zemljisc` - število vseh vrst zemljišč skupaj
+- `skupno.stevilo.zivine` - število vseh živali skupaj
+- `zivina.na.ha` - razmerje števila živine in hektarjev zemljišč
+
+6. `prodaja.in.potrosnja` - število prodanih živil slovenskih kmetov in končna potrošnja prebivalcev glede na vrsto živila in leto
+- `leto` - leto popisa
+- `pridelek` - vrsta živila
+- `prodaja` - število prodanega živila v kilogramih
+- `potrosnja` - število porabljenega živila v kilogramih
+- `razmerje` - razmerje med potrošenim in prodanim živilom
+
+7. `samooskrba.in.poraba` - stopnja samooskrbe določenega živila in določena zmožnost samooskrbe z le-tem
+- `leto` - leto popisa
+- `zivila` - ime živila
+- `stopnja.samooskrbe` - stopnja samooskrbe v odstotkih
+- `poraba` - poraba živila na prebivalca v kilogramih
+- `preskrba` - število kilogramov na prabivalca, ki smo jih zmožni pridelati sami
+- `zmoznost` - s funkcijo zapisana zmožnost samooskrbe glede na povprečno število porabljenih kilogramov živila ter število samopreskrbljenih kilogramov
+
 
 ***
 
@@ -60,16 +94,109 @@ source("uvoz/uvoz.r", encoding="UTF-8")
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-***
+```{r, fig.align='center'}
+print(g1)
+```
+
+Za začetek na zgornjem grafu lahko vidimo, kako se je skozi leta spreminjal skupni povprečni pridelek po regijah. Pridelek je močno upadel leta 2013, sklepamo lahko da je bilo tako zaradi naravnih nesreč, suše ali pa pozebe.
+
+
+
+```{r, fig.align='center'}
+print(g2)
+```
+
+Graf nam prikazuje desetletno primerjavo povprečnih pridelkov različnih kultur. Vidimo lahko, da se je pridelava povečala.
+
+
+
+```{r, fig.align='center'}
+ggplotly(g3, tooltip = "text")
+```
+
+Tu lahko opazimo, da so prevladujoče močnejše kmetijske regije podravska, osrednjeslovenska ter pomurska.
+
+
+
+```{r, fig.align='center'}
+print(g4)
+```
+
+Tortni diagram prikazuje razmerje med potrošnjo in prodajo živil slovenskih kmetov. Delež je največji pri pridelku meso, torej potrošimo veliko več kot prodamo doma.
+
+
+
+```{r, fig.align='center'}
+print(g5)
+```
+
+Zgornji graf ponazarja zmožnost in stopnjo samooskrbe z osnovnih živil skozi leta. Vidimo, da je samooskrba možna pri mesu, jajcih in medu. 
+
+
+
+
+```{r, fig.align='center'}
+print(zem1)
+```
+```{r, fig.align='center'}
+print(zem2)
+```
+
+Zgornja zemljevida prikazujeta spremembo število goveda v posamezni regiji v letih 2003 in 2016.
+
+
+
+
+```{r, fig.align='center'}
+print(zem3)
+```
+```{r, fig.align='center'}
+print(zem4)
+```
+
+Zemljevida prikazujeta število gozdantih površin v določeni regiji v letih 2003 in 2016. Število gozdov v osrednjeslovenski regiji se je zmanjšalo.
+
+
+*** 
 
 ## Napredna analiza podatkov
 
-```{r analiza}
+```{r analiza, results='hide', echo=FALSE}
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
+```{r, fig.align='center'}
+print(analiziran.graf)
+```
+S pomočjo linearne regresije sem poskušala poiskati najboljšo povezavo med površino zemljišč in številom živine.  Primerjala sem napake različnih modelov in za končnega izbrala tistega z najmanjšo napako. Obstaja torej nekakšna povezava med številom hektarjev ter številom živine, a ta ni linearna.  
+
+
+
+
+```{r, fig.align='center'}
+print(clustering.zemljevid)
+```
+Podatke o številu zemljišč in živine sem s pomočjo metode voditeljev razvrstila v skupine, ki prikazujejo, katere regije so si glede na podatke najbolj podobne.
+
+
 ***
+## Prikaz števila pridelka za posamezno vrsto in leto
+
+
+V spodnji simulaciji lahko izbiramo med različnimi vrstami kmetijskih zemljišč in leti, za katere se nam izriše zemljevid Slovenije s podatki za izbrano po regijah.
 
 ```{r shiny}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
+shinyAppDir("shiny", options=list(width="100%"))
 ```
+
+
+***
+
+## Zaključek
+
+V splošnem vidimo, da kmetijstvo v Sloveniji počasi napreduje kar se tiče števila povprečnih pridelkov. Vedno več pa je na drugi strani nerodovitnih in neobdelanih kmetijskih površin.
+
+O kmetijstvu v Sloveniji prav tako še ne moremo govoriti kot popolnoma samozadostnem. Stopnje samooskrbe prehrambenih živil niso zadostne za oskrbo celotne države, zato se naši viri hrane še vedno zanašajo na uvoz.
+
+
+***
