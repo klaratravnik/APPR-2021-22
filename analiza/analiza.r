@@ -29,14 +29,14 @@ g + geom_line(data=as.data.frame(z), aes(x=x, y=y), color="violet")
 mls <- loess(data=data.za.analizo, skupno.stevilo.zivine ~ skupno.stevilo.zemljisc)
 g + geom_smooth(method="loess", color = "violet")
 
-sapply(list(lin, kv, mls), function(x) mean((x$residuals^2)))  
+sapply(list(lin, kv, mls, z), function(x) mean((x$residuals^2)))  
 
-#Ugotovim kater model ima najmanjšo napako in tega potem izberem.
+#Ugotovim kateri model ima najmanjšo napako in tega potem izberem.
 which.min(sapply(list(lin, kv, mls), function(x) mean((x$residuals^2))))
 
 
 analiziran.graf <- g + geom_smooth(method="loess", formula = y ~ x, color = "violet")
-print(analiziran.graf)
+
 
 
 
@@ -67,14 +67,14 @@ tmap_mode("plot")
 
 clustering.zemljevid <- tm_shape(merge(zemljevid.regije, skupine.zemljevid, by.x = "NAME_1", by.y = "regija")) + tm_polygons("Skupina", popup.vars = c("Skupina " = "Skupina"), title="Skupina") + 
   tm_layout(
-    "Razvrstitev regij v skupine glede na št. zemljišč \n in  živine v 2007 ",
+    "Razvrstitev regij v skupine glede na št. zemljišč \n in živine v 2007 ",
     legend.title.size=1,
     legend.text.size = 0.8,
     legend.position = c("right","bottom"),
     legend.bg.color = "white",
     legend.bg.alpha = 1)
 
-print(clustering.zemljevid)
+
 
 
 
