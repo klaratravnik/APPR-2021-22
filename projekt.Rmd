@@ -142,19 +142,8 @@ print(zem1)
 print(zem2)
 ```
 
-Zgornja zemljevida prikazujeta spremembo število goveda v posamezni regiji v letih 2003 in 2016.
+Zgornja zemljevida prikazujeta spremembo števila goveda v posamezni regiji v letih 2003 in 2016. Število v pomurski regiji se je zmanjšalo.
 
-
-
-
-```{r, fig.align='center'}
-print(zem3)
-```
-```{r, fig.align='center'}
-print(zem4)
-```
-
-Zemljevida prikazujeta število gozdantih površin v določeni regiji v letih 2003 in 2016. Število gozdov v osrednjeslovenski regiji se je zmanjšalo.
 
 
 *** 
@@ -180,10 +169,10 @@ Podatke o številu zemljišč in živine sem s pomočjo metode voditeljev razvrs
 
 
 ***
-## Prikaz števila pridelka za posamezno vrsto in leto
+## Prikaz števila zemljišč za posamezno vrsto in leto
 
 
-V spodnji simulaciji lahko izbiramo med različnimi vrstami kmetijskih zemljišč in leti, za katere se nam izriše zemljevid Slovenije s podatki za izbrano po regijah.
+V spodnji simulaciji lahko izbiramo med različnimi vrstami kmetijskih zemljišč, za katere se nam izriše zemljevid Slovenije s podatki za izbrano po regijah. Ugotavljamo lahko trende sprememb števila kmetijskih zemljišč med leti 2003 in 2016. 
 
 ```{r shiny}
 shinyAppDir("shiny", options=list(width="100%"))
