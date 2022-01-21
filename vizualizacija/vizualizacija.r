@@ -100,8 +100,9 @@ g6 <- ggplot(samooskrba.in.poraba, aes(poraba, zivila)) + geom_boxplot(fill = "l
 
 ########################################## ZEMLJEVIDI #########################################################
 
+source("lib/uvozi.zemljevid.r")
+zemljevid <- uvozi.zemljevid("http://kt.ijs.si/~ljupco/lectures/appr/zemljevidi/si/gadm36_SVN_shp.zip", "gadm36_SVN_1", mapa = "zemljevidi", encoding="UTF-8")
 
-zemljevid <- readOGR("podatki/SLO1/gadm36_SVN_1.shp", "gadm36_SVN_1")
 zemljevid <- zemljevid %>% spTransform(CRS("+proj=longlat +datum=WGS84")) # pretvorimo v ustrezen format
 
 loc <- locale(encoding="UTF-8")
