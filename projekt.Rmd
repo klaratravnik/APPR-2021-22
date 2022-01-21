@@ -90,7 +90,7 @@ Podatke sem uvažala iz podatkovne baze [SURS](https://pxweb.stat.si/SiStat/sl) 
 
 ## Analiza in vizualizacija podatkov
 
-```{r vizualizacija, results='hide'}
+```{r vizualizacija, results='hide', echo=FALSE}
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
