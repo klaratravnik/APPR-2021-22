@@ -128,8 +128,7 @@ pridelek <- read_csv("podatki/povprecni_pridelek_poregijah.csv", skip = 2,
                      locale = locale(encoding = "Windows-1250"),
                      col_names=TRUE, col_types = cols(
                        .default = col_double(),
-                       "KMETIJSKE KULTURE" = col_character(), 
-                     ))
+                       "KMETIJSKE KULTURE" = col_character()))
 
 pridelek <- pivot_longer(pridelek,
                          cols = colnames(pridelek)[-c(1)],
@@ -213,7 +212,7 @@ zivina3 <- read_csv("podatki/zivina2.csv", skip = 2,
                       "2007 Število živali" = col_double(),
                       "2010 Število živali" = col_double(),
                       "2013 Število živali" = col_double(),
-                      "2016 Število živali" = col_double(),
+                      "2016 Število živali" = col_double()
                     ))
 
 zivina3 <- pivot_longer(zivina3,
